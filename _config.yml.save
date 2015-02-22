@@ -1,0 +1,12 @@
+# Site settings
+title: Internet Imagery
+email: jason.dixon.email@gmail.com
+description: >
+For the love of animation. Projects, information and of course an Animator.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://internetimagery.github.io"
+github_username:  internetimagery
+
+
+# Build settings
+markdown: kramdown
