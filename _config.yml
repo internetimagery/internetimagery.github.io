@@ -6,5 +6,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://internetimagery.github.io"
 github_username:  internetimagery
 
+
 # Build settings
 markdown: kramdown
