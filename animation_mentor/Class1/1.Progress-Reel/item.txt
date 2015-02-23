@@ -1,0 +1,11 @@
+page_title: AM Progress Reel Class 1
+-
+title: Class 1 Progress Reel
+-
+content:
+
+----
+
+<div class="js-video [vimeo, widescreen]"><iframe src="//player.vimeo.com/video/82380914" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+----
