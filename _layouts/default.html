@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html>
+{% include top.html %}
 
-  {% include head.html %}
+<div class="span8 offset2" id="desktop">
 
-  <body>
+{{ include title.html }}
 
-    {% include header.html %}
+{{ content }}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+:short_blog_list
 
-    {% include footer.html %}
+<a href="{{ "/news/" | prepend: site.baseurl }}"><p><strong>More News Items --></strong></p></a>
 
-  </body>
+<a href="https://plus.google.com/110232976632236787476" rel="publisher">Google+</a>
 
-</html>
+</div>
+
+{% include bottom.html %}

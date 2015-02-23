@@ -1,0 +1,30 @@
+page_title: Simple Input Tabs
+-
+date: 19/10/12
+-
+description:
+I came across the awesome CMS "Get Simple CMS" and began using it. After a little while I noticed it was a little too restrictive.
+
+That is to say, it only had an option to put content on one section of the webpage. That is fine for most situations but not all designs follow that format. There are some other solutions that involve a lot of back and forward with the template and different menus. There had to be a simpler way.
+-
+title: Simple Input Tabs
+-
+content:
+I came across the awesome CMS "Get Simple CMS" and began using it. After a little while I noticed it was a little too restrictive.
+
+That is to say, it only had an option to put content on one section of the webpage. That is fine for most situations but not all designs follow that format. There are some other solutions that involve a lot of back and forward with the template and different menus. There had to be a simpler way.
+
+AND NOW THERE IS!
+
+####[Simple Input Tabs](http://get-simple.info/extend/plugin/simple-input-tabs/523/).
+
+What the plugin does, is let you set up the template with content on different sections. All named and with a single line of code. Making for easy template conversions for templators.
+
+THEN for the user, they are presented with little tabs above their content window that will switch the content between page locations. So they can type in the main body of the page, or perhaps the sidebar with a click of the tab.
+
+The tabs are dynamically generated so they always match the current page. Add another content section to the template, and it will automatically pop up as a new tab above the content entry window.
+
+There are a couple of other conveniences thrown in too. Such as a button that displays where on the page the content will be displayed for quick reference if the user forgets. A default message that can be added to each content section as a further reminder for how to use the tab (or whatever else the templator wants it to say).
+A couple of informational windows reminding the user to do certain things, such as entering a name for a new page before saving it.
+
+[Simple Input Tabs also has a complimentary website](http://simpleinputtabs.internetimagery.com/index.html) for quick reference and an easy learning experience. Scroll down for more advanced stuff.

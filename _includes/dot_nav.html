@@ -1,0 +1,14 @@
+<!-- Desktop link -->
+
+{% for page in site.pages %}
+{% if page.navigation %}
+<!-- Link to {{ page.title }} -->
+<a href="{{ page.url | prepend: site.baseurl }}"><li class="dot"><div class="dot-image">
+{% if page.thumb %}
+<img src="{{ page.thumb }}" alt="Link to {{ page.title }}" title="{{ page.title }}" width="165" height="85" />
+{% else %}
+<img src="{{ "/img/fancy_banner/dot.png" | prepend: site.baseurl }}" alt="Link to {{ page.title }}" title="{{ page.title }}" width="165" height="85" />
+{% endif %}
+</div></li></a>
+{% endif %}
+{% endfor %}

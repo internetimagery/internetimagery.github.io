@@ -1,0 +1,164 @@
+---
+---
+body {
+	background: black;
+	background-image: url("{{ "/img/site/dragon.png" | prepend: site.baseurl }}");
+	color: #191919;
+}
+
+h1, h2 {
+	font-family: 'Frijole', cursive;
+}
+
+/*
+h3, h4, h5, h6 {
+	font-family: cursive;
+}
+*/
+
+blockquote {
+	font-style: italic;
+	color: #565656;
+	background: #cfeb8d;
+}
+
+code {
+}
+
+#top-banner {
+	background: url("{{ "/img/site/fancy_banner/leather_quarter.png" | prepend: site.baseurl }}");
+	height: 66px;
+}
+
+#top-banner-phone {
+}
+
+#brass1, #brass2 {
+	height: 66px;
+	width: 27px;
+	background-image: url("{{ "/img/site/fancy_banner/brass_buckle.png" | prepend: site.baseurl }}");
+	position: absolute;
+	top: 0px;
+}
+
+#brass1 {
+	background-position: -27px 0px;
+	left: 0px;
+}
+
+#brass2 {
+	background-position: 0px 0px;
+	right: 0px;
+}
+
+#top-banner {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+#top-banner-content {
+	margin-left: 10px;
+}
+
+#top-banner-phone ul {
+	margin: 0px;
+}
+
+#top-banner-phone ul a li, .big-link, .little-link {
+	background: #286d0a;
+	color: #f8e85f;
+	display: block;
+	margin: 5px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.little-link-holder {
+	display: inline-block;
+
+	margin-left: 20px;
+}
+
+#top-banner-phone ul a li:hover, .big-link-holder a:hover, .big-link:hover,.little-link-holder a:hover, .little-link:hover {
+	background: #50a212;
+	text-decoration: none;
+}
+
+
+#top-banner-content ul a li {
+	display: inline-block;
+}
+
+#top-banner-logo, #top-banner-content ul li, #top-banner-content {
+	margin-top: 5px;
+}
+
+#top-banner-logo {
+	position: absolute;
+	top: 5px;
+	right: 35px;
+}
+
+.dot {
+	overflow: hidden;
+	width: 82px;
+	height: 85px;
+}
+
+.dot-image {
+	display: inline-block;
+	width: 165px;
+	height: 85px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.dot-image:hover {
+	margin-left: -83px;
+}
+
+#rope {
+	background-image: url("{{ "/img/site/fancy_banner/Rope.png" | prepend: site.baseurl }}");
+	background-repeat: repeat-y;
+	margin-top: 50px;
+}
+
+#desktop {
+	background: #f3f0e0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 45px;
+	min-height: 600px;
+}
+
+#desktop-footer {
+	background: #286d0a;
+	padding: 10px;
+	color: #f8e85f;
+	text-align: right;
+	font-size: 12px;
+}
+
+#footer {
+	height: 90px;
+    background: url("{{ "/img/site/crowd_small.png" | prepend: site.baseurl }}");
+}
+
+
+.test {
+	background: green;
+}
+
+#test {
+	background: yellow;
+}
+
+
+.center-col {
+  float: none;
+    margin: 0px auto;
+}

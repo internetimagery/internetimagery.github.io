@@ -1,0 +1,10 @@
+page_title: Page title
+-
+date: 19/01/14
+-
+description: Short version here
+-
+title: Blog title
+-
+content:
+blah blah blah

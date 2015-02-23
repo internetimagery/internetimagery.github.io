@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang=en>
+{% include head.html %}
+<body>
+
+<div class="row-fluid">
+
+	  <!-- Trimmed down Navigation for phone -->
+
+  	<div class="span12 visible-phone" id="top-banner-phone">
+
+  		<ul>
+
+<div class="big-link-holder"><a href="{{ site.baseurl }}"><li class="big-link">Cover Page</li></a></div>
+{% include phone_nav.html %}
+  		</ul>
+
+  	</div>
+
+  	<!-- Circle Navigation for everyone else -->
+
+  	<div class="hidden-phone" id="top-banner">
+
+  		<div id="top-banner-content">
+  			<ul>
+
+  				{% include dot_nav.html %}
+
+  			</ul>
+
+  		</div>
+
+  		<div id="brass1"></div>
+  		<div id="brass2"></div>
+
+  		<div id="top-banner-logo">
+  			<span class="inline">
+  				<a href="{{ "/users" | prepend: site.baseurl }}">
+	  				<div class="dot">
+		  				<div class="dot-image">
+			  				<img src="{{ "/img/nav/user.png" | prepend: site.baseurl }}" alt="Link to user login" title="Login" width="165" height="85">
+			  			</div>
+			  		</div>
+  				</a>
+  			</span>
+  			<span class="inline">
+  				<a href="{{ "/index.html" | prepend: site.baseurl }}">
+	  				<div class="dot">
+		  				<div class="dot-image">
+			  				<img src="{{ "/img/nav/home.png" | prepend: site.baseurl }}" alt="Link to homepage" title="Home" width="165" height="85">
+			  			</div>
+			  		</div>
+  				</a>
+  			</span>
+  		</div>
+
+  	</div>
+  	</div>
+</div>
+
+  	<div class="row-fluid" id="rope">
+
+
+<!-- Top section ends -->

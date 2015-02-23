@@ -1,0 +1,4 @@
+<!-- Phone Nav -->
+{% for page in site.pages %}
+<div class="big-link-holder"><a href="{{ page.url | prepend: site.baseurl }}"><li class="big-link">{{ page.title }}</li></a></div>
+{% endfor %}
