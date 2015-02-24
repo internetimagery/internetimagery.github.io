@@ -3,7 +3,7 @@ layout: page
 title: Animation Mentor Helpful Resources
 description: Looking to start Animation Mentor? These resources helped me. They might help you too! Check it out!
 navigation: true
-thumb: /animation_mentor/thumb.png
+thumb: /img/nav/AM_button.png
 ---
 <p class="text-center"><img src="/img/posts/AM_banner.jpg" /></p>
 

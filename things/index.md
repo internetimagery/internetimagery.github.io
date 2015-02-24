@@ -2,7 +2,7 @@
 title: Things
 layout: page
 navigation: true
-thumb: /things/thumb.png
+thumb: /img/nav/things_button.png
 categories: navigation
 ---
 

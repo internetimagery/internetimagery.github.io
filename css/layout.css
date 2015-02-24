@@ -148,6 +148,11 @@ code {
     background: url("{{ "/img/site/crowd_small.png" | prepend: site.baseurl }}");
 }
 
+/* LAYOUT SPECIFIC */
+div.page-layout>h1{
+	text-align: center;
+}
+
 
 .test {
 	background: green;

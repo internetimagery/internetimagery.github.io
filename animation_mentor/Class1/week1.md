@@ -3,13 +3,14 @@ layout: page
 title: AM Week 1
 ---
 
-###Week one begins!
+# Week one begins!
 
 I bet you're excited! But hold up! You don't have any assignments yet!
 
 [Check out these websites so you can hit the ground running!](http://animationresources.org/?p=8223) This is by no means an exhaustive list, and it omits a lot of the more widely known websites. But it's something to get your feet wet, and to satiate that burning Animation passion!
 
 First up to the block:
+
 ####[Tricks to animating Characters with the Computer](http://www.osm.od.ua/en/school-animation/animator-advices/371-tricks-to-animating-characters-with-a-computer)
 
 >When I presented the first animation I had created with a computer, "The Aventures of Andre and Wally B.," at Siggraph ‘84, a number of people asked me what cool new software I had used to achieve such believable characters. I explained to them that the software was a keyframe animation system, not much different in theory than other systems that were around then. What was different was that I was using basic animation principles that I had learned as a traditional animator. It was not the software that gave life to the characters, it was these principles of animation, these tricks of the trade that animators had developed over fifty years ago. I was surprised at how few people in the computer animation community were aware of these principles.
@@ -31,6 +32,7 @@ One thing to note however. This is pulling information mathematically, and so th
 ----
 
 Next up.
+
 ####[Follow Thought.](http://blog.fjasmin.net/)
 
 >Writing this blog has been amazing adventure. There was hundreds of hours of work behind this, but it was worth it has this blog has become successful in less time you have to close your eyes. And really, that was my goal when I began : Being able to share some of my though on animation while being read.

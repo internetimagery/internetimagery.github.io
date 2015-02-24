@@ -1,0 +1,15 @@
+page_title: Happy New Years!
+-
+date: 01/01/14
+-
+description: Another year begins. Happy new year!
+-
+title: Happy New Years!
+-
+content:
+Merry merry quite contrary, how did your Christmas go?
+With Presents here, and Christmas Cheer, and Sun instead of Snow!
+
+Hope you guys have had a great christmas.
+
+I'm just remoddeling this website a bit. Making a theme up as I go along, haha. We're getting there.

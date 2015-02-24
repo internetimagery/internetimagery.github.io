@@ -1,0 +1,12 @@
+page_title: Youtube Link
+-
+date: 20/12/14
+-
+description: Added a link to youtube above! The channel hosts some helpful videos. Hopefully they help you!
+-
+title: Youtube
+-
+content:
+Just a simple pointing to the youtube channel. I've added a direct link above. The channel hosts some helpful videos. Hopefully they help you!
+
+The channel has been around a while. Just been getting around to linking it here. So here we go! Another thing checked off. :P
