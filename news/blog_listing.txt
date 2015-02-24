@@ -1,6 +1,0 @@
-page_title: Great News Items
--
-title: News
--
-content:
-The long list of posts. 

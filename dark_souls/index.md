@@ -1,10 +1,10 @@
-page_title: Dark Souls Tribtue
--
-description: Quality Dark Souls Fanworks Compilation
--
+---
+layout: page
 title: Dark Souls Tribute
--
-content: A compilation of quality Dark Souls fandom!
+description: Quality Dark Souls Fan-works Compilation
+---
+
+### A compilation of quality Dark Souls fandom!
 
 ----
 

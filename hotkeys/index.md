@@ -1,8 +1,9 @@
-page_title: Hotkeys
--
-content:
+---
+title: Hotkeys
+layout: page
+---
 
-#Custom Hotkeys I use
+# Custom Hotkeys I use
 
 Here are some custom hotkeys for easy reference
 
