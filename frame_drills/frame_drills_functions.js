@@ -23,7 +23,7 @@ function playGame(){// repeat function for playing game.
 	playing = true;
 	randomFrame = pickRandomFrame(frameRange[1]);
 
-			$("#message2").text("the answer is: " + randomFrame); // temporary!
+	//		$("#message2").text("the answer is: " + randomFrame); // temporary!
 
 	moveBar();//animate bar
 }
