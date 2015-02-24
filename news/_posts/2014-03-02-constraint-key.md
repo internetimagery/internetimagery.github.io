@@ -1,14 +1,9 @@
-page_title: Constraint Key script
--
-date: 12/03/14
--
-description:
-I've seen scripts like this around before, but never been able to aquire one. They seem so useful too, so I've had to reproduce my own rendition of the script. In a nutshell (or at least inside maya) the script keys objects over a predetermined ammout of time, as though they were constrained.
--
-title: Constraint Key, maya script
--
-content:
-I've seen scripts like this around before, but never been able to aquire one. They seem so useful too, so I've had to reproduce my own rendition of the script.
+---
+title: Constraint Key script
+layout: post
+thumb: /img/posts/constraint_key.jpg
+---
+I've seen scripts like this around before, but never been able to aquire one. They seem so useful too, so I've had to reproduce my own rendition of the script.<!-- more -->
 
 ####What does it do?...
 

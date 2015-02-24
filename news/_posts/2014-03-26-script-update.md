@@ -1,16 +1,10 @@
-page_title: Script Updates
--
-date: 26/03/14
--
-description:
-With the lower workload this week I've taken the time to update my scripts (downloadable in previous news items) and put them into Google Code.
-
-Having used the scripts through a full shot there were a few little oddities I noticed and improvements I thought could be made.
--
+---
 title: Script Updates
--
-content:
-With the lower workload this week I've taken the time to update my scripts (downloadable in previous news items) and put them into Google Code.
+layout: post
+thumb: /img/posts/helmet.jpg
+---
+
+With the lower workload this week I've taken the time to update my scripts (downloadable in previous news items) and put them into Google Code.<!-- more -->
 
 [You can view the latest codes here...](https://code.google.com/p/maya-anim-tools/source/browse/#svn%2Ftrunk)
 
@@ -18,7 +12,7 @@ Having used the scripts through a full shot there were a few little oddities I n
 
 ----
 
-####[Gooey Lever](#)
+####[Gooey Lever](/news/2014/02/07/gooey-lever.html)
 
 Updated the code to run the script to more accuractly stick to conventions
 
@@ -27,7 +21,7 @@ Updated the code to run the script to more accuractly stick to conventions
 
 ----
 
-####[Spaces](http://internetimagery.com/news/spaces-maya/)
+####[Spaces](/news/2014/02/18/spaces-maya.html)
 
 Spaces now utilises the script "smartselection.py". This is actually code I pulled from what was already developed in spaces. Having it in its own separate file means that other scripts can share the same selection methods for convenience and consistency.
 
@@ -40,7 +34,7 @@ Updated the code to run the GUI to stick closer to convention:
 
 ----
 
-####[Constraint Key](http://internetimagery.com/news/constraint-key/)
+####[Constraint Key](/news/2014/03/02/constraint-key.html)
 
 Constraint key script now has a GUI option (thanks Andre for the request!). To activate it type this code into the script editor.
 
@@ -63,7 +57,7 @@ Ensured that any keys that may be lying between frames are removed as new keys a
 
 ----
 
-####[Click Time](http://internetimagery.com/news/click-timing/)
+####[Click Time](/news/2014/03/14/click-timing.html)
 
 Clicktime will now show the next key ready to be timed. So when you're clicking through each pose to time, you'll visually see the pose that the next click will time out. Just a nice way of visually seeing what is coming up next.
 

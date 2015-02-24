@@ -1,16 +1,11 @@
-page_title: Shot Pieces
--
-date: 17/04/14
--
-description:
-Sometimes you want to jump around your shot to work on, or isolate certain sections. This script provides an interface to save and retrieve different timeline selections.
--
+---
 title: Shot Pieces
--
-content:
+layout: post
+thumb: /img/posts/map.jpg
+---
 The maya script, Shot Pieces.
 
-Sometimes you want to jump around your shot to work on, or isolate certain sections. This script provides an interface to save and retrieve different timeline selections.
+Sometimes you want to jump around your shot to work on, or isolate certain sections. This script provides an interface to save and retrieve different timeline selections.<!-- more -->
 
 ####[You can download the script HERE!](https://github.com/internetimagery/shot_pieces/releases)
 

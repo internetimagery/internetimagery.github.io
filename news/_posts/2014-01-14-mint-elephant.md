@@ -1,17 +1,14 @@
-page_title: Mint the Elephant
--
-date: 19/01/14
--
-description: Meet Mint. The Elephant born in a dream that makes a living happily crushing peanuts!
--
+---
 title: Mint the Elephant
--
-content:
+layout: post
+thumb: /img/posts/mint.jpg
+---
+
 You know those times your partner is sleeping, and talking. Sometimes they reply?
 
 Sometimes, when talking to them... you can insert weird things into the dream...
 
-Meet Mint. The Elephant born in a dream that makes a living happily crushing peanuts!
+Meet Mint. The Elephant born in a dream that makes a living happily crushing peanuts!<!-- more -->
 
 Drawn on paper, and photographed using a normal tripod. First traditional animation I've done in years (even if it is just a simple cycle, and far from perfect)! Testing out a new drawing board I made for hobby traditional animation stuff. Fun!
 
@@ -25,8 +22,8 @@ Drawn on paper, and photographed using a normal tripod. First traditional animat
 
 If you wish to draw Mint. Here is a simple how to:
 
-![How to draw Mint](@path/how-to.jpg)
+![How to draw Mint](/img/posts/how-to.jpg)
 
 ...and here is Mint splayed all over the ground. In pieces! Why? Because I can. I love the tactile nature of the traditional medium.
 
-![Mint on ground](@path/mint-on-floor.jpg)
+![Mint on ground](/img/posts/mint-on-floor.jpg)

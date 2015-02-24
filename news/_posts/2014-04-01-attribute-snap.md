@@ -1,15 +1,9 @@
-page_title: Attribute Snap
--
-date: 01/04/14
--
-description:
-The attribute snapping script for Maya!
-Sometimes you just want two objects to 'stick' together. This script lets you do that.
--
+---
 title: Attribute Snap
--
-content:
-The attribute snapping script for Maya!
+layout: post
+thumb: /img/posts/magnet.jpg
+---
+The attribute snapping script for Maya!<!-- more -->
 
 ###[You can download the script HERE](https://github.com/internetimagery/attrsnap/releases)
 

@@ -1,13 +1,9 @@
-page_title: Spaces
--
-date: 18/02/14
--
-description: Spaces, the fancypants script for Maya
--
-title: Spaces for Maya
--
-content:
-Phew... made my second script for Maya. This one was a bit complicated. So lets get into it...
+---
+title: Spaces
+layout: post
+thumb: /img/posts/spaces.jpg
+---
+Phew... made my second script for Maya. This one was a bit complicated. So lets get into it...<!-- more -->
 
 ###[DOWNLOAD](https://github.com/internetimagery/spacesGUI/releases)
 

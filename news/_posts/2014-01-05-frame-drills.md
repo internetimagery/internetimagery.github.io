@@ -1,18 +1,14 @@
-page_title: Frame Drills
--
-date: 05/01/14
--
-description:
-The concept is that we learn to judge our sense of time in seconds and minutes. After all, that is precisely what we're using in our day to day lives.
--
+---
 title: Frame Drills
--
-content:
+layout: post
+thumb: /img/posts/framedrills.png
+---
+
 Finished my proof of concept (in a proof of concept state) [Frame Drills](http://internetimagery.com/frame_drills/).
 
 The concept is that we learn to judge our sense of time in seconds and minutes. After all, that is precisely what we're using in our day to day lives.
 
-Yet in animation we have to learn to work in frames.
+Yet in animation we have to learn to work in frames.<!-- more -->
 
 I see no difference between the two other than using a different metric, and a mark of experience is when an animator is capable of thinking in frames as freely as they do in seconds.
 
@@ -24,7 +20,7 @@ To use Frame Drills [Click here](http://internetimagery.com/frame_drills/). Clic
 
 Make sure your speakers are on, as there is a metronome sound. Listen to the tick tock and watch the bar if you like. Try to guess how much of an interval exists between the ticks, and type it in. Hit ENTER and be given your result. Results like this (beat that!):
 
-![Frame Drills result example](@path/beat-that.jpg)
+![Frame Drills result example](/img/posts/beat-that.jpg)
 
 There is a point counter just above the bar, that merely gives points based on how close your answer is. It's a tad unfinished at the moment so if you want more points, just try more attempts... :P
 

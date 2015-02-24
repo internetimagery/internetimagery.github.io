@@ -1,18 +1,13 @@
-page_title: Clean Constraints
--
-date: 27/12/14
--
-description:
-Constraints can be confusing, and damn are they annoying and unintuitive!
-So here is an effort to clean things up and hopefully make constraining a little more logical and easy.
--
-title: Clean Constraints script
--
-content:
+---
+title: Clean Constraints
+layout: post
+thumb: /img/posts/duster.png
+---
+
 Constraints can be confusing, and damn are they annoying and unintuitive!
 So here is an effort to clean things up and hopefully make constraining a little more logical and easy.
 
-This script attempts to consolidate the constraint weights and blend parents into a single switcher.
+This script attempts to consolidate the constraint weights and blend parents into a single switcher.<!-- more -->
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube.com/embed/0qxEGJ4gNOc" frameborder="0" allowfullscreen></iframe></div>
 

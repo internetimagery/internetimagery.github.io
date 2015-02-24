@@ -1,17 +1,11 @@
-page_title: Click Timing in Maya
--
-date: 14/03/14
--
-description:
-Often when animating it's a good idea to tap out the 'beats' of a shot. Some even go so far as to record the tapping, bring it into Maya and move keys to correspond with the peaks on the soundbite. Sure you COULD do that. You know... if you're not lazy.
--
-title: Clicktime Maya script
--
-content:
-
+---
+title: Click Timing in Maya
+layout: post
+thumb: /img/posts/click_timing.jpg
+---
 Often when animating it's a good idea to tap out the 'beats' of a shot. Some even go so far as to record the tapping, bring it into Maya and move keys to correspond with the peaks on the soundbite.
 
-Sure you COULD do that. You know... if you're not lazy.
+Sure you COULD do that. You know... if you're not lazy.<!-- more -->
 
 [But it has been said:](http://quoteinvestigator.com/2014/02/26/lazy-job/)
 

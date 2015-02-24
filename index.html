@@ -1,0 +1,21 @@
+---
+layout: page
+title: Imagery on the web.
+---
+<h1>Imagery on the web.</h1>
+
+A collection of thoughts and projects. Mostly animation related.
+
+<hr>
+{% for post in site.categories.news %}
+{% if forloop.index < 5 %}
+{% include blog_single.html %}
+<hr>
+{% endif %}
+{% endfor %}
+
+
+<p><strong><a href="/news">More News items --></a></strong></p>
+
+<p><a href="https://plus.google.com/110232976632236787476" rel="publisher">Google+</a> or <span class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span></p>
+

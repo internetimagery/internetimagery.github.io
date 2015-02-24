@@ -1,16 +1,11 @@
-page_title: New Users Section and Messageboard
--
-date: 03/06/14
--
-description:
-You may have noticed the new button at the top right of the page. There is a new section added to the site in which some extra projects are housed.
--
+---
 title: New Users Section and Messageboard
--
-content:
+layout: post
+thumb: /img/posts/users_button.jpg
+---
 Brand new Users section!
 
-You may have noticed the new button at the top right of the page. There is a new section added to the site in which some extra projects are housed.
+You may have noticed the new button at the top right of the page. There is a new section added to the site in which some extra projects are housed.<!-- more -->
 
 ####Click on it to join up! :)
 

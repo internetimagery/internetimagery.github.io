@@ -1,14 +1,10 @@
-page_title: Challenges Section
--
-date: 01/08/14
--
-description:
-I've added a new section to the site. A challenges section. Which is planned to become full of… you guessed it. Challenges!
--
-title: New Challenges Section
--
-content:
-I've added a new section to the site. A challenges section. Which is planned to become full of… you guessed it. *Challenges!*
+---
+title: Challenges Section
+layout: post
+thumb: /img/posts/cam_grab.jpg
+---
+
+I've added a new section to the site. A challenges section. Which is planned to become full of… you guessed it. *Challenges!*<!-- more -->
 
 ----
 
@@ -25,6 +21,6 @@ Kicking it off is [The Great Daily Pose Challenge](https://plus.google.com/event
 
 You'll find it under the wrecking ball button!
 
-![challenges link](@path/button.jpg)
+![challenges link](/img/posts/button.jpg)
 
 Check it out. Join in or show support for those tackling it. See you there! :)

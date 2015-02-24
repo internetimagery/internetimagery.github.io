@@ -1,15 +1,11 @@
-page_title: Gooey Lever Simple Maya GUI
--
-date: 07/02/14
--
-description: Spent the evening learning how to make scrips for Maya. SO CONFUSING! But not spent in vain.
--
-title: Simple Maya GUI
--
-content:
+---
+title: Gooey Lever Simple Maya GUI
+layout: post
+thumb: /img/posts/gooey.jpg
+---
 Spent the evening learning how to make scrips for Maya. SO CONFUSING!
 
-But not spent in vain.
+But not spent in vain. <!-- more -->
 
 [Here I've made the script/plugin Gooey Lever.](http://internetimagery.com/downloads/Gooey_Lever.zip) A GUI lever that can be attached to channels in the channel box for visual control.
 

@@ -1,20 +1,12 @@
-page_title: Curve Combiner AND Constraint Locator scripts
--
-date: 26/12/14
--
-description:
-While messing with rigging I've come across the need to combine nurbs curve shapes into a single object. Thankfully it is not something that is hard to do, but the process is tedious!
-So here is a simple script to help with that!
-
-Another common task I (and perhaps you too?) find myself doing is creating locators to aid in constraining objects to one another.
-Picking up that pencil? Want a parent / parent-constraint heirachy to give maximum flexability? TEDIOUS!
-So here is a script that goes and does the hard work for you.
--
-title: Curve Combiner and Constraint Locator Scripts
--
-content:
+---
+title: Curve Combiner AND Constraint Locator scripts
+layout: post
+thumb: /img/posts/tape.jpg
+---
 
 ####There is still time left in the year for new stuff!
+
+Introducing Curve Combiner and Constraint Locator!<!-- more -->
 
 ----
 
