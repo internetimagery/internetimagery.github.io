@@ -1,5 +1,6 @@
 ---
 ---
+
 body {
 	background: black;
 	background-image: url("{{ "/img/site/dragon.png" | prepend: site.baseurl }}");
@@ -133,6 +134,43 @@ code {
 	padding-right: 20px;
 	padding-top: 45px;
 	min-height: 600px;
+}
+
+/*Blog Stuff*/
+a.blog-post{
+	/*height: 100px;*/
+	clear: left;
+	overflow: hidden;
+	font-style: normal;
+	color: black;
+	position: relative;
+	display: block;
+	min-height: 100px;
+	-webkit-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+}
+a.blog-post:hover{
+	text-decoration: none;
+}
+.blog-post>.image, .blog-post>.go{
+	float: left;
+}
+.blog-post.light{
+	background: #f3f0e0;
+}
+.blog-post.light:hover, .blog-post.dark:hover{
+	background: #fffcea;
+}
+.blog-post.dark{
+	background: #e9e5d6;
+}
+.blog-post>.image{
+	margin-right: 10px;
+	width: 100px;
+}
+.blog-post>.text{
+	margin-top: 10px;
 }
 
 #desktop-footer {
