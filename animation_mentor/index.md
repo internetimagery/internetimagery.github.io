@@ -17,12 +17,12 @@ I am putting together a few resources that I have come across and found useful d
 
 They helped me. I hope they can help you too!
 
-[__Animation Basics - Class 1__]({{ "/animation_mentor/Class1" | prepend: site.baseurl }})
+[__Animation Basics - Class 1__]({{ "/animation_mentor/Class1/" | prepend: site.baseurl }})
 
-[__Animation Body Mechanics Basics - Class 2__]({{ "/animation_mentor/Class2" | prepend: site.baseurl }})
+[__Animation Body Mechanics Basics - Class 2__]({{ "/animation_mentor/Class2/" | prepend: site.baseurl }})
 
-[__Animation Body Mechanics Advanced - Class 3__]({{ "/animation_mentor/Class3" | prepend: site.baseurl }})
+[__Animation Body Mechanics Advanced - Class 3__]({{ "/animation_mentor/Class3/" | prepend: site.baseurl }})
 
-[__Introduction to Acting - Class 4__]({{ "/animation_mentor/Class4" | prepend: site.baseurl }})
+[__Introduction to Acting - Class 4__]({{ "/animation_mentor/Class4/" | prepend: site.baseurl }})
 
-[__Advanced Acting - Class 5__]({{ "/animation_mentor/Class5" | prepend: site.baseurl }})
+[__Advanced Acting - Class 5__]({{ "/animation_mentor/Class5/" | prepend: site.baseurl }})
