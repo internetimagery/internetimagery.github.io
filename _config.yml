@@ -5,7 +5,8 @@ description: For the love of animation. Projects, information and of course an A
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://internetimagery.com"
 github_username:  internetimagery
-
+exclude:
+  - working
 
 # Build settings
 markdown: kramdown
