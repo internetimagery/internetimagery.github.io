@@ -9,26 +9,26 @@ exclude:
   - working
 
 # Build settings
-markdown: 
+markdown: kramdown
 
-##Prose settings
-#prose:
-#  rooturl: "/news/_posts"
-#  siteurl: "http://internetimagery.github.io"
-#  media: "/img/posts"
-#  metadata:
-#    _posts:
-#      - name: "layout"
-#        field:
-#          element: "hidden"
-#          value: "post"
-#      - name: "thumb"
-#        field:
-#          element: "text"
-#          value: ""
-#          label: "Thumbnail"
-#      - name: "title"
-#        field:
-#          element: "text"
-#          value: ""
-#          label: "Page Title"
+#Prose settings
+prose:
+  rooturl: "/news/_posts"
+  siteurl: "http://internetimagery.github.io"
+  media: "/img/posts"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "thumb"
+        field:
+          element: "text"
+          value: ""
+          label: "Thumbnail"
+      - name: "title"
+        field:
+          element: "text"
+          value: ""
+          label: "Page Title"
