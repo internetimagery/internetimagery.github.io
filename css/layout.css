@@ -216,6 +216,48 @@ a.blog-post:hover{
 	margin-top: 10px;
 }
 
+.box>img {
+  position: relative;
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 0%     0%     25%     25% /     0%     0%     3%     3%;
+}
+.box>img:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    height: 20%;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: rotate(-3deg) skew(-0deg);
+     -moz-transform: rotate(-3deg) skew(-0deg);
+     -ms-transform: rotate(-3deg) skew(-0deg);
+     -o-transform: rotate(-3deg) skew(-0deg);
+     transform: rotate(-3deg) skew(-0deg);
+    }
+.box>img:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    right: 10px;
+    width: 50%;
+    height: 20%;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: rotate(3deg) skew(0deg);
+     -moz-transform: rotate(3deg) skew(0deg);
+     -ms-transform: rotate(3deg) skew(0deg);
+     -o-transform: rotate(3deg) skew(0deg);
+     transform: rotate(3deg) skew(0deg);
+    }
+
 #desktop-footer {
 	background: #286d0a;
 	padding: 10px;

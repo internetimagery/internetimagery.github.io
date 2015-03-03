@@ -5,11 +5,11 @@
 
 <div class="span8 offset2 post-layout" id="desktop">
 
-<p class="text-center">
+<div class="box">
 {% if page.thumb %}
 <img src="{{ page.thumb | prepend: baseurl }}" />
 {% endif %}
-</p>
+</div>
 
 <header class="post-header">
 	{% include title.html %}
