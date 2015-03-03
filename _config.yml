@@ -9,4 +9,24 @@ exclude:
   - working
 
 # Build settings
-markdown: kramdown
+markdown: 
+
+#Prose settings
+prose:
+  - rooturl: "/news/_posts"
+  - siteurl: "http://internetimagery.github.io"
+  - media: "/img/posts"
+  - metadata:
+    _posts:
+      - name: "layout"
+      field:
+        element: "hidden"
+        value: "post"
+      - name: "thumb"
+      field:
+        element: "text"
+        value: ""
+      - name: "title"
+      field:
+        element: "text"
+        value: ""
