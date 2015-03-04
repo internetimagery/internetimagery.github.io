@@ -14,7 +14,11 @@ pygments: true
 # Build settings
 markdown: kramdown
 
-#Prose settings
+# Sass Settings
+sass:
+    style: :compressed
+
+# Prose settings
 prose:
   rooturl: "/news/_posts"
   siteurl: "http://internetimagery.github.io"
