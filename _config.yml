@@ -9,7 +9,7 @@ exclude:
   - working
 
 # Syntax highlighting
-pygments: true
+highlighter: pygments
 
 # Build settings
 markdown: kramdown
