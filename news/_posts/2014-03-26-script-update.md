@@ -4,7 +4,7 @@ layout: post
 thumb: /img/posts/helmet.jpg
 ---
 
-With the lower workload this week I've taken the time to update my scripts (downloadable in previous news items) and put them into Google Code.<!-- more -->
+With the lower workload this week I've taken the time to update my scripts (downloadable in previous news items) and put them into Google Code.
 
 [You can view the latest codes here...](https://code.google.com/p/maya-anim-tools/source/browse/#svn%2Ftrunk)
 
@@ -17,8 +17,8 @@ Having used the scripts through a full shot there were a few little oddities I n
 Updated the code to run the script to more accuractly stick to conventions
 
 {% highlight python %}
-	import Gooey_Lever
-	Gooey_Lever.GUI()
+import Gooey_Lever
+Gooey_Lever.GUI()
 {% endhighlight %}
 
 ----
@@ -31,8 +31,10 @@ Because it is essentially taking code out of one file and placing it in another,
 
 Updated the code to run the GUI to stick closer to convention:
 
-	import spacesGUI
-	spacesGUI.GUI()
+{% highlight python %}
+import spacesGUI
+spacesGUI.GUI()
+{% endhighlight %}
 
 ----
 
@@ -40,13 +42,17 @@ Updated the code to run the GUI to stick closer to convention:
 
 Constraint key script now has a GUI option (thanks Andre for the request!). To activate it type this code into the script editor.
 
-	import constraintkey
-	constraintkey.GUI()
+{% highlight python %}
+import constraintkey
+constraintkey.GUI()
+{% endhighlight %}
 
 The other commands have been redacted and changed to more accuratly reflect coding conventions, ie:
 
-	import constraintkey
-	constraintkey.parent()
+{% highlight python %}
+import constraintkey
+constraintkey.parent()
+{% endhighlight %}
 
 Would parent. Orient, aim etc etc all are the same.
 
@@ -67,7 +73,9 @@ Because scenes can become slow with lots and lots of junk, and changing the curr
 
 To run the script with it off, insert "False" into the brackets when executing the script (or in the shelf code). ie:
 
-	import clicktime
-	clicktime.GUI(False)
+{% highlight python %}
+import clicktime
+clicktime.GUI(False)
+{% endhighlight %}
 
 ----

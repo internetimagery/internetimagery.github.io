@@ -26,8 +26,8 @@ There is an accompanying script that goes with the messageboard for Maya.
 To install it, simply add the files to your scripts folder, and invoke the python command:
 
 {% highlight python %}
-	import messageboard
-	messageboard.GUI()
+import messageboard
+messageboard.GUI()
 {% endhighlight %}
 
 From there you have the same controls as on the web version of the site.

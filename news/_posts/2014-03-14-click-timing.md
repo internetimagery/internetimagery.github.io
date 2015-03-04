@@ -23,8 +23,8 @@ Running the script is easy. Download the file above. Unzip and place the resulti
 Place this Python code into a shelf icon, or simply run it from the script window.
 
 {% highlight python %}
-	import clicktime
-	clicktime.GUI()
+import clicktime
+clicktime.GUI()
 {% endhighlight %}
 
 ####DONE.

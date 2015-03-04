@@ -32,8 +32,8 @@ So now that we understand what this script is for, lets go over the usage.
 First things first. You need to copy the script to your script folder and load the GUI. You can do so by typing this code into the script editor or by making a shelf icon with the code:
 
 {% highlight python %}
-	import attrsnap
-	attrsnap.GUI()
+import attrsnap
+attrsnap.GUI()
 {% endhighlight %}
 
 From here you'll get a nice neat little window pop up. This is where all your control will come from.

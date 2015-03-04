@@ -18,8 +18,10 @@ To run, place in your scripts directory.
 
 Then create a shelf icon with this code (in the python section)
 
->import Gooey_Lever as GL
->GL.createGUI()
+{% highlight python %}
+import Gooey_Lever as GL
+GL.createGUI()
+{% endhighlight %}
 
 Click it to bring up the window and follow the instructions.
 

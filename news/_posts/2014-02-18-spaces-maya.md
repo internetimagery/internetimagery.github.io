@@ -5,12 +5,12 @@ thumb: /img/posts/spaces.jpg
 ---
 Phew... made my second script for Maya. This one was a bit complicated. So lets get into it...<!-- more -->
 
-###[DOWNLOAD](https://github.com/internetimagery/spacesGUI/releases)
+__[DOWNLOAD](https://github.com/internetimagery/spacesGUI/releases)__
 
 This script is actually three scripts. [spacesGUI.py](#spacesGUI), [spaces.py](#spaces) and smartselection.py. The Spaces script handles all the functions dealing with Spaces, for use in scripts or hotkeys (explained later, use in your own scripts!). Meanwhile the GUI script is a UI that uses some functions in the Spaces script. The smart selection script just deals with making selections. Some other scripts I've made share that file. Make sense? No? READ ON!
 
 
-####What in the world are Spaces?
+###What in the world are Spaces?
 
 In computer animation we use curves to represent values, which in turn represent positions in space. As animators we have varied tools to manipulate them, utilising Tangents and Keys. Keys of course fixing a point on the curve, and tangents filling in the space between.
 What is missing is some sort of macro control. Something that controls the curve at a higher level.
@@ -38,8 +38,8 @@ The GUI is there to showcase and provide some simple functionality of the Spaces
 Invoke this GUI with this code (you can set it up as a shelf script/ hotkey / or just put it into the scrip editor in Maya):
 
 {% highlight python %}
-    import spacesGUI
-    spaceGUI.GUI()
+import spacesGUI
+spaceGUI.GUI()
 {% endhighlight %}
 
 This will run the UI script pictured above.
@@ -85,11 +85,15 @@ That about does it for the GUI, now onto the...
 
 The space class houses a bunch of functionality for dealing with Spaces. Import it into your scripts or hotkeys using:
 
-    from spaces import *
+{% highlight python %}
+from spaces import *
+{% endhighlight %}
 
 or if you're worried about naming:
 
-    import spaces as sp
+{% highlight python %}
+import spaces as sp
+{% endhighlight %}
 
 Now you can access its functions.
 
@@ -102,13 +106,14 @@ Before we delve into the fuctions. I'm going to take a quick aside to go over th
 * Selections are made up of two dictionaries and a list. Object -> Attribute -> Keys.
 When passing a selection to the Space class, it will work out the Keys for you, all you need is an empty list. e.g.
 
-
-	     new Space( { 'pCircle1':
-    							{ 'translateX':
-    											[]
-								}
-					}
-				  )
+{% highlight python %}
+new Space( { 'pCircle1':
+    { 'translateX':
+        []
+            }
+        }
+    )
+{% endhighlight %}
 
 This will force a selection on the X translate of pCircle1.
 
@@ -128,7 +133,9 @@ This will force a selection on the X translate of pCircle1.
 
 The keylist is made up of two lists. keys and a list of keys. The keys are in the following format:
 
-	    [ time , value , in angle , out angle ]
+{% highlight python %}
+[ time , value , in angle , out angle ]
+{% endhighlight %}
 
 * A valid keylist will have at minimum two keys. The time and value of the FIRST key will be **0.0** The time and value of the LAST key will be **1.0**
 
@@ -136,7 +143,9 @@ The keylist is made up of two lists. keys and a list of keys. The keys are in th
 
 An example keylist would therefore be as follows:
 
-	    [ [0.0,0.0,0.0,0.0],[0.5,0.75,45.0,45.0],[1.0,1.0,0.0,0.0] ]
+{% highlight python %}
+[ [0.0,0.0,0.0,0.0],[0.5,0.75,45.0,45.0],[1.0,1.0,0.0,0.0] ]
+{% endhighlight %}
 
 This will make a parabola curve in the space.
 
@@ -144,60 +153,82 @@ This will make a parabola curve in the space.
 
 >You can use these functions in a script. Or even in a hotkey. Some functions (inbetween) are particuarly useful in hotkeys.
 
-	    new Space( time (float / optional) , selection (SpaceSelection type / optional) )
+{% highlight python %}
+new Space( time (float / optional) , selection (SpaceSelection type / optional) )
+{% endhighlight %}
 
 * Creating a new instance of the Space class causes it to find a selection of Spaces if not provided (above). These spaces will be worked on for the remainder of the class's life.
 
-	    version()
+{% highlight python %}
+version()
+{% endhighlight %}
 
 * A simple function that will output the version name. Could be useful.
 
-	    highlight()
+{% highlight python %}
+highlight()
+{% endhighlight %}
 
 * This will highlight every key selected by Space().
 
-	    clear()
+{% highlight python %}
+clear()
+{% endhighlight %}
 
 * Will clear out any keys within any selected Space. This refers to the breakdown keys.
 
-	    scale( timescale (float / optional) , valuescale (float / optional) )
+{% highlight python %}
+scale( timescale (float / optional) , valuescale (float / optional) )
+{% endhighlight %}
 
 * Scales all selected Spaces by the values given. Both values are optional. Omititng both will cause it to scale to a value of 1... kinda pointless, so might as well have at least one value in there. ;)
 
-	    insert( keylist (Keylist type) )
+{% highlight python %}
+insert( keylist (Keylist type) )
+{% endhighlight %}
 
 * Inserts keys into every selected Space based on the provided Keylist. The Keylist format is described above.
 
-		extract( shortlist (boolean / optional) )
+{% highlight python %}
+extract( shortlist (boolean / optional) )
+{% endhighlight %}
 
 * Outputs the values of the keys in the selected Spaces. Shortlist is optional. When it is on, the output will be a single Keylist based on the first selected curve in the selection. When it is off (default) the output will be a "selection" output (as explained above) with Objects and Attributes before the Keylist. ie: Object->Attribute->Keylist
 
-		inbetween( frames (int / optional) )
+{% highlight python %}
+inbetween( frames (int / optional) )
+{% endhighlight %}
 
 * Adds or remove an inbetween (or more) to the selection at the location of the timeslider (or a specificed time, if the class was created with one). Frames variable is optional, however if omitted it will default to 1. To remove an inbetween place a negative number. The nice thing is that the space gaining or losing inbetweens will keep its relative curve shape throughout. You cannot have a frame number in the negatives higher than the time length of the selected space.
 
 >A nice useage of this is to wire up hotkeys to "-" and "=" with the numbers -1 and 1 respectively. ie-code:
 
-		import spaces as sp
-		sp.inbetween(-1)
+{% highlight python %}
+import spaces as sp
+sp.inbetween(-1)
+{% endhighlight %}
 
-.
-
-		jump( frames (int / optional) )
+{% highlight python %}
+jump( frames (int / optional) )
+{% endhighlight %}
 
 * Returns the frame time of the next or previous key ignoring breakdowns, by how many numbers you give it. For instance Space().jump(3) will return the time three keys ahead. Space().jump(-1) will return the immediate key previous. etc etc.
 
 >A useful hotkey for this to jump to replace the previous or next key hotkeys ( < > ) (using 1 and -1 for next and previous):
 
-		import spaces as sp
-		cmds.currentTime( sp.jump(1) )
+{% highlight python %}
+import spaces as sp
+cmds.currentTime( sp.jump(1) )
+{% endhighlight %}
 
 >Or an alternative version that works without triggering the undo:
 
-		import spaces as sp
-		cmds.undoInfo( swf = False )
-		cmds.currentTime( sp.jump(1) )
-		cmds.undoInfo( swf = True )
+{% highlight python %}
+import spaces as sp
+cmds.undoInfo( swf = False )
+cmds.currentTime( sp.jump(1) )
+cmds.undoInfo( swf = True )
+{% endhighlight %}
 
 ----
 
@@ -205,6 +236,5 @@ This will make a parabola curve in the space.
 
 If you want to use this script. Go right ahead. If you want to use its functionality in your own scripts, go for it. Just drop me some credit. :D
 
-Any questions, email me.
 
 [And here is that download link again.](http://internetimagery.com/downloads/Spaces.zip)
