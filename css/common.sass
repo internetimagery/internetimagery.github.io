@@ -9,6 +9,7 @@ $black: black
 $green: #286d0a
 $light-green: #cfeb8d
 $cream: #f3f0e0
+$yellow: #f8e85f
 
 
 // ELEMENTS
@@ -22,7 +23,7 @@ h1
 	font-family: 'Frijole', cursive
 
 h2
-	@extend: h1
+	@extend h1
 
 // RIBBON
 h3
@@ -114,7 +115,7 @@ pre
 	left: 0px
 
 #brass2
-	@extend: #brass1
+	@extend #brass1
 	background-position: 0px 0px
 	right: 0px
 
@@ -147,7 +148,7 @@ pre
 		a
 			li
 				background: $green
-				color: #f8e85f
+				color: $yellow
 				display: block
 				margin: 5px
 				text-align: center
@@ -179,7 +180,7 @@ pre
 #desktop-footer
 	background: $green
 	padding: 10px
-	color: #f8e85f
+	color: $yellow
 	text-align: right
 	font-size: 12px
 
@@ -189,26 +190,33 @@ pre
 
 // CLASSES
 .big-link
-	@extend: #top-banner-phone ul a li
+	background: $green
+	color: $yellow
+	display: block
+	margin: 5px
+	text-align: center
+	padding: 10px
+	border-radius: 15px
 	&:hover
-		@extend: #top-banner-phone ul a li:hover
+		background: #50a212
+		text-decoration: none
 
 .big-link-holder
 	a
 		&:hover
-			@extend: #top-banner-phone ul a li:hover
+			@extend .big-link:hover
 
 .little-link
-	@extend: #top-banner-phone ul a li
+	@extend .big-link
 	&:hover
-		@extend: #top-banner-phone ul a li:hover
+		@extend .big-link:hover
 
 .little-link-holder
 	display: inline-block
 	margin-left: 20px
 	a
 		&:hover
-			@extend: #top-banner-phone ul a li:hover
+			@extend .big-link:hover
 
 .dot
 	overflow: hidden
@@ -240,12 +248,10 @@ a.blog-post
 		text-decoration: none
 
 .blog-post
-	&>.image
+	&>.image, &>.go
 		float: left
 		margin-right: 10px
 		width: 100px
-	&>.go
-		@extend: .blog-post>.image
 	&>.text
 		margin-top: 10px
 
@@ -257,7 +263,10 @@ a.blog-post
 .blog-post.dark
 	background: #e9e5d6
 	&:hover
-		@extend: .blog-post.light:hover
+		@extend .blog-post.light:hover
+
+.post-meta
+	font-style: italic
 
 .center-col
 	float: none
