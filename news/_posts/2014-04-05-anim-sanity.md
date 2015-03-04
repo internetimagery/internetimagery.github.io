@@ -7,7 +7,7 @@ Animation Sanity check is a script for maya that does what it implies on the tin
 
 It's designed to check for technical issues with your keyframes, so you don't have to go hunting through each and every key. Things such as flat curves that should be moving holds, and stray stepped tangents etc.<!-- more -->
 
-##KEEP YOUR SANITY
+###KEEP YOUR SANITY
 
 ####[You can download the script HERE.](https://github.com/internetimagery/animsanity/releases)
 

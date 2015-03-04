@@ -2,6 +2,7 @@
 navigation: true
 thumb: /img/nav/vimeo_button.png
 tite: Vimeo
+layout: null
 ---
 <!DOCTYPE html>
 <html lang=en>

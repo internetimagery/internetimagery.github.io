@@ -1,6 +1,6 @@
 ---
 navigation: true
-layout: page
+layout: null
 thumb: /img/nav/framedrill_button.png
 tite: Frame Drills
 ---

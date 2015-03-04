@@ -2,6 +2,7 @@
 navigation: true
 thumb: /img/nav/youtube_button.png
 tite: Youtube
+layout: null
 ---
 <!DOCTYPE html>
 <html lang=en>
