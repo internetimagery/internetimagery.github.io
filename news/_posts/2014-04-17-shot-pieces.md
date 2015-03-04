@@ -11,8 +11,10 @@ Sometimes you want to jump around your shot to work on, or isolate certain secti
 
 To run the script, simply place the file in your scripts folder and create a shelf icon with the following:
 
+{% highlight python %}
 	import shotpieces
 	shotpieces.GUI()
+{% endhighlight %}
 
 ###HOW TO USE IT
 

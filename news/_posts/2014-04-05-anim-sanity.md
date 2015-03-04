@@ -15,8 +15,10 @@ To install the script, place the contents of the zip into your scripts folder. I
 
 To run the script simply type into maya, or create a shelf button with the following python script:
 
+{% highlight python %}
 	import animsanity
 	animsanity.GUI()
+{% endhighlight %}
 
 Selecting the objects you wish to check and pressing the big button at the bottom will run a check. The results are shown above. Ideally with everything ticked. ;)
 
@@ -35,6 +37,7 @@ I'll periodically be updating this script with more checks. Which can either mea
 
 To create your own checks simply modify this script template, save it as something memorable and throw it in the folder with the rest of the scripts:
 
+{% highlight python %}
 	import maya.cmds as cmds
 	class load(object):
 		def __init__(self):
@@ -51,6 +54,7 @@ To create your own checks simply modify this script template, save it as somethi
 
 		def fix(self):
 			print 'CODE TO FIX THE ISSUE CAN GO HERE. THIS WILL BE RUN IF SOMEONE PRESSES THE "FIX IT" BUTTON.
+{% endhighlight %}
 
 * __ __init__ __ runs when the check is loaded. It is also run when the reset button is pressed, so be sure to initialise any variables you'll be using here.
 
@@ -62,15 +66,19 @@ To create your own checks simply modify this script template, save it as somethi
 
 * __search()__ is run multiple times when scanning for problems in the animation. Once for every channel in the selection. Each time it is run the obj, attr, keys variables will be populated with the objects, attributes, and keys it's working on. You can make new variables to store info between function calls if you like. The only thing you _have_ to do here, is populate the variable _self.sel_ with keys that match your search criteria. An easy way to do this is to use this code:
 
+{% highlight python %}
     	if "your search criteria here":
 			self.sel[obj] = self.sel.get(obj, {})
 			self.sel[obj][attr] = self.sel[obj].get(attr, [])+["Your keyframe here"]
+{% endhighlight %}
 
 * __fix()__ code is run when someone presses the Fix It button. This is where you get to attempt to fix the issue you've found. Remember _self.sel_ contains the information you searched earlier. Use this to work out a solution to the problem. An easy way to run through the list is as follows:
 
+{% highlight python %}
 		for o in self.sel:
 			for at in self.sel[o]:
 				for k in in self.sel[o][at]:
 					print 'Code goes here! o= objects, at= attributes, k= keys'
+{% endhighlight %}
 
 * __show()__ This command isn't in the template above. Its an optional one that, if exists, will override the "show" buttons default function of selecting keys. Use this if you have different information to pass on.

@@ -14,7 +14,7 @@ This script automates the process of setting it up!<!-- more -->
 Simply copy and paste the below code into a new shelf icon (PYTHON) and there you have it. Select an object (or objects) you wish to turn into lights (spheres cut in quarters work well) and it will ask you to change your render settings if you so choose. You will need to do so in order for the render to work properly, but you can opt to not let the script do that for you, and do it yourself however you wish.
 
 ----
-
+{% highlight python %}
 	import maya.cmds as cmds
 	import maya.mel as mel
 	#turn object into final gather light
@@ -107,5 +107,5 @@ Simply copy and paste the below code into a new shelf icon (PYTHON) and there yo
 	    cmds.select( sel )
 	else:
 	    cmds.confirmDialog(t='Whoops.', m="You need to select something.")
-
+{% endhighlight %}
 ----

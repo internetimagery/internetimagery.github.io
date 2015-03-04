@@ -16,7 +16,7 @@ This script attempts to consolidate the constraint weights and blend parents int
 To use it, copy the below and paste it into a new shelf button as a PYTHON script. Then set up your constraints, and select the object with constraints on it. Press your new shelf button and watch the magic happen!
 
 ----
-
+{% highlight python %}
 	# simplify constraint setup
 	import maya.cmds as cmds
 	import re
@@ -115,5 +115,5 @@ To use it, copy the below and paste it into a new shelf button as a PYTHON scrip
 			message("Cannot find the constraint.\nEnsure the constraint is under the object in the outliner.")
 	else:
 		message("You can only select one object at a time.")
-
+{% endhighlight %}
 ----

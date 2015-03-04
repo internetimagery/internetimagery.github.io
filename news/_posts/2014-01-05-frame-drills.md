@@ -4,15 +4,15 @@ layout: post
 thumb: /img/posts/framedrills.png
 ---
 
-Finished my proof of concept (in a proof of concept state) [Frame Drills](http://internetimagery.com/frame_drills/).
+Finished my proof of concept (in a proof of concept state). The concept is that we learn to judge our sense of time in seconds and minutes. After all, that is precisely what we're using in our day to day lives.
 
-The concept is that we learn to judge our sense of time in seconds and minutes. After all, that is precisely what we're using in our day to day lives.
-
-Yet in animation we have to learn to work in frames.<!-- more -->
+Yet in animation we have to learn to work in frames.
 
 I see no difference between the two other than using a different metric, and a mark of experience is when an animator is capable of thinking in frames as freely as they do in seconds.
 
 How can we fast track this experience? >:)
+
+__[Frame Drills](http://internetimagery.com/frame_drills/)__
 
 One way is to repeditively be quizzed on our timing comprehension. Then one can either work out personal methods to use for accurately figuring out timing (like counting a second, and judging how much more or less than a second the answer is), or hopefully with enough repition one can learn it intuitively. This is what Frame Drills attempts to do.
 

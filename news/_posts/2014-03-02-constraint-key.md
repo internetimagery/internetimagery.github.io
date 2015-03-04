@@ -44,8 +44,10 @@ To run the script, first unzip and put the file into your scripts folder.
 
 Then using Python in the script editor of maya type:
 
+{% highlight python %}
 	import constraintkey
 	constraintkey.GUI()
+{% endhighlight %}
 
 To run the constraints more directly, you can replace GUI with the following:
 

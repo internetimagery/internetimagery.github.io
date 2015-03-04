@@ -18,6 +18,7 @@ So here is a simple script to help with that!
 
 In your shelf editor, simply make a new shelf button with this PYTHON code:
 
+{% highlight python %}
 	# Combine nurbs curves into one single nurbs shape!
 	import maya.cmds as cmds
 	sel = cmds.ls( sl=True ) # Grab the current selection...
@@ -31,6 +32,7 @@ In your shelf editor, simply make a new shelf button with this PYTHON code:
 		cmds.select( parent )
 	else:
 		cmds.confirmDialog(t='Yeah, nah bro.', m="You need to select more than one curve to combine them.")
+{% endhighlight %}
 
 Then select all the curves you wish to combine and hit the button! Time Saved!
 
@@ -50,6 +52,7 @@ Select **ONE** object and a locator will be created, with the object parented to
 
 Select **TWO** objects and a locator will be parented to the first object, and constrained to the second object.
 
+{% highlight python %}
 	# One object selected: Parent object to a Locator.
 	# Two objects selected: Set up locator on first object and parent second to the locator.
 	import maya.cmds as cmds
@@ -82,3 +85,4 @@ Select **TWO** objects and a locator will be parented to the first object, and c
 			cmds.confirmDialog(t='Yeah, nah bro.', m="You have nothing selected.\n\nOne object selected: Parent object to a Locator.\nTwo objects selected: Set up locator on first object and parent second to the locator.")
 	else:
 		cmds.confirmDialog(t='Yeah, nah bro.', m="You selected heaps as!\nJust select one or two objects.")
+{% endhighlight %}

@@ -37,8 +37,10 @@ The GUI is there to showcase and provide some simple functionality of the Spaces
 
 Invoke this GUI with this code (you can set it up as a shelf script/ hotkey / or just put it into the scrip editor in Maya):
 
+{% highlight python %}
     import spacesGUI
     spaceGUI.GUI()
+{% endhighlight %}
 
 This will run the UI script pictured above.
 

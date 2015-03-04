@@ -22,8 +22,10 @@ Sure you COULD do that. You know... if you're not lazy.<!-- more -->
 Running the script is easy. Download the file above. Unzip and place the resulting files into your maya script folder.
 Place this Python code into a shelf icon, or simply run it from the script window.
 
+{% highlight python %}
 	import clicktime
 	clicktime.GUI()
+{% endhighlight %}
 
 ####DONE.
 

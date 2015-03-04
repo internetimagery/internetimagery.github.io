@@ -16,8 +16,10 @@ Having used the scripts through a full shot there were a few little oddities I n
 
 Updated the code to run the script to more accuractly stick to conventions
 
+{% highlight python %}
 	import Gooey_Lever
 	Gooey_Lever.GUI()
+{% endhighlight %}
 
 ----
 
