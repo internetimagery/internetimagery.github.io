@@ -256,7 +256,7 @@ a.blog-post:hover{
 .box>img {
   position: relative;
   display: block;
-  width: 400px;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
