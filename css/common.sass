@@ -10,6 +10,7 @@ $green: #286d0a
 $light-green: #cfeb8d
 $cream: #f3f0e0
 $yellow: #f8e85f
+$white: white
 
 
 // ELEMENTS
@@ -233,37 +234,39 @@ pre
 	display: inline-block
 
 // BLOG LISTINGS
-a.blog-post
-	clear: left
-	overflow: hidden
-	font-style: normal
-	color: black
-	position: relative
-	display: block
-	min-height: 100px
-	-webkit-transition: background 0.5s ease
-	-o-transition: background 0.5s ease
-	transition: background 0.5s ease
-	&:hover
-		text-decoration: none
-
 .blog-post
-	&>.image, &>.go
-		float: left
-		margin-right: 10px
+	position: relative
+	min-height: 120px
+	margin-top: 15px
+	.image-container
+		height: 100px
 		width: 100px
-	&>.text
-		margin-top: 10px
+		border-radius: 100px
+		overflow: hidden
+		background: $white
+		position: absolute
+		border: 5px solid $white
+		box-shadow: 0px 1px 1px rgba(0,0,0,0.8), 0px 2px 3px rgba(0,0,0,0.3)
+		top: 0px
+		right: -50px
+		// ALIGN VERTICALLY
+		text-align: center
+		font: 0/0 a
+		&:before
+			content: ' '
+			display: inline-block
+			vertical-align: middle
+			height: 100%
+		img
+			vertical-align: middle
+			display: inline-block
 
-.blog-post.light
-	background: $cream
-	&:hover
-		background: #fffcea
-
-.blog-post.dark
-	background: #e9e5d6
-	&:hover
-		@extend .blog-post.light:hover
+	.text
+		position: absolute
+		left: 0px
+		right: 70px
+		.date
+			font-style: italic
 
 .post-meta
 	font-style: italic
