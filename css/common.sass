@@ -116,7 +116,11 @@ pre
 	left: 0px
 
 #brass2
-	@extend #brass1
+	height: 66px
+	width: 27px
+	background-image: url("{{ "/img/site/fancy_banner/brass_buckle.png" | prepend: site.baseurl }}")
+	position: absolute
+	top: 0px
 	background-position: 0px 0px
 	right: 0px
 
@@ -268,18 +272,18 @@ pre
 		.date
 			font-style: italic
 
-.img-align
-	position: relative
-	text-align:center
-	font: 0/0 a
-	&:before
-		content: ' '
-		display: inline-block
-		vertical-align: middle
-		height: 100%
-	img
-		vertical-align: middle
-		display: inline-block
+// .img-align
+// 	position: relative
+// 	text-align:center
+// 	font: 0/0 a
+// 	&:before
+// 		content: ' '
+// 		display: inline-block
+// 		vertical-align: middle
+// 		height: 100%
+// 	img
+// 		vertical-align: middle
+// 		display: inline-block
 
 .post-meta
 	font-style: italic
