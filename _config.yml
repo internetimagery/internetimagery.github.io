@@ -8,6 +8,9 @@ github_username:  internetimagery
 exclude:
   - working
 
+# Syntax highlighting
+pygments: true
+
 # Build settings
 markdown: kramdown
 
