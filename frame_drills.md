@@ -3,6 +3,7 @@ navigation: true
 layout: null
 thumb: /img/nav/framedrill_button.png
 tite: Frame Drills
+permalink: frame-drills/index.html
 ---
 <!DOCTYPE html>
 <html lang=en>
