@@ -6,6 +6,7 @@ title: Imagery on the web.
 
 <blockquote>A collection of thoughts and projects. Mostly animation related.</blockquote>
 
+<h3>Recent Happenings</h3>
 <hr>
 {% for post in site.categories.news %}
 {% if forloop.index < 5 %}
@@ -14,7 +15,7 @@ title: Imagery on the web.
 {% endfor %}
 
 
-<p><strong><a href="/news">More News items --></a></strong></p>
+<p><a href="/news" class="btn btn-info" > More News items --> </a></p>
 
 <p><a href="https://plus.google.com/110232976632236787476" rel="publisher">Google+</a> or <span class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span></p>
 
