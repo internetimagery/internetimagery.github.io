@@ -24,9 +24,9 @@ This script alters the license on each save. So when you save and leave the file
 * Unzip the file (license_fix) and move it into your scripts directory.
 * Create a shelf icon with the following _PYTHON_ code:
 
-``` python
+{% highlight python %}
 import license_fix
-```
+{% endhighlight %}
 
 Then simply click your shelf button when you load up Maya. The script will run in the background until you next close maya. :)
 
@@ -40,9 +40,9 @@ Same steps as above...
 * Unzip the file (remote_texture) and place it in your scripts directory.
 * Create a shelf icon with the following code:
 
-``` python
+{% highlight python %}
 import remote_texture
-```
+{% endhighlight %}
 
 Click the shelf icon to set the script running. This one also will continue to run in the background until maya is shut down.
 
