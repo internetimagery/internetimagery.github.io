@@ -50,4 +50,6 @@ Click the shelf icon to set the script running. This one also will continue to r
 * Copy the web address (it will end with .jpg .png etc).
 * Edit your texture, or create a new one. Pasting the website into the filename for the texture.
 
+<div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="https://www.youtube.com/embed/Q5piSnQkePA" frameborder="0" allowfullscreen></iframe></div>
+
 Have fun taking all the images!!
