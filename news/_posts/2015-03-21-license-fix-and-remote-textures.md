@@ -4,8 +4,6 @@ layout: post
 thumb: /img/posts/web-hosting-reviews.png
 ---
 
-# Another couple of small scripts for Maya.
-
 I've had some time, and what better way to spend it than filling some small annoying holes in Maya workflow (actually I'm sure there are many better things to do, yet here we are).
 
 First up...
