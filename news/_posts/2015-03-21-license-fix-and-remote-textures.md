@@ -12,7 +12,7 @@ First up...
 
 Ever play around with file referencing? If not, you really should. It's a great workflow... However there is one caveat. If you're running the student version of Maya, you get one of those student popups for each and every file referenced in. 
 
-    Ideally Maya would throw a SINGLE popup if ANY of the files, in use or referenced were used by students.
+>Ideally Maya would throw a SINGLE popup if ANY of the files, in use or referenced were used by students.
 
 So this is where this script comes in. You can't prevent the popup entirely (go buy the full version!) but you can prevent it from firing on each and every referenced file.
 
