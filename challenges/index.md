@@ -10,7 +10,9 @@ thumb: /img/nav/challenges_button.png
 
 ####2015
 
-* [The Great Daily Pose Challenge 3!](https://plus.google.com/events/c77etenja24c2kmb1nakbqa5rjs) (12th January - 16th March) **[ACTIVE]**
+* [The Great Daily Pose Challenge 4!](https://plus.google.com/events/c7mod2ko0em732btdblu6kmek1o) (6th April - 14th June) **[PENDING]**
+
+* [The Great Daily Pose Challenge 3!](https://plus.google.com/events/c77etenja24c2kmb1nakbqa5rjs) (12th January - 16th March) **[COMPLETE]**
 
 ----
 
