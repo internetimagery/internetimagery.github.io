@@ -6,6 +6,10 @@ thumb: /img/posts/dock_window.jpg
 
 I've been making a few Maya scripts here and there. Cobbling together code from various google searches and figuring things out on my own. There were a number of aspects to Docking windows I never found online and had to figure out myself. So I've made a template to get started.
 
+There are a few tricks in here. Such as keeping windows from doubling up, and ensuring the docked window closes itself like a regular window. But you don't have to worry about that. :)
+
+Just chuck the below code into your script and play around.
+
 ###Quick Start Template
 
 [You can find the most up to date code here...](https://gist.github.com/internetimagery/dd0959a19e5fe9e0a8cf)
@@ -79,4 +83,4 @@ class MainWindow(object):  # Main GUI window
 MainWindow()
 {% endhighlight %}
 
-Copy it into a script file and play around. :)
+There we have it. Hope it helps! :)
