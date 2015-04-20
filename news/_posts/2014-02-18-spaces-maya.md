@@ -5,7 +5,7 @@ thumb: /img/posts/spaces.jpg
 ---
 Phew... made my second script for Maya. This one was a bit complicated. So lets get into it...<!-- more -->
 
-__[DOWNLOAD](https://github.com/internetimagery/spacesGUI/releases)__
+__Download: <download>spacesGUI</download>__
 
 This script is actually three scripts. [spacesGUI.py](#spacesGUI), [spaces.py](#spaces) and smartselection.py. The Spaces script handles all the functions dealing with Spaces, for use in scripts or hotkeys (explained later, use in your own scripts!). Meanwhile the GUI script is a UI that uses some functions in the Spaces script. The smart selection script just deals with making selections. Some other scripts I've made share that file. Make sense? No? READ ON!
 

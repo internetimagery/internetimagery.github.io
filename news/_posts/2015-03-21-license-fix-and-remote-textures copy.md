@@ -20,7 +20,7 @@ This script alters the license on each save. So when you save and leave the file
 
 ####Install
 
-* First things first. __[DOWNLOAD THE SCRIPT FROM HERE](https://github.com/internetimagery/license_fix/releases)__ by clicking on the "source.zip" button.
+* First things first. __DOWNLOAD THE SCRIPT FROM HERE: <download>license_fix</download>]__.
 * Unzip the file (license_fix) and move it into your scripts directory.
 * Create a shelf icon with the following _PYTHON_ code:
 
@@ -36,7 +36,7 @@ Sometimes you find an image online you really need in your scene. Or you're inte
 
 Same steps as above...
 
-* __[DOWNLOAD THE SCRIPT HERE](https://github.com/internetimagery/remote_texture/releases)__
+* __DOWNLOAD THE SCRIPT HERE: <download>remote_texture</download>__
 * Unzip the file (remote_texture) and place it in your scripts directory.
 * Create a shelf icon with the following code:
 

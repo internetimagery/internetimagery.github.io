@@ -12,7 +12,7 @@ Just chuck the below code into your script and play around.
 
 ###Quick Start Template
 
-[You can find the most up to date code here...](https://gist.github.com/internetimagery/dd0959a19e5fe9e0a8cf)
+####[You can find the most up to date code here...](https://gist.github.com/internetimagery/dd0959a19e5fe9e0a8cf)
 
 {% highlight python %}
 ##############################################
@@ -21,22 +21,29 @@ Just chuck the below code into your script and play around.
 # Jason Dixon (jason.dixon.email[AT]gmail.com)
 ##############################################
 import maya.cmds as cmds
+from functools import wraps
 import sys
 
 
-def window(win):  # Only keep one window open at a time
-    windows = {}
+def unique(item):
+    """
+    Only keep one window open at a time
+    """
+    items = {}
+    
+    @wraps(item)
+    def UniqueItem(*args, **kwargs):
+        if (item in items and sys.getrefcount(items[item]) < 3) or item not in items:
+            items[item] = item(*args, **kwargs)
+        return items[item]
+    return UniqueItem
 
-    def openWindow():
-        if (win in windows and sys.getrefcount(windows[win]) < 3) or win not in windows:
-            windows[win] = win()
-        return windows[win]
-    return openWindow
 
-
-@window
-class MainWindow(object):  # Main GUI window
-
+@unique
+class MainWindow(object):
+    """
+    Main GUI Window
+    """
     def __init__(self):
         self.GUI = {}  # Store GUI elements
         title = "My Window"

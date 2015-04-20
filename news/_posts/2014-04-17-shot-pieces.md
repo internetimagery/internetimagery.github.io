@@ -7,13 +7,15 @@ The maya script, Shot Pieces.
 
 Sometimes you want to jump around your shot to work on, or isolate certain sections. This script provides an interface to save and retrieve different timeline selections.<!-- more -->
 
-####[You can download the script HERE!](https://github.com/internetimagery/shot_pieces/releases)
+####You can download the script here: <download>shot_pieces</download>
 
-To run the script, simply place the file in your scripts folder and create a shelf icon with the following:
+Download the above script. Drag and drop it into the Maya viewport to install.
+
+Either use the provided shelf button, or create a shelf icon with the following:
 
 {% highlight python %}
-import shotpieces
-shotpieces.GUI()
+import shot_pieces
+shot_pieces.GUI()
 {% endhighlight %}
 
 ###HOW TO USE IT

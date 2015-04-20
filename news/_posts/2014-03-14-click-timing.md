@@ -13,7 +13,7 @@ Sure you COULD do that. You know... if you're not lazy.<!-- more -->
 
 ...and so this script was born!
 
-####[You can DOWNLOAD this script here.](https://github.com/internetimagery/clicktime/releases)
+####You can DOWNLOAD this script here: <download>clicktime</download>
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/eeTAOZToL1M?rel=0" frameborder="0" allowfullscreen></iframe></div>
 

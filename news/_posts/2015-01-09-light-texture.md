@@ -6,7 +6,7 @@ thumb: /img/posts/studio_light.jpg
 
 A seemingly obscure but really awesome technique to light your shots is found in the render setting "Final Gather" allowing you to light your scene as though you were using studio lighting. Using little more than a dome of light, a shot can be lit with amazingly soft clean shadows.
 
-This script automates the process of setting it up!<!-- more -->
+This script automates the process of setting it up!
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube.com/embed/4zGCICXDC0o" frameborder="0" allowfullscreen></iframe></div>
 

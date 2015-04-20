@@ -9,7 +9,7 @@ It's designed to check for technical issues with your keyframes, so you don't ha
 
 ###KEEP YOUR SANITY
 
-####[You can download the script HERE.](https://github.com/internetimagery/animsanity/releases)
+####[You can download the script HERE: <download>animsanity</download>
 
 To install the script, place the contents of the zip into your scripts folder. If you already have a smartselection.py file, it's ok to replace it. Multiple scripts use the same file.
 
