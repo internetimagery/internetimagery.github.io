@@ -25,7 +25,7 @@ title: Animation Showreel
     
     <li>
         <img src="thumb_cliff.jpg" alt="Playdough">
-        <p>Part of a greater set of challenges, a couple of creatures use teamwork to scale a cliff.<br/>Responsible for all    animation.</p>
+        <p>Part of a greater set of challenges, a couple of creatures use teamwork to scale a cliff.<br/>Responsible for all animation.</p>
     </li>
     
     <li>
@@ -38,3 +38,4 @@ title: Animation Showreel
         <p>Nerdy guy gets caught mentally preparing to propose to a co-worker.<br/>Responsible for all animation.</p>
     </li>
 </ol>
+<br/>
