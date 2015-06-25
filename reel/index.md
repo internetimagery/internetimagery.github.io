@@ -7,32 +7,34 @@ title: Animation Showreel
 
 ### Shot Breakdowns
 
-![reelthumb](thumb_playdough.png)
-
-    Mother attempts to cheer up her sad daughter.
-    Responsible for all animation.
-
-![reelthumb](thumb_soldier.png)
-
-    Soldier comes home from war. Noises bring back memories...
-    Responsible for all animation.
-
-![reelthumb](thumb_door_block.png)
-
-    Girl getting chased, frantically tries to halt her pursuer.
-    Responsible for all animation.
-
-![reelthumb](thumb_cliff.png)
-
-    Part of a greater set of challenges, a couple of creatures use teamwork to scale a cliff.
-    Responsible for all animation.
-
-![reelthumb](thumb_dog.png)
-
-    A couple dog cycles. Walk and Trot.
-    Responsible for all animation.
-
-![reelthumb](thumb_proposal.png)
-
-    Nerdy guy gets caught mentally preparing to propose to a co-worker. Doesn't go down too well.
-    Responsible for all animation.
+<ol class="reelshots">
+    <li>
+        <img src="thumb_playdough.jpg" alt="Playdough">
+        <p>Mother attempts to cheer up her sad daughter.<br/>Responsible for all animation.</p>
+    </li>
+    
+    <li>
+        <img src="thumb_soldier.jpg" alt="Playdough">
+        <p>Soldier comes home from war. Noises bring back memories...<br/>Responsible for all animation.</p>
+    </li>
+    
+    <li>
+        <img src="thumb_door_block.jpg" alt="Playdough">
+        <p>Girl getting chased, frantically tries to halt her pursuer.<br/>Responsible for all animation.</p>
+    </li>
+    
+    <li>
+        <img src="thumb_cliff.jpg" alt="Playdough">
+        <p>Part of a greater set of challenges, a couple of creatures use teamwork to scale a cliff.<br/>Responsible for all    animation.</p>
+    </li>
+    
+    <li>
+        <img src="thumb_dog.jpg" alt="Playdough">
+        <p>A couple dog cycles. Walk and Trot.<br/>Responsible for all animation.</p>
+    </li>
+    
+    <li>
+        <img src="thumb_proposal.jpg" alt="Playdough">
+        <p>Nerdy guy gets caught mentally preparing to propose to a co-worker.<br/>Responsible for all animation.</p>
+    </li>
+</ol>
