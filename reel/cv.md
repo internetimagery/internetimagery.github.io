@@ -5,6 +5,8 @@ title: Curriculum Vitae
 
 {% include social.html %}
 
+# Page is currently a work in progress!
+
 ### Work History
 
 History | Description | Date
