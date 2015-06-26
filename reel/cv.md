@@ -16,5 +16,5 @@ Someplace | Someplace else | also somewhere
 
 ### Education
 
-Institution | Description | Date
+<i class="fa fa-map-marker"></i> Institution | Description | Date
 
