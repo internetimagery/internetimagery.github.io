@@ -8,6 +8,8 @@ title: Curriculum Vitae
 ### Work History
 
 History | Description | Date
+--- | --- | ---
+Someplace | Someplace else | also somewhere
 
 
 ### Education
