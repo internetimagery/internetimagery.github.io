@@ -5,7 +5,12 @@ title: Animation Showreel
 
 <div class="js-video [vimeo, widescreen]"><iframe src="https://player.vimeo.com/video/131877881" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-####[Want to chat? Click here. Lets talk. :)](mailto:jason.dixon.email@gmail.com)
+<div class="centered">
+    {% include social.html %} <br/>
+    <a href="{{ "/reel/cv.html" | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i> Curriculum Vitae</a><br/>
+    I'm always on the lookout for more opportunities. Need to bring a little life to your project? Please, get in touch. 
+    <i class="fa fa-smile-o"></i>
+</div>
 
 ### Shot Breakdowns
 
