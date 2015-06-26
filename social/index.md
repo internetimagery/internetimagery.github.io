@@ -11,9 +11,9 @@ layout: page
     <strong>Hi there. Join me across the internet wont you? :)</strong>
 </p>
 
-<p class="centered">
+<h3 class="centered">&nbsp;&nbsp;&nbsp;&nbsp;
     {% include social.html %}
-</p>
+</h3>
 
 * Also check out [Animation Elevation](http://animationelevation.com). A community site dedicated to massing animation learning materials.
 * Check out my [Animation Demo Reel](/reel). Perhaps you need some work done? Let me know. :)
