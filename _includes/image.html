@@ -1,10 +1,12 @@
 <!-- link = url, img = picture, caption = date -->
 <div class="row-fluid">
     <div class="span8 offset2">
-        <a href="{{ include.link }}"><img src="{{ include.img | prepend: site.baseurl }}">
+        <a href="{{ include.link }}"><img src="{{ include.img | prepend: site.baseurl }}" class="centered-block">
+        {% if include.caption %}
         <blockquote class="centered">
             {{ include.caption }}
         </blockquote>
+        {% endif %}
         </a>
     </div>
 </div>
