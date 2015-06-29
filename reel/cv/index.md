@@ -3,11 +3,14 @@ layout: page
 title: Curriculum Vitae
 ---
 
-{% include social.html %}
+## This is where I've been. Drop me a line. Influence where I go.
 
-Hello there
 
-# Page is currently a work in progress!
+<div class="centered">
+    This is where I've been. Drop me a line. Influence where I go.<br/>
+    <i class="fa fa-smile-o"></i><br/>
+    {% include social.html %}
+</div>
 
 ### Work History
 
@@ -15,13 +18,13 @@ Hello there
     <thead>
         <tr>
             <td class="centered">
-                Workplace
+                <i class="fa fa-briefcase"></i>
             </td>
             <td class="centered">
-                Description
+                <i class="fa fa-comment"></i>
             </td>
             <td class="centered">
-                Date
+                <i class="fa fa-calendar"></i>
             </td>
         </tr>
     </thead>
@@ -96,13 +99,13 @@ Hello there
     <thead>
         <tr>
             <td class="centered">
-                <i class="fa fa-map-marker"></i> Institute
+                <i class="fa fa-graduation-cap"></i>
             </td>
             <td class="centered">
-                Description
+                <i class="fa fa-comment"></i>
             </td>
             <td class="centered">
-                Date
+                <i class="fa fa-calendar"></i>
             </td>
         </tr>
     </thead>
@@ -133,3 +136,5 @@ Hello there
         </tr>
     </tbody>
 </table>
+<br/>
+<img class="centered-block" src="/img/posts/Mythminders.jpg" width="300px"><br/><em>Mythminders - 2/3 Productions</em>
