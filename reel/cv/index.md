@@ -3,12 +3,10 @@ layout: page
 title: Curriculum Vitae
 ---
 
-## This is where I've been. Drop me a line. Influence where I go.
-
+<img class="centered-block" src="/img/posts/mint-transparent.png" width="200px">
 
 <div class="centered">
     This is where I've been. Drop me a line. Influence where I go.<br/>
-    <i class="fa fa-smile-o"></i><br/>
     {% include social.html %}
 </div>
 
@@ -34,7 +32,8 @@ title: Curriculum Vitae
                 <img src="/reel/cv/thumbs/warnerbros.png"><br/>Warner Bros International
             </td>
             <td class="centered">
-                Contract; Full Time. Multitasking media management being the primary skill, I’ll be using anywhere between one and eight computers in conjunction to transcode media for editing. Also ensuring sky channels do not fail to function, the shows run on time, and also the necessary skills to fix an issue should it occur.
+                Dealing with overnight media management and multitasking between many computers for the production crew is the name of the game here! Also monitoring and rectifying any channel playout outages while on shift.
+                Computer skills and problem solving has come very much in handy!
             </td>
             <td class="centered">
                 <strong>TODAY</strong><br/>
@@ -46,7 +45,7 @@ title: Curriculum Vitae
                 <img src="/reel/cv/thumbs/twothirds.png"><br/>Two Thirds Productions
             </td>
             <td class="centered">
-                Contract. Working within a small team, animating, modeling and rigging 3D characters for use in short films. Decently long hours and some overnighters.
+                Compromised mostly of people I'd worked with while contracted to Whitegloves. Our small team created a couple of short films. Modeling, rigging and animating. Decently long hours and plenty of overnighters. Ah yes, those things!
             </td>
             <td class="centered">
                 January 2011<br/>
@@ -58,7 +57,8 @@ title: Curriculum Vitae
                 <img src="/reel/cv/thumbs/tropicana.png"><br/>Tropicana
             </td>
             <td class="centered">
-                Part Time. Great customer service skills necessary for waiting at this restaurant and bar. In particular as it is a south african bar which receives a diverse cultural customer mix. Due to the small nature of the bar, time management and multitasking skills are put to use more frequently than they may have otherwise be. Some small work is done behind the bar.
+                Jumped into a small family resturaunt and bar, co-serving with a good friend. A southafrican bar ment a diverse cultural customer mix, and presented certain communication challenges to overcome. Retail certainly helped with that. :)
+                Due to the small size of the shop, the job involved wearing many hats behind the bar and out at tables.
             </td>
             <td class="centered">
                 September 2010<br/>
@@ -70,7 +70,8 @@ title: Curriculum Vitae
                 <img src="/reel/cv/thumbs/dicksmith.png"><br/>Dick Smiths
             </td>
             <td class="centered">
-                Full Time. Sales role by technicality, though I end up doing a lot of the tech support for both the store and customers. The position also involves ordering items from other stores, organizing couriers for customers, troubleshooting in a quick and timely manner, and the ability to organize all of the many third party options the company has dealings with. Most notably, Finance, Equipment rental, Service call-outs, sending items to their respective manufacturer for warranty and all the different independent systems they each employ to do it.
+                Everyone needs a taste of retail! Sales role in an electronics store. I would like to say that I was the top salesman (that hat goes to a chinese guy that said "yes" to everyone, leading to many returns!), however most of my time ended up being spent fixing technical issues for customers and staff alike.
+                The position also involved sorting out couriers and processing orders, dealing with finance companies, organizing service callouts and facilitating equipment rentals.
             </td>
             <td class="centered">
                 January 2010<br/>
@@ -82,7 +83,7 @@ title: Curriculum Vitae
                 <img src="/reel/cv/thumbs/whitegloves.png"><br/>White Gloves Productions
             </td>
             <td class="centered">
-                Contract. Worked within a small team. Took the lead with one other person organising systems and techniques to achieve success. Animated, modeled and rigged the main characters for a pilot episode of Myth Minders. Was deeply involved in troubleshooting problems as they arose.
+                Joined onto a small team after graduating Freelance, creating a pilot episode for a CG kids show. I assisted in modeling, rigging and animating the characters. Deeply involved in troubleshooting issues.
             </td>
             <td class="centered">
                 August 2007<br/>
@@ -115,7 +116,7 @@ title: Curriculum Vitae
                 <img src="/reel/cv/thumbs/animationmentor.png"><br/>Animation Mentor
             </td>
             <td class="centered">
-                AM description here
+                Gave me my first taste of Autodesk Maya. A great course lazer focused on Animation, taught by many professionals currently working in the largest studios in the world. On the side I learned Python and scripted up a number of tools that students have used since. I have also contributed to the community with The Great Pose a day Challenge.
             </td>
             <td class="centered">
                 June 2015<br/>
@@ -127,7 +128,7 @@ title: Curriculum Vitae
                 <img src="/reel/cv/thumbs/freelance.png"><br/>Freelance Animation School
             </td>
             <td class="centered">
-                Study. A three year Diploma on 3D character animation, which involves not only animation but other skills relevant to the industry. Design, Colour grading, Life Drawing and 2D hand drawn animation all get covered. I recieved the Diploma and also the top prize at the end of year prize giving (won a digital camera from that!).
+                A three year Diploma in 3D character animation. Turns out it included more of a generalist approach. Learning Modeling, Rigging, and Lighting above and beyond Animation. Also included a first year of 2D Animaition, and conitinued to provide Life Drawing throughout. I recieved the Diploma and the top overall prize for the graduating year at the ceremony.
             </td>
             <td class="centered">
                 December 2005<br/>
@@ -137,4 +138,4 @@ title: Curriculum Vitae
     </tbody>
 </table>
 <br/>
-<img class="centered-block" src="/img/posts/Mythminders.jpg" width="300px"><br/><em>Mythminders - 2/3 Productions</em>
+<img class="centered-block" src="/img/posts/Mythminders.jpg" width="300px">
