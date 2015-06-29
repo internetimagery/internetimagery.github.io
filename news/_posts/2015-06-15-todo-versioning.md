@@ -4,7 +4,9 @@ layout: post
 thumb: /img/posts/todo-long.jpg
 ---
 
-As computers have become faster and digital storage has become greater we have increasingly turned to version control programs to manage our work files. A GREAT idea, and amazing in practice (I wish I could version things outside the computer too! Like kids!). However they can be tricky for some, and unintuitive for others. I have made a simple script that helps work alongside some existing versioning programs or otherwise allows super simple to understand versioning to be automatic.
+As computers have become faster and digital storage has become greater we have increasingly turned to version control programs to manage our work files. A GREAT idea, and amazing in practice (I wish I could version things outside the computer too! Like kids!). However they can be tricky for some, and unintuitive for others.
+
+I have made a simple script that helps work alongside some existing versioning programs or otherwise allows super simple to understand versioning to be automatic.
 
 Why a TODO tool?
 
