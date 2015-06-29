@@ -31,7 +31,11 @@ In the settings screen you have a few different archive options. Each option tic
 
 Tick the File Archive box to use it, and click the folder icon to pick a folder for archives. Once ticked, each and every TODO task that is completed will cause a new saved file to appear in that folder. Named appropriately. If you ever need to go back to a previous version of your working file, you can simply un-zip the desired file from the archive folder, and replace your working file with that one.
 
-When working with GIT or AMP and saving the file, it will check the file into the appropriate program, setting the comment as the todos text for you. 
+When working with GIT or AMP and saving the file, it will check the file into the appropriate program, setting the comment as the todos text for you.
+
+Here is a video demonstrating installation and AMP usage:
+
+<div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/fS2wIXnUBEU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 ###Advanced Stuff
 
