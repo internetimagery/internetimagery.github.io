@@ -5,7 +5,7 @@ title: Follow me across the interwebs
 layout: page
 ---
 
-{% include image.html img="/img/site/twinlogo.svg" %}
+{% include image.html img="/img/site/twinlogo.svg" link="https://youtu.be/UTaUvCRC1yM" %}
 
 <p class="centered">
     <strong>Hi there. Join me across the internet wont you? :)</strong>
