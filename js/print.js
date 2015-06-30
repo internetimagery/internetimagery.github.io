@@ -3,7 +3,8 @@ var printview;
 
 printview = (function(_this) {
   return function() {
-    alert("HERE");
-    return $(".printhide".hide());
+    alert("Entering Print View.\nReload page to exit.");
+    $("body").children().hide();
+    return $("#desktop").prependTo($("body")).show();
   };
 })(this);

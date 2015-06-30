@@ -1,4 +1,10 @@
 printview = ()=>
-    alert "HERE"
-    $ ".printhide".
-    hide()
+    alert "Entering Print View.\nReload page to exit."
+
+    $ "body"
+    .children()
+    .hide()
+
+    $ "#desktop"
+    .prependTo $ "body"
+    .show()
