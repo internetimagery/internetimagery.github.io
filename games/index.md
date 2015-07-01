@@ -5,7 +5,7 @@ title: Nifty and awesome games!
 layout: page
 ---
 
-{% include image.html img="/img/site/twinlogo.svg" link="https://youtu.be/UTaUvCRC1yM" %}
+<img class="centered-block" src="/img/posts/mountain.png" width="200px">
 
 ###Please, have a squiz at the games below
 
