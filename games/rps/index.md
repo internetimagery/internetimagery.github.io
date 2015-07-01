@@ -8,7 +8,7 @@ layout: page
 # Rock Paper Snap
 
 A clever twist on the traditional games of Snap and Rock Paper Scissors. _Quick hands are the name of the game!_
-Instead of matching two of the same card, you must _"SNAP"_ when the newly placed card beats the one below in a rock-paper-scissors matchup. Another prototype I'm working on, as both a digital game and also physical cards.
+Instead of matching two of the same card, you must _"SNAP"_ when the newly placed card beats the one below in a rock-paper-scissors matchup. Another prototype I'm working on (very simple concept), as both a digital game and also physical cards.
 
 I've done all art, design, etc etc... exception being music.
 
