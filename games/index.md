@@ -5,7 +5,7 @@ title: Nifty and awesome games!
 layout: page
 ---
 
-<img class="centered-block" src="/img/posts/mountain.png" width="200px">
+<img class="centered-block" src="/img/posts/mountain.png" width="300px">
 
 ###Please, have a squiz at the games below
 
@@ -18,3 +18,7 @@ layout: page
 #### [Spaceship Sports](/games/sss)
 
 > Well into the future, mankinds waste has reached truly earth shattering levels. Turns out capitalism is no good for the environment eh? But wait! If there were a financial insentive to clean up the cruft, we might yet survive. Enter Spaceship Sports. An experiemental prototype I've been making that is a cross between a soccer penalty shoot out and asteroids. Check it out! :)
+
+#### [Rage Quit](/games/ragequit)
+
+> A game I began doing art for. Unfortunately it kinda stopped... Ah well, the art remains! :)

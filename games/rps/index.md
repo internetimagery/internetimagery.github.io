@@ -16,5 +16,6 @@ I've done all art, design, etc etc... exception being music.
 
 <iframe class="centered-block" width="420" height="315" src="https://www.youtube.com/embed/O11lhzdJEr4" frameborder="0" allowfullscreen></iframe>
 
+<img class="centered-block" src="/games/rps/main-menu.png">
 
 <img class="centered-block" src="/games/rps/card-bottom.png" width="300px">
