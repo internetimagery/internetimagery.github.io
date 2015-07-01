@@ -7,11 +7,11 @@ layout: page
 
 # Spaceship Sports
 
-Well into the distant future, mankind's waste has reached truly earth shattering levels. Turns out capitalism is no good for the environment eh?
+Well into the distant future, mankind's waste has reached truly earth shattering levels. Turns out capitalism is no good for the environment eh? So we send it all up into space. Now space is also full of crap and is blocking out the sun. Funny that.
 
 But wait!
 
-If there were a financial insentive to clean up the cruft, we might yet survive. A new sport is born. Spaceship Sports. Pilots from all around compete by knocking debris across their rivals lifeline, using high tech weaponry, as specators watch.
+If there were a financial insentive to clean up the cruft, we might yet survive. A new creatively named sport is born. Spaceship Sports. Pilots from all around compete by knocking debris across their rivals lifeline, using high tech weaponry, as specators watch.
 
 An experiemental prototype I've been making that is a cross between a soccer penalty shoot out and asteroids.
 I've created all the art, animation, coding SFX, and well... all but the music and placeholder beachball!
