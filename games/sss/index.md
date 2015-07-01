@@ -18,6 +18,6 @@ I've created all the art, animation, coding SFX, and well... all but the music a
 
 (The red ship has twice as many guns. Easy-mode!)
 
-<iframe class="centered-block" width="420" height="315" src="https://www.youtube.com/embed/UJWC2d4dAy0" frameborder="0" allowfullscreen></iframe>
+<div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/UJWC2d4dAy0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <img class="centered-block" src="/games/sss/rocket_missile128x128.png">

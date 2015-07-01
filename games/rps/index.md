@@ -3,7 +3,7 @@ title: Rock Paper Snap!
 layout: page
 ---
 
-<img class="centered-block" src="/games/rps/logo.png" width="200px">
+<img class="centered-block" src="/games/rps/logo.png" width="300px">
 
 # Rock Paper Snap
 
@@ -14,8 +14,9 @@ I've done all art, design, etc etc... exception being music.
 
 <img class="centered-block" src="/games/rps/chips.png">
 
-<iframe class="centered-block" width="420" height="315" src="https://www.youtube.com/embed/O11lhzdJEr4" frameborder="0" allowfullscreen></iframe>
 
-<img class="centered-block" src="/games/rps/main-menu.png">
+<div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/O11lhzdJEr4?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<img class="centered-block" src="/games/rps/main-menu.jpg">
 
 <img class="centered-block" src="/games/rps/card-bottom.png" width="300px">

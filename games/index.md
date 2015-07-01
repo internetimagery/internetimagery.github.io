@@ -10,6 +10,10 @@ layout: page
 ###Please, have a squiz at the games below
 
 
+#### [Crashland Heroes](/games/crashland)
+
+> Currently in development. The game is a runner combined with a shooter. Many awesome challenges await!
+
 #### [Rock Paper Snap](/games/rps)
 
 > A clever twist on the traditional games of Snap and Rock Paper Scissors. Quick hands are the name of the game! Instead of matching two of the same card, you must "SNAP" when the newly placed card beats the one below in a rock-paper-scissors matchup. Another prototype I'm working on, as both a digital game and also physical cards.
