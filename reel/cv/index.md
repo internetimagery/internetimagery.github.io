@@ -6,7 +6,7 @@ title: Resume
 <img class="centered-block" src="/img/posts/mint-transparent.png" width="200px">
 
 <div class="centered">
-    <i class="fa fa-user"></i> 3D Character Animator, <i class="fa fa-map-marker"></i> Auckland, New Zealand<br/>
+    <i class="fa fa-user"></i> Character Animator, <i class="fa fa-map-marker"></i> Auckland, New Zealand<br/>
     {% include social.html %}
 </div>
 
@@ -14,7 +14,7 @@ title: Resume
 
 #### Summary
 
->I am a 3D character animator from the _99% pure_ country __New Zealand!__ Problem solving and adding life and believability to what would otherwise be a flat image, are my passions. If you have a project that needs love and TLC, get in touch. I can help it reach the next level.
+>I am a Character Animator from the _99% pure_ country __New Zealand!__ Problem solving and adding life and believability to what would otherwise be a flat image, are my passions. If you have a project that needs love and TLC, get in touch. I can help it reach the next level.
 
 #### Skills
 
@@ -32,7 +32,7 @@ title: Resume
     <tbody>
         <tr>
             <td>
-                3D Character Animation (Keyframe)
+                Character Animation (Keyframe)
             </td>
             <td>
                 Intermediate / Advanced
@@ -40,7 +40,7 @@ title: Resume
         </tr>
         <tr>
             <td>
-                3D Modeling
+                Modeling
             </td>
             <td>
                 Intermediate
@@ -64,7 +64,7 @@ title: Resume
         </tr>
         <tr>
             <td>
-                3D Texturing
+                Texturing
             </td>
             <td>
                 Beginner / Intermediate
