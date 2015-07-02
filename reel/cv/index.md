@@ -1,16 +1,92 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: Resume
 ---
 
 <img class="centered-block" src="/img/posts/mint-transparent.png" width="200px">
 
 <div class="centered">
-    This is where I've been. Drop me a line. Influence where I go.<br/>
+    <i class="fa fa-user"></i> 3D Character Animator, <i class="fa fa-map-marker"></i> Auckland, New Zealand<br/>
     {% include social.html %}
 </div>
 
+### Jason Dixon
+
+#### Summary
+
+>I am a 3D character animator from the _99% pure_ country __New Zealand!__ Problem solving and adding life and believability to what would otherwise be a flat image, are my passions. If you have a project that needs love and TLC, get in touch. I can help it reach the next level.
+
+#### Skills
+
+<table>
+    <thead>
+        <tr>
+            <td>
+                <i class="fa fa-wrench"></i> Skills
+            </td>
+            <td>
+                <i class="fa fa-bar-chart"></i> Proficiency
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                3D Character Animation (Keyframe)
+            </td>
+            <td>
+                Intermediate / Advanced
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3D Modeling
+            </td>
+            <td>
+                Intermediate
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Rigging
+            </td>
+            <td>
+                Intermediate
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Photo / Image manipulation
+            </td>
+            <td>
+                Intermediate
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3D Texturing
+            </td>
+            <td>
+                Beginner / Intermediate
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Programming (Python / HTML / CSS / Javascript)
+            </td>
+            <td>
+                Beginner / Intermediate
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 ### Work History
+
+<blockquote class="centered">
+    This is where I've been. Drop me a line. Influence where I go.<br/>
+</blockquote>
 
 <table>
     <thead>
@@ -95,6 +171,8 @@ title: Curriculum Vitae
 
 
 ### Education
+
+> Everywhere is a learning experience. But these are some of the places I've paid for the privelege. ;)
 
 <table>
     <thead>
