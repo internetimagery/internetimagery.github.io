@@ -40,6 +40,14 @@ title: Resume
         </tr>
         <tr>
             <td>
+                Photo / Image manipulation
+            </td>
+            <td>
+                Intermediate / Advanced
+            </td>
+        </tr>
+        <tr>
+            <td>
                 Modeling
             </td>
             <td>
@@ -56,18 +64,10 @@ title: Resume
         </tr>
         <tr>
             <td>
-                Photo / Image manipulation
-            </td>
-            <td>
-                Intermediate
-            </td>
-        </tr>
-        <tr>
-            <td>
                 Texturing
             </td>
             <td>
-                Beginner / Intermediate
+                Intermediate
             </td>
         </tr>
         <tr>
