@@ -78,8 +78,26 @@ title: Resume
                 Beginner / Intermediate
             </td>
         </tr>
+        <tr>
+            <td>
+                Operating Systems OSX / LINUX (Debian)
+            </td>
+            <td>
+                Intermediate / Advanced
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Windows
+            </td>
+            <td>
+                Intermediate
+            </td>
+        </tr>
     </tbody>
 </table>
+
+
 
 
 ### Work History
