@@ -1,5 +1,4 @@
 ---
-navigation: true
 thumb: /img/nav/reel_button.png
 layout: page
 title: Animation Showreel

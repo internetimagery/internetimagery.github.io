@@ -98,8 +98,6 @@ title: Resume
 </table>
 
 
-
-
 ### Work History
 
 <blockquote class="centered">
