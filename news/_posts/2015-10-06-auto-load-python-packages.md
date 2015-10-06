@@ -18,7 +18,7 @@ class Package(object):
     def __init__(s, local):
         import os.path
         s.cache = {}
-        s.local = local
+        s.local = dict((k, local[k]) for k in local)
         s.root = os.path.realpath(os.path.dirname(s.local["__file__"]))
     def __getattr__(s, k):
         if k in s.local: return s.local[k]
@@ -39,7 +39,7 @@ class Package(object):
     def __init__(s, local):
         import os.path
         s.cache = {}
-        s.local = local
+        s.local = dict((k, local[k]) for k in local)
         s.root = os.path.realpath(os.path.dirname(s.local["__file__"]))
     def __getattr__(s, k):
         if k in s.local: return s.local[k]
@@ -48,7 +48,8 @@ class Package(object):
         s.local["_sys"].path.insert(0, s.root)
         try:
             module = __import__(k)
-            s.cache[k] = getattr(module, k) if hasattr(module, k) else module
+            name = k[0].capitalize() + k[1:]
+            s.cache[k] = getattr(module, name) if hasattr(module, name) else module
         finally: s.local["_sys"].path[:] = path
         return s.cache[k]
 _sys.modules[__name__] = Package(locals())
