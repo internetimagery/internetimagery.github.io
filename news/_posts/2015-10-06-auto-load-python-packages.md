@@ -24,7 +24,7 @@ class Package(object):
         if k in s.local: return s.local[k]
         if k in s.cache: return s.cache[k]
         path = list(s.local["_sys"].path)
-        s.local["_sys"].path.insert(0, s.root)
+        s.local["_sys"].path = [s.root]
         try: s.cache[k] = __import__(k)
         finally: s.local["_sys"].path[:] = path
         return s.cache[k]
@@ -45,7 +45,7 @@ class Package(object):
         if k in s.local: return s.local[k]
         if k in s.cache: return s.cache[k]
         path = list(s.local["_sys"].path)
-        s.local["_sys"].path.insert(0, s.root)
+        s.local["_sys"].path = [s.root]
         try:
             module = __import__(k)
             name = k[0].capitalize() + k[1:]
