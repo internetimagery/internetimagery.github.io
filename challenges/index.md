@@ -11,7 +11,7 @@ Hello and welcome to The Great Daily Pose Challenge. The goal? To create a pose 
 ----
 
 ####2015
-{% include image.html caption="<strong>The Great Daily Pose Challenge 6!</strong> (5th October - 13th December) <strong>[ACTIVE]</strong>" img="/challenges/dailypose6.jpg" link="https://plus.google.com/events/csrpg3reo12pieloripn5d60a9k" %}
+{% include image.html caption="<strong>The Great Daily Pose Challenge 6!</strong> (5th October - 13th December) <strong>[COMPLETE]</strong>" img="/challenges/dailypose6.jpg" link="https://plus.google.com/events/csrpg3reo12pieloripn5d60a9k" %}
 
 {% include image.html caption="<strong>The Great Daily Pose Challenge 5!</strong> (6th July - 30th August)" img="/challenges/dailypose5.jpg" link="https://plus.google.com/events/cr15seuico4fbi364i3a38sgovk" %}
 
