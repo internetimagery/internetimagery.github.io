@@ -6,7 +6,7 @@ title: Resume
 <img class="centered-block" src="/img/posts/mint-transparent.png" width="200px">
 
 <div class="centered">
-    <i class="fa fa-user"></i> Character Animator, <i class="fa fa-map-marker"></i> Auckland, New Zealand<br/>
+    <i class="fa fa-user"></i> Technical Character Animator, <i class="fa fa-map-marker"></i> Auckland, New Zealand<br/>
     {% include social.html %}
 </div>
 
@@ -119,6 +119,31 @@ title: Resume
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <td class="centered">
+                <img src="/reel/cv/thumbs/theottoman.png"><br/>The Ottoman
+            </td>
+            <td class="centered">
+                Animator. Animating to a high quality in Cinema4D.
+            </td>
+            <td class="centered">
+                <strong>TODAY</strong><br/>
+                October 2015
+            </td>
+        </tr>
+        <tr>
+            <td class="centered">
+                <img src="/reel/cv/thumbs/dyingember.png"><br/>The Dying Ember Project
+            </td>
+            <td class="centered">
+                Technical Animator. Rigging and Animation. Maintaining rigs with feedback from our other animators.<br/>
+                Developing our pipeline and custom (python / maya) tools to accomplish our goals.<br/>
+            </td>
+            <td class="centered">
+                <strong>TODAY</strong><br/>
+                December 2014
+            </td>
+        </tr>
         <tr>
             <td class="centered">
                 <img src="/reel/cv/thumbs/warnerbros.png"><br/>Warner Bros International
