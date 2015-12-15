@@ -124,7 +124,7 @@ title: Resume
                 <img src="/reel/cv/thumbs/theottoman.png"><br/>The Ottoman
             </td>
             <td class="centered">
-                Animator. Animating to a high quality in Cinema4D.
+                3D Character Animator. Animating to a high quality in Cinema4D.
             </td>
             <td class="centered">
                 <strong>TODAY</strong><br/>
@@ -136,7 +136,7 @@ title: Resume
                 <img src="/reel/cv/thumbs/dyingember.png"><br/>The Dying Ember Project
             </td>
             <td class="centered">
-                Technical Animator. Rigging and Animation. Maintaining rigs with feedback from our other animators.<br/>
+                Technical Animator. Performing Rigging and Animation. Maintaining rigs with feedback from our other animators.<br/>
                 Developing our pipeline and custom (python / maya) tools to accomplish our goals.<br/>
             </td>
             <td class="centered">
@@ -149,8 +149,8 @@ title: Resume
                 <img src="/reel/cv/thumbs/warnerbros.png"><br/>Warner Bros International
             </td>
             <td class="centered">
-                Dealing with overnight media management and multitasking between many computers for the production crew is the name of the game here! Also monitoring and rectifying any channel playout outages while on shift.
-                Computer skills and problem solving has come very much in handy!
+                Overnight media management and multitasking between many computers for the Production and TV Playout crew.<br/>
+                Monitoring and rectifying any playout outages while on shift for some of the most highly watched sky channels.<br/>
             </td>
             <td class="centered">
                 <strong>TODAY</strong><br/>
