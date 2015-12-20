@@ -20,3 +20,4 @@ Have a peek. :)
 
 * [Simple Error Reporter](err_report)
 * [Animated Images in Maya](animated_images)
+* [Autoload modules](autoload)
