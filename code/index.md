@@ -10,6 +10,10 @@ Below are a number of small utility tools I've created. Most of them for Maya.
 
 Have a peek. :)
 
-## Snippets
+### Tools
 
-#### [Simple Error Reporter](err_report.html)
+* [IK-Like Orient Rig](ikorient)
+
+### Snippets
+
+* [Simple Error Reporter](err_report)

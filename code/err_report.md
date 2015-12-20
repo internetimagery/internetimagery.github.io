@@ -24,7 +24,7 @@ with Report():
 
 Wrap the outermost code that will run and any errors passing through will prompt the user to email a brief report. The report is brief (would prefer to use cgitb) as there is a small finite limit to "mailto:" urls.
 
-For small time reporting it does its job. :)
+For general purpose, easy, small time reporting it does its job. :)
 
 {% highlight python %}
 # Simple Error report mechanism squeezing into mailto: character limit
