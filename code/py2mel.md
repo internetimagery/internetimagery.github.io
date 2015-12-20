@@ -17,13 +17,20 @@ py2mel.py -input <inputFile> -output <outputFile>
 
 {% highlight python %}
 #!/usr/bin/env python
-# Python to Mel converter
-# Allows running of Python code by dragging into the Maya viewport
+# Compact Python to Mel converter
+#
+# Created By Jason Dixon. http://internetimagery.com
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
 
-# Created 21/04/2015
-# Jason Dixon
-# jason.dixon.email@gmail.com
-# internetimagery.com
 
 # Usage
 # cat <inputFile> | py2mel.py > <outputFile>
