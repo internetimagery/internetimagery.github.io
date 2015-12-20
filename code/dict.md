@@ -14,15 +14,17 @@ import collections
 class Reversable_Dict(collections.MutableMapping):
     __slots__ = ("fwd", "rev")
     def __init__(s, *args, **kwargs):
-        s.fwd = dict(*args, **kwargs)
-        s.rev = dict((v, k) for k, v in s.fwd.items())
+        s.fwd = fwd = dict(*args, **kwargs)
+        s.rev = dict((v, k) for k, v in fwd.items())
     def __delitem__(s, k):
-        if k in s.fwd: return s.rev.pop(s.fwd.pop(k))
-        if k in s.rev: return s.fwd.pop(s.rev.pop(k))
+        fwd, rev = s.fwd, s.rev
+        if k in fwd: return rev.pop(fwd.pop(k))
+        if k in rev: return fwd.pop(rev.pop(k))
         raise KeyError, "%s not found." % k
     def __getitem__(s, k):
-        if k in s.fwd: return s.fwd[k]
-        if k in s.rev: return s.rev[k]
+        fwd, rev = s.fwd, s.rev
+        if k in fwd: return fwd[k]
+        if k in rev: return rev[k]
         raise KeyError, "%s not found." % k
     def __iter__(s): return iter(s.fwd)
     def __repr__(s): return repr(s.fwd)
