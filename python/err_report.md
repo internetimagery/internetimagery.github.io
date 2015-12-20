@@ -90,8 +90,9 @@ class Report(object):
                 text = [
                     str(datetime.datetime.now()),
                     platform.platform(),
-                    "%s: %s" % (eType.__name__, eVal), "\n"
+                    "%s: %s" % (eType.__name__, eVal)
                     ]
+                text += list(s.software())
                 text += list(s.compact_trace(eTrace))
 
                 url = "mailto:%s?subject=%s&body=%s" % (
@@ -113,6 +114,15 @@ class Report(object):
             return "Yes" == answer
         except ImportError:
             return True # No means to ask? Ah well ...
+
+    def software(s):
+        """ Return information about software """
+        try:
+            import maya.mel as mel
+            version = mel.eval("$tmp = getApplicationVersionAsFloat();")
+            yield "Software: Maya, %s" % version
+        except ImportError:
+            pass
 
     def compact_trace(s, trace):
         """ Format traceback compactly """
