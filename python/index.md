@@ -12,6 +12,20 @@ Below are a number of bits and bobs I've created. May they help you in times of 
 
 Fully blown functional and useful tools.
 
+* __Out Of Control__ Rig Work In Progress!
+* Clip Store
+* Attribute Snap
+* Twin Skeleton
+* Game Anim Export
+* License Fix
+* Todo
+* File Lock
+* Spaces
+* Constraint key
+* Click Time
+* Anim Sanity
+* Remote Textures
+
 ### Scripts
 
 Brief single purpose helpers. Useful.
