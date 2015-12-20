@@ -16,8 +16,9 @@ Fully blown functional and useful tools.
 
 ### Scripts
 
-Brief single purpose helpers.
+Brief single purpose helpers. Useful.
 
+* [Curve Combiner](curvecombine)
 * [Constraint Switcher](switchconstraint)
 * [Movable Parent Constraint](parentconstraint)
 * [IK-Like Orient Constraint](orientconstraint)
