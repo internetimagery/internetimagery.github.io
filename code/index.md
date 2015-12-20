@@ -15,6 +15,7 @@ Have a peek. :)
 ### Scripts
 
 * [IK-Like Orient Rig](ikorient)
+* [Python2Mel](py2mel)
 
 ### Snippets
 
