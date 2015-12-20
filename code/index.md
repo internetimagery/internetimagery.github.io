@@ -20,4 +20,5 @@ Have a peek. :)
 
 * [Simple Error Reporter](err_report)
 * [Animated Images in Maya](animated_images)
+* [Maya dockable window Template](docking_window)
 * [Autoload modules](autoload)
