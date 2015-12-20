@@ -14,7 +14,7 @@ import itertools
 def chunk(iterable, size, default=None):
     """ iterate in chunks ie [1,2,3] [4,5,6] """
     i = iter(iterable)
-    return itertools.izip_longest(*[i]*size)
+    return itertools.izip_longest(*[i]*size, fillvalue=default)
 {% endhighlight %}
 
 
