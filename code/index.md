@@ -12,8 +12,11 @@ Have a peek. :)
 
 ### Tools
 
+### Scripts
+
 * [IK-Like Orient Rig](ikorient)
 
 ### Snippets
 
 * [Simple Error Reporter](err_report)
+* [Animated Images in Maya](animated_images)
