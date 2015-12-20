@@ -6,9 +6,7 @@ thumb: /img/nav/challenges_button.png
 ---
 # Code Snippets, Scripts and Tools
 
-Below are a number of small utility tools I've created. Most of them for Maya.
-
-Have a peek. :)
+Below are a number of bits and bobs I've created. May they help you in times of need.
 
 ### Tools
 
