@@ -18,6 +18,7 @@ Fully blown functional and useful tools.
 
 Brief single purpose helpers.
 
+* [Constraint Switcher](switchconstraint)
 * [Movable Parent Constraint](parentconstraint)
 * [IK-Like Orient Constraint](orientconstraint)
 * [Python2Mel](py2mel)
