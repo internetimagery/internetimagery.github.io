@@ -7,11 +7,12 @@ navigation: false
 
 #### Reversable Dict
 
-Dict accessible by Key or Value. Treated as a Key Key dict. Unique Keys and Values.
+Dict accessible by Key or Value. Treated as though it were a Key Key dict. Unique Keys and Values.
 
 {% highlight python %}
 import collections
 class Reversable_Dict(collections.MutableMapping):
+    __slots__ = ("fwd", "rev")
     def __init__(s, *args, **kwargs):
         s.fwd = dict(*args, **kwargs)
         s.rev = dict((v, k) for k, v in s.fwd.items())
@@ -42,6 +43,7 @@ Dict that inserts new Dicts when they're missing.
 
 {% highlight python %}
 class Tree_Dict(dict):
+    __slots__ = ()
     def __missing__(s, k):
         v = s[k] = type(s)()
         return v
@@ -52,6 +54,7 @@ class Tree_Dict(dict):
 #### Tracker Dict
 
 Dict that keeps track of changes made to it. Not super performant, but is simple to use.
+Checking dict_instance.diff returns a tuple of (New, Changed, Removed) or if nothing has changed, None.
 
 {% highlight python %}
 try:
@@ -60,9 +63,7 @@ except ImportError:
     import pickle
 
 class Tracker_Dict(dict):
-    """
-    Dict that tracks changes. Changes = (New, Changed, Removed)
-    """
+    """ Dict that tracks changes. Changes = (New, Changed, Removed) """
     def __init__(s, *args, **kwargs):
         dict.__init__(s, *args, **kwargs)
         s._diff = {}; s.diff
