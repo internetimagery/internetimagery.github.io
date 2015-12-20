@@ -9,7 +9,7 @@ Convert a python script to mel. Compact.
 
 Usage:
 
-{% highlight shell %}
+{% highlight bash %}
 cat <inputFile> | py2mel.py > <outputFile>
 py2mel.py -input <inputFile> -output <outputFile>
 {% endhighlight %}
