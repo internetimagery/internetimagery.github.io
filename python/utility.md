@@ -1,7 +1,6 @@
 ---
 title: Utility Snippets
 layout: page
-navigation: false
 ---
 ## Assorted Snippets
 
@@ -49,7 +48,7 @@ An example usage:
 
 {% highlight python %}
 import tempfile
-with tempfile.NamedTemporaryFile(delete=False) as f: path = Temp_Path(f.name)
+path_to_tempfile = Temp_Path(tempfile.NamedTemporaryFile(delete=False).name)
 {% endhighlight %}
 
 Le Code:

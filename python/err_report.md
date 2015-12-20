@@ -1,7 +1,6 @@
 ---
 title: Simple Error Reporter
 layout: page
-navigation: false
 ---
 ## Simple Error Reporter
 

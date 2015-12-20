@@ -1,7 +1,6 @@
 ---
 title: Animated Images
 layout: page
-navigation: false
 ---
 ## Animated Images in Maya
 

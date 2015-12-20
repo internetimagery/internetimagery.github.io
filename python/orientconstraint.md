@@ -1,7 +1,6 @@
 ---
 title: IK-Like Orient Rig
 layout: page
-navigation: false
 ---
 ## IK-Like Orient Rig
 

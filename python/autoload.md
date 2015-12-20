@@ -1,7 +1,6 @@
 ---
 title: Auto Load Modules
 layout: page
-navigation: false
 ---
 ## On Demand Auto Load Modules / Submodules
 

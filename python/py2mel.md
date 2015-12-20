@@ -1,7 +1,6 @@
 ---
 title: Python to Mel Conversion
 layout: page
-navigation: false
 ---
 ## Simple Python to Mel
 

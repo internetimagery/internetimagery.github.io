@@ -1,7 +1,6 @@
 ---
 title: Docking Window Template
 layout: page
-navigation: false
 ---
 ## Docking Window Template (Maya)
 

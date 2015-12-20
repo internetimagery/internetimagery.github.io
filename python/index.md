@@ -12,12 +12,19 @@ Have a peek. :)
 
 ### Tools
 
+Fully blown functional and useful tools.
+
 ### Scripts
 
-* [IK-Like Orient Rig](ikorient)
+Brief single purpose helpers.
+
+* [Movable Parent Constraint](parentconstraint)
+* [IK-Like Orient Constraint](orientconstraint)
 * [Python2Mel](py2mel)
 
 ### Snippets
+
+Few lines of code. Pieces of the puzzle!
 
 * [Simple Error Reporter](err_report)
 * [Animated Images in Maya](animated_images)

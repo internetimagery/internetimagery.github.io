@@ -1,13 +1,13 @@
 ---
 title: Iteration Snippets
 layout: page
-navigation: false
 ---
 ## Various Iteration Snippets
 
 #### Chunks
 
 Loop over an iterable in chunks. Perfect if you have a long flat list that needs to be grouped into pairs etc.
+[1,2,3] [4,5,6] [7,8,9]
 
 {% highlight python %}
 import itertools
@@ -18,13 +18,14 @@ def chunk(iterable, size, default=None):
 {% endhighlight %}
 
 
-#### Groups
+#### Shift
 
 Iterate over an iterable in shifting groups.
+[1,2,3] [2,3,4] [3,4,5]
 
 {% highlight python %}
 import itertools
-def group(iterable, size):
+def shift(iterable, size):
     """ iterate in groups ie [1,2,3] [2,3,4] """
     i = itertools.tee(iterable, size)
     for a, b in enumerate(i):
