@@ -90,9 +90,9 @@ class Report(object):
                 text = [
                     str(datetime.datetime.now()),
                     platform.platform(),
-                    "%s: %s" % (eType.__name__, eVal)
+                    "%s: %s" % (eType.__name__, eVal),
+                    s.software()
                     ]
-                text += list(s.software())
                 text += list(s.compact_trace(eTrace))
 
                 url = "mailto:%s?subject=%s&body=%s" % (
@@ -120,9 +120,10 @@ class Report(object):
         try:
             import maya.mel as mel
             version = mel.eval("$tmp = getApplicationVersionAsFloat();")
-            yield "Software: Maya, %s" % version
+            return "Maya, %s" % version
         except ImportError:
             pass
+        return "Unknown software."
 
     def compact_trace(s, trace):
         """ Format traceback compactly """
