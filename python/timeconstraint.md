@@ -50,6 +50,7 @@ class Offset_Constraint(object):
         with pmc.window(name, t="Offset Constraint"):
             with ui.ColumnLayout(adj=True):
                 with pmc.frameLayout(l="Constraint Axis:"):
+                    s.offset = ui.CheckBoxGrp(l="Maintain Offset:").setValue1(True)
                     s.trans = ui.CheckBoxGrp(l="Translate:").setValue1(True).onCommand(lambda x:s.uncheck_boxes(s.trans_ax))
                     s.trans_ax = ui.CheckBoxGrp(l="", la3=("X","Y","Z"), ncb=3).onCommand(lambda x:s.uncheck_boxes(s.trans))
                     s.rot = ui.CheckBoxGrp(l="Rotate:").setValue1(True).onCommand(lambda x:s.uncheck_boxes(s.rot_ax))
@@ -112,16 +113,20 @@ class Offset_Constraint(object):
 
                     OK = True
             if OK:
+                maintain_offset = s.offset.getValue1()
                 # Create a Locator and size it
-                driven_pos = driven.getTranslation("world")
+                driven_matrix = driven.getMatrix(ws=True)
                 b_box = driven.getBoundingBox()
                 b_size = (b_box.width(), b_box.height(), b_box.depth())
                 scale = 1.5
                 loc = pmc.spaceLocator()
                 for a, b in zip("XYZ", b_size):
                     loc.attr("localScale%s" % a).set(b * 0.5 * scale)
-                pmc.xform(loc, t=driven_pos)
-                pmc.parent(loc, base)
+                if maintain_offset:
+                    pmc.xform(loc, m=driven_matrix)
+                    pmc.parent(loc, base)
+                else:
+                    pmc.parent(loc, base, r=True)
 
                 # Attach object to locator
                 skip = set(AXIS) - set(attributes)
@@ -134,7 +139,6 @@ class Offset_Constraint(object):
                         driven,
                         st=skip_trans,
                         sr=skip_rot,
-                        mo=True
                     )
 
                 skip_scale = [b for a, b in skip if a == "s"]
@@ -143,7 +147,6 @@ class Offset_Constraint(object):
                         loc,
                         driven,
                         sk=skip_scale,
-                        mo=True
                     )
 
         except Exception as err:
