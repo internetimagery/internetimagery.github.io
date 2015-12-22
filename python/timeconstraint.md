@@ -1,5 +1,5 @@
 ---
-title: Offset Constraint
+title: Time Constraint
 layout: page
 ---
 ## Constrain an object to time

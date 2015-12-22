@@ -34,7 +34,7 @@ Brief single purpose helpers. Useful.
 * [Constraint Switcher](switchconstraint)
 * [Movable Parent Constraint](parentconstraint)
 * [IK-Like Orient Constraint](orientconstraint)
-* [Offset Constraint](offsetconstraint)
+* [Time Constraint](timeconstraint)
 * [Python2Mel](py2mel)
 
 ### Snippets
