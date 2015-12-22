@@ -4,7 +4,7 @@ layout: page
 ---
 ## Constrain an object to time
 
-A quick useful constraint system. Constrain an object to another in time.
+A quick useful constraint system. Constrain an object to another in time. Works like a Parent Constraint, with time as an added variable.
 
 To use simply copy paste the code below into a shelf icon. Then use it as you would any other constraint. Select the driver, then the driven objects and press the button.
 
@@ -82,7 +82,6 @@ class Offset_Constraint(object):
         if sca: axis |= set(AXIS[SCALE])
         axis |= set(b for a, b in zip(trans_ax + rot_ax + sca_ax, AXIS) if a)
 
-        print "Applying Constraint to %s" % axis
         s.apply_constraint(sel[0], sel[1], axis)
 
     def apply_constraint(s, driver, driven, attributes):
@@ -90,6 +89,8 @@ class Offset_Constraint(object):
         err = pmc.undoInfo(openChunk=True)
         try:
             time = pmc.nt.Time("time1") # Time node
+            base = pmc.group(em=True, n="%s_offset_base" % driven)
+            OK = False # Are we ok to continue?
             for attr in attributes:
                 for anim_curve in driver.attr(attr).connections(type="animCurve", d=False): # Get anim curve
 
@@ -107,7 +108,44 @@ class Offset_Constraint(object):
                     add_node.output.connect(cache_node.varyTime) # Connect to cache
                     anim_curve.output.connect(cache_node.stream) # Connect animation curve to cache
 
-                    cache_node.varying.connect(driven.attr(attr))
+                    cache_node.varying.connect(base.attr(attr))
+
+                    OK = True
+            if OK:
+                # Create a Locator and size it
+                driven_pos = driven.getTranslation("world")
+                b_box = driven.getBoundingBox()
+                b_size = (b_box.width(), b_box.height(), b_box.depth())
+                scale = 1.5
+                loc = pmc.spaceLocator()
+                for a, b in zip("XYZ", b_size):
+                    loc.attr("localScale%s" % a).set(b * 0.5 * scale)
+                pmc.xform(loc, t=driven_pos)
+                pmc.parent(loc, base)
+
+                # Attach object to locator
+                skip = set(AXIS) - set(attributes)
+
+                skip_trans = [b for a, b in skip if a == "t"]
+                skip_rot = [b for a, b in skip if a == "r"]
+                if len(skip_trans) < 3 or len(skip_rot) < 3:
+                    pmc.parentConstraint(
+                        loc,
+                        driven,
+                        st=skip_trans,
+                        sr=skip_rot,
+                        mo=True
+                    )
+
+                skip_scale = [b for a, b in skip if a == "s"]
+                if len(skip_scale) < 3:
+                    pmc.scaleConstraint(
+                        loc,
+                        driven,
+                        sk=skip_scale,
+                        mo=True
+                    )
+
         except Exception as err:
             raise
         finally:
