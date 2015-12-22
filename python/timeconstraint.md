@@ -154,4 +154,6 @@ class Offset_Constraint(object):
         finally:
             pmc.undoInfo(closeChunk=True)
             if err: pmc.undo()
+
+Offset_Constraint()
 {% endhighlight %}
