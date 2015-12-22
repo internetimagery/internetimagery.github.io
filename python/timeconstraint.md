@@ -50,6 +50,7 @@ class Offset_Constraint(object):
         with pmc.window(name, t="Offset Constraint"):
             with ui.ColumnLayout(adj=True):
                 with pmc.frameLayout(l="Constraint Axis:"):
+                    s.cache = ui.CheckBoxGrp(l="Use Cache: ")
                     s.offset = ui.CheckBoxGrp(l="Maintain Offset:").setValue1(True)
                     s.trans = ui.CheckBoxGrp(l="Translate:").setValue1(True).onCommand(lambda x:s.uncheck_boxes(s.trans_ax))
                     s.trans_ax = ui.CheckBoxGrp(l="", la3=("X","Y","Z"), ncb=3).onCommand(lambda x:s.uncheck_boxes(s.trans))
@@ -89,65 +90,81 @@ class Offset_Constraint(object):
         """ Attach constraint to object """
         err = pmc.undoInfo(openChunk=True)
         try:
+            use_cache = s.cache.getValue1()
             time = pmc.nt.Time("time1") # Time node
             base = pmc.group(em=True, n="%s_offset_base" % driven)
-            OK = False # Are we ok to continue?
-            for attr in attributes:
-                for anim_curve in driver.attr(attr).connections(type="animCurve", d=False): # Get anim curve
+            expression = ["$frame = frame;"]
 
-                    offset_name = "offset_%s" % attr # Create attribute to offset
-                    if not hasattr(driven, offset_name):
+            OK = not use_cache # Are we ok to continue?
+            for attr in attributes:
+                if use_cache:
+                    for anim_curve in driver.attr(attr).connections(type="animCurve", d=False): # Get anim curve
+
+                        offset_name = "offset_%s" % attr # Create attribute to offset
+                        if not hasattr(driven, offset_name):
+                            driven.addAttr(offset_name, k=True)
+                        offset_at = driven.attr(offset_name)
+
+                        add_node = pmc.nt.AddDoubleLinear(n="%s_offset_%s" % (driven, attr)) # Create our nodes
+                        cache_node = pmc.nt.FrameCache(n="%s_cache_%s" % (driven, attr))
+
+                        offset_at.connect(add_node.input1) # Connect our offset controller
+                        time.outTime.connect(add_node.input2) # Connect the scene time
+
+                        add_node.output.connect(cache_node.varyTime) # Connect to cache
+                        anim_curve.output.connect(cache_node.stream) # Connect animation curve to cache
+
+                        cache_node.varying.connect(base.attr(attr))
+
+                        OK = True
+                else:
+                    driver_at = driver.attr(attr) # Get driver attribute
+                    base_at = base.attr(attr)
+
+                    offset_name = "offset_%s" % attr
+                    if not hasattr(driven, offset_name): # Build our offset attribute
                         driven.addAttr(offset_name, k=True)
                     offset_at = driven.attr(offset_name)
 
-                    add_node = pmc.nt.AddDoubleLinear(n="%s_offset_%s" % (driven, attr)) # Create our nodes
-                    cache_node = pmc.nt.FrameCache(n="%s_cache_%s" % (driven, attr))
+                    expression.append("%s = `getAttr -t ($frame + %s) %s`;" % (base_at, offset_at, driver_at))
 
-                    offset_at.connect(add_node.input1) # Connect our offset controller
-                    time.outTime.connect(add_node.input2) # Connect the scene time
+            if not use_cache: pmc.nt.Expression().setExpression("\n".join(expression))
 
-                    add_node.output.connect(cache_node.varyTime) # Connect to cache
-                    anim_curve.output.connect(cache_node.stream) # Connect animation curve to cache
+            maintain_offset = s.offset.getValue1()
+            # Create a Locator and size it
+            driven_matrix = driven.getMatrix(ws=True)
+            b_box = driven.getBoundingBox()
+            b_size = (b_box.width(), b_box.height(), b_box.depth())
+            scale = 1.5
+            loc = pmc.spaceLocator()
+            for a, b in zip("XYZ", b_size):
+                loc.attr("localScale%s" % a).set(b * 0.5 * scale)
+            if maintain_offset:
+                pmc.xform(loc, m=driven_matrix)
+                pmc.parent(loc, base)
+            else:
+                pmc.parent(loc, base, r=True)
 
-                    cache_node.varying.connect(base.attr(attr))
+            # Attach object to locator
+            skip = set(AXIS) - set(attributes)
 
-                    OK = True
-            if OK:
-                maintain_offset = s.offset.getValue1()
-                # Create a Locator and size it
-                driven_matrix = driven.getMatrix(ws=True)
-                b_box = driven.getBoundingBox()
-                b_size = (b_box.width(), b_box.height(), b_box.depth())
-                scale = 1.5
-                loc = pmc.spaceLocator()
-                for a, b in zip("XYZ", b_size):
-                    loc.attr("localScale%s" % a).set(b * 0.5 * scale)
-                if maintain_offset:
-                    pmc.xform(loc, m=driven_matrix)
-                    pmc.parent(loc, base)
-                else:
-                    pmc.parent(loc, base, r=True)
+            skip_trans = [b for a, b in skip if a == "t"]
+            skip_rot = [b for a, b in skip if a == "r"]
+            if len(skip_trans) < 3 or len(skip_rot) < 3:
+                pmc.parentConstraint(
+                    loc,
+                    driven,
+                    st=skip_trans,
+                    sr=skip_rot,
+                )
 
-                # Attach object to locator
-                skip = set(AXIS) - set(attributes)
-
-                skip_trans = [b for a, b in skip if a == "t"]
-                skip_rot = [b for a, b in skip if a == "r"]
-                if len(skip_trans) < 3 or len(skip_rot) < 3:
-                    pmc.parentConstraint(
-                        loc,
-                        driven,
-                        st=skip_trans,
-                        sr=skip_rot,
-                    )
-
-                skip_scale = [b for a, b in skip if a == "s"]
-                if len(skip_scale) < 3:
-                    pmc.scaleConstraint(
-                        loc,
-                        driven,
-                        sk=skip_scale,
-                    )
+            skip_scale = [b for a, b in skip if a == "s"]
+            if len(skip_scale) < 3:
+                pmc.scaleConstraint(
+                    loc,
+                    driven,
+                    sk=skip_scale,
+                )
 
         except Exception as err:
             raise
