@@ -92,8 +92,15 @@ class Offset_Constraint(object):
         try:
             use_cache = s.cache.getValue1()
             time = pmc.nt.Time("time1") # Time node
-            base = pmc.group(em=True, n="%s_offset_base" % driven)
-            expression = ["$frame = frame;"]
+            wrapper = pmc.group(em=True, n="%s_time_constraint" % driven)
+            driven_base = pmc.group(em=True, n="%s_offset_driven" % driven)
+            pmc.parent(driven_base, wrapper)
+            if not use_cache:
+                driver_base = pmc.group(em=True, n="%s_offset_driver" % driven)
+                pmc.parent(driver_base, wrapper)
+                pmc.parentConstraint(driver, driver_base)
+                pmc.scaleConstraint(driver, driver_base)
+                expression = ["$frame = frame;"]
 
             OK = not use_cache # Are we ok to continue?
             for attr in attributes:
@@ -114,19 +121,19 @@ class Offset_Constraint(object):
                         add_node.output.connect(cache_node.varyTime) # Connect to cache
                         anim_curve.output.connect(cache_node.stream) # Connect animation curve to cache
 
-                        cache_node.varying.connect(base.attr(attr))
+                        cache_node.varying.connect(driven_base.attr(attr))
 
                         OK = True
                 else:
-                    driver_at = driver.attr(attr) # Get driver attribute
-                    base_at = base.attr(attr)
+                    driver_at = driver_base.attr(attr) # Get driver attribute
+                    driven_at = driven_base.attr(attr)
 
                     offset_name = "offset_%s" % attr
                     if not hasattr(driven, offset_name): # Build our offset attribute
                         driven.addAttr(offset_name, k=True)
                     offset_at = driven.attr(offset_name)
 
-                    expression.append("%s = `getAttr -t ($frame + %s) %s`;" % (base_at, offset_at, driver_at))
+                    expression.append("%s = `getAttr -t ($frame + %s) %s`;" % (driven_at, offset_at, driver_at))
 
             if not use_cache: pmc.nt.Expression().setExpression("\n".join(expression))
 
@@ -141,9 +148,9 @@ class Offset_Constraint(object):
                 loc.attr("localScale%s" % a).set(b * 0.5 * scale)
             if maintain_offset:
                 pmc.xform(loc, m=driven_matrix)
-                pmc.parent(loc, base)
+                pmc.parent(loc, driven_base)
             else:
-                pmc.parent(loc, base, r=True)
+                pmc.parent(loc, driven_base, r=True)
 
             # Attach object to locator
             skip = set(AXIS) - set(attributes)
