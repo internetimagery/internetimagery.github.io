@@ -23,7 +23,7 @@ Fully blown functional and useful tools.
 * Spaces
 * Constraint key
 * Click Time
-* Anim Sanity
+* [Anim Sanity](animsanity)
 * [Remote Textures](remotetextures)
 
 ### Scripts
