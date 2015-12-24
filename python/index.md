@@ -22,7 +22,7 @@ Fully blown functional and useful tools.
 * File Lock
 * Spaces
 * Constraint key
-* Click Time
+* [Click Time](clicktime)
 * [Anim Sanity](animsanity)
 * [Remote Textures](remotetextures)
 
