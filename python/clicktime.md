@@ -6,6 +6,8 @@ layout: page
 
 Timing in animation can be too mechanical at times. Sometimes it's nice to be able to time out things more organically. This script facilitates that.
 
+To install, download the following file and drag - drop it into Maya's viewport.
+
 __<download>clicktime</download>__
 
 You will get a new shelf icon in whichever shelf is currently active.

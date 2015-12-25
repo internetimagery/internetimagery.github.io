@@ -21,21 +21,21 @@ Fully blown functional and useful tools.
 * Todo
 * File Lock
 * Spaces
-* Constraint key
-* [Click Time](clicktime)
-* [Anim Sanity](animsanity)
-* [Remote Textures](remotetextures)
+* [Constraint key](constraintkey) - Key one object to another as though it were a constraint.
+* [Click Time](clicktime) - Time out animations organically.
+* [Anim Sanity](animsanity) - Save your sanity! Give your animation curves a health check.
+* [Remote Textures](remotetextures) - Automatically download textures if urls are supplied.
 
 ### Scripts
 
 Brief single purpose helpers. Useful.
 
-* [Curve Combiner](curvecombine)
-* [Constraint Switcher](switchconstraint)
-* [Movable Parent Constraint](parentconstraint)
-* [IK-Like Orient Constraint](orientconstraint)
-* [Time Constraint](timeconstraint)
-* [Python2Mel](py2mel)
+* [Curve Combiner](curvecombine) - Combine multiple nurbs curves into one curve.
+* [Constraint Switcher](switchconstraint) - Add a new attribute with a drop down list that switches constraints. Simple!
+* [Movable Parent Constraint](parentconstraint) - Parent constraint remaining adjustable.
+* [IK-Like Orient Constraint](orientconstraint) - Aim constraint setup.
+* [Time Constraint](timeconstraint) - Parent constraint with the added option of offsetting time.
+* [Python2Mel](py2mel) - Turn python source file into a compact mel command.
 
 ### Snippets
 
