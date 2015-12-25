@@ -43,7 +43,7 @@ If you haven't already, build your advanced rig.
 
 Now select the option "Retarget skeleton" in the menu and open a skeleton file.
 
-![retarget menu](twinskeleton_retarget.jpg)
+![retarget menu](img/twinskeleton_retarget.jpg)
 
 For each joint (in blue) select the corresponding joint / object / control on the advanced rig. This is what the final skeleton will be attached to.
 
@@ -60,7 +60,7 @@ Click the button and select a skeleton file you wish to build. The tool will rea
 
 Assuming your advanced rig maintains its naming scheme. This step from here on is a two second process. Building endless rigs so long as the setup remains the same.
 
-![Attach window](twinskeleton_attach.jpg)
+![Attach window](img/twinskeleton_attach.jpg)
 
 * __Orient Junctions__ : If the joint has multiple children, there are many possible directions it could point. Leaving this ticked allows the tool to make its best guess. Unticking leaves the joint oriented to the world.
 
@@ -74,7 +74,7 @@ The tool is pretty good at figuring out correct rotations. But as is always the 
 
 Click the button to bring up the following menu:
 
-![Correct orientations](twinskeleton_marker.jpg)
+![Correct orientations](img/twinskeleton_marker.jpg)
 
 * Select each joint you wish to move or reorient, and press the "Attach Marker" button.
 * A marker will appear on each joint (visible in the screenshot above as the highlighted lines on the left, and the coloured ones on the top right. Attached to the joint).
