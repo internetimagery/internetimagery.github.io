@@ -45,7 +45,7 @@ Now select the option "Retarget skeleton" in the menu and open a skeleton file.
 
 ![retarget menu](img/twinskeleton_retarget.jpg)
 
-For each joint (in blue) select the corresponding joint / object / control on the advanced rig. This is what the final skeleton will be attached to.
+For each joint (in blue) select the corresponding joint / object / control on the advanced rig in the viewport. This is what the final skeleton will be attached to.
 
 You can either click the red buttons individually to attach position rotation and scale (you can be positioned at one point and rotate based on another if you wish), or click the blue joint button as a shortcut to select all three.
 
