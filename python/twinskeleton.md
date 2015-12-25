@@ -37,7 +37,7 @@ Now onto step two...
 
 ### (Re)Target Skeleton
 
-This is where the skeleton file (created in the previous step) comes into play. It contains only information about the joints. Now we want to add information about where the joints should be attached.
+This is where the skeleton file (created in the previous step) comes into play. Currently it contains only information about the joints. Now we want to add information about where the joints should be attached.
 
 If you haven't already, build your advanced rig.
 
