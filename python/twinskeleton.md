@@ -62,6 +62,8 @@ Assuming your advanced rig maintains its naming scheme. This step from here on i
 
 ![Attach window](img/twinskeleton_attach.jpg)
 
+* __Prefix__ : Should you choose, you can type something in here. This will prefix all joints with whatever is written. This can be useful if building the same skeleton more than once in the same file.
+
 * __Orient Junctions__ : If the joint has multiple children, there are many possible directions it could point. Leaving this ticked allows the tool to make its best guess. Unticking leaves the joint oriented to the world.
 
 * __Prevent Flipping__ : If this is on, the tool will ensure that limbs of different direction (like the spines "S" curve) don't have joints flipping 180 degrees halfway through. This assists in the unlikely situation you are animating the joints directly. Usually this is not needed.
