@@ -66,7 +66,7 @@ Assuming your advanced rig maintains its naming scheme. This step from here on i
 
 * __Orient Junctions__ : If the joint has multiple children, there are many possible directions it could point. Leaving this ticked allows the tool to make its best guess. Unticking leaves the joint oriented to the world.
 
-* __Prevent Flipping__ : If this is on, the tool will ensure that limbs of different direction (like the spines "S" curve) don't have joints flipping 180 degrees halfway through. This assists in the unlikely situation you are animating the joints directly. Usually this is not needed.
+* __Prevent Flipping__ : If this is on, the tool will ensure that limbs of different direction (like the spines "S" curve) don't have joints flipping 180 degrees halfway through. This is useful if you are planning on animating the joints directly. Otherwise this is typically not needed.
 
 * __Display Axis__ : Ticking this will turn on the Axis display for the joints so their rotations can be easily inspected. Correct joint rotation is vital, especially if retargeting animations across different rig setups.
 
