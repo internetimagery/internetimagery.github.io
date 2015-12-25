@@ -1,8 +1,8 @@
 ---
 title: Code Snippets, Scripts and Tools
 layout: page
-navigation: false
-thumb: /img/nav/challenges_button.png
+navigation: true
+thumb: /img/nav/python_button.png
 ---
 # Code Snippets, Scripts and Tools
 
