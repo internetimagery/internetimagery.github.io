@@ -12,7 +12,7 @@ This tool runs in the background "locking" a file while in use. If someone tries
 
 To install, download the following file and drag - drop it into Maya's viewport.
 
-__<download>filelock</download>__
+__<download>file_lock</download>__
 
 The tool will begin to run in the background. There is nothing more to do. :)
 
