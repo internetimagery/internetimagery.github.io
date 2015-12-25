@@ -86,17 +86,3 @@ Click the button to bring up the following menu:
 __TIP:__
 
 You can update joints position / orientation after the rig has been built, constrained and skinned too. The skin and constraints will be altered to reflect the new joint positions. Nifty!
-
-
-
-
-
-* Select one or two objects.
-* (Optional) Select a range in the timeslider to limit the keying to that range.
-* Press the button of the constraint you want.
-
-
-__TIPS:__
-
-* Select the driver first, then the driven object. Just like normal constraints
-* Selecting one object only will constrain it to the "world". This means it will be kept stationary. This is useful if it is in a parented hierarchy and you want it to stay still.
