@@ -15,7 +15,7 @@ Fully blown functional and useful tools.
 * __Out Of Control__ Rig Work In Progress!
 * Clip Store
 * Attribute Snap
-* Twin Skeleton
+* [Twin Skeleton](twinskeleton) - For creating consistent "dummy" rigs beneath more advanced rigs. Suitable for games. Useful in other rigging tasks also.
 * Game Anim Export
 * License Fix
 * Todo
