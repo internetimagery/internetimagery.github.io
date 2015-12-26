@@ -23,7 +23,7 @@ Fully blown functional and useful tools.
 * Spaces
 * [Constraint key](constraintkey) - Key one object to another as though it were a constraint.
 * [Click Time](clicktime) - Time out animations organically.
-* [Anim Sanity](animsanity) - Save your sanity! Give your animation curves a health check.
+* [Anim Health Check](animsanity) - Save your sanity! Give your animation curves a health check.
 * [Remote Textures](remotetextures) - Automatically download textures if urls are supplied.
 
 ### Scripts
