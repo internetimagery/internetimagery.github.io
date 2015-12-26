@@ -1,8 +1,8 @@
 ---
-title: Anim Sanity
+title: Anim Health Check
 layout: page
 ---
-## Anim Sanity
+## Anim Health Check
 
 Animation is complicated. So many factors rely on other factors, and it can be tricky to keep on top of it all.
 
