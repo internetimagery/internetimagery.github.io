@@ -25,7 +25,7 @@ To use the tool:
 * Select the controllers / objects you wish to check.
 * (Optional) Select specific channels in the channelbox or graph editor that you want to check. Do this if you only want to check a few channels.
 * (Optional) Select a frame range in the timeslider to check in. If you do not do this, the tool will check within the total range currently active. If you want to check the whole animation, be sure to zoom the time slider out to cover it all.
-* Click the "Check Animation" button. You will get the results printed above.
+* Click the "Check Animation" button. You will get the results updated.
 
 ![anim results](img/animsanity_inuse.jpg)
 
