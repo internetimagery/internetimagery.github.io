@@ -16,7 +16,7 @@ Fully blown functional and useful tools.
 * Clip Store
 * Attribute Snap
 * [Twin Skeleton](twinskeleton) - For creating consistent "dummy" rigs beneath more advanced rigs. Suitable for games. Useful in other rigging tasks also.
-* Game Anim Export
+* [Game Anim Export](gameanimexport) - Managing game animations in Maya scenes.
 * License Fix
 * Todo
 * [File Lock](filelock) - Lock a maya scene file while it is in use to prevent people stepping on each others toes. Suitable for working in shared environments, such as a local network or dropbox.
