@@ -20,7 +20,6 @@ Fully blown functional and useful tools.
 * License Fix
 * Todo
 * [File Lock](filelock) - Lock a maya scene file while it is in use to prevent people stepping on each others toes. Suitable for working in shared environments, such as a local network or dropbox.
-* Spaces
 * [Constraint key](constraintkey) - Key one object to another as though it were a constraint.
 * [Click Time](clicktime) - Time out animations organically.
 * [Anim Health Check](animsanity) - Save your sanity! Give your animation curves a health check.
