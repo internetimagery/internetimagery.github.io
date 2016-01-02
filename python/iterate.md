@@ -29,10 +29,10 @@ def shift(iterable, size):
     """ iterate in groups ie [1,2,3] [2,3,4] """
     i = itertools.tee(iterable, size)
     for a, b in enumerate(i):
-        for c in range(a):
-            try:
+        try:
+            for c in range(a):
                 b.next()
-            except StopIteration:
-                pass
+        except StopIteration:
+            pass
     return itertools.izip(*i)
 {% endhighlight %}
