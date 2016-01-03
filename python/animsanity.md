@@ -12,7 +12,7 @@ This tool attempts to address some of them. Allowing you to focus on the perform
 
 To install the tool download from the link below. Drag and drop the file into the Maya viewport.
 
-__<download>animsanity</download>__
+__<download>anim_health_check</download>__
 
 You will get a new shelf icon in whichever shelf is currently active.
 
