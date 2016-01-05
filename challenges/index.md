@@ -10,6 +10,12 @@ Hello and welcome to The Great Daily Pose Challenge. The goal? To create a pose 
 
 ----
 
+####2016
+
+{% include image.html caption="<strong>The Great Daily Pose Challenge 7!</strong> (10th January - 19th March) <strong>[PENDING]</strong>" img="/challenges/dailypose7.jpg" link="https://plus.google.com/events/cpg7kvkp7colbgdlna19vgk5ls0" %}
+
+----
+
 ####2015
 {% include image.html caption="<strong>The Great Daily Pose Challenge 6!</strong> (5th October - 13th December) <strong>[COMPLETE]</strong>" img="/challenges/dailypose6.jpg" link="https://plus.google.com/events/csrpg3reo12pieloripn5d60a9k" %}
 
