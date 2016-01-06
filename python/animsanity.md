@@ -22,8 +22,12 @@ You will get a new shelf icon in whichever shelf is currently active.
 
 * Click the shelf icon. You will get a new window popup.
 * Select the controllers / objects you wish to check.
-* (Optional) Select specific channels in the channelbox or graph editor that you want to check. Do this if you only want to check a few channels.
-* (Optional) Select a frame range in the timeslider to check in. If you do not do this, the tool will check within the total range currently active. If you want to check the whole animation, be sure to zoom the time slider out to cover it all.
-* Click the "Check Animation" button. You will get the results updated.
-* Click any of the "show" buttons to highlight the affected keyframes in the graph editor. You can then fix them from there.
-* (Optional) You can also click the "Fix it!" button to allow the tool to do the fixing. This is convenient and the tool is pretty good at fixing the animation without altering your curves. But when in doubt, always fix the issues yourself.
+* Click the "Check Animation" button. You will get the results updated (as above).
+* Click any of the "show" buttons to highlight the affected keyframes in the graph editor (make sure you have it open). This lets you make an informed decision on how to proceed.
+* Click the "fix it" button to allow the tool to fix the issue for you. The tool does its absolute best to preserve your animation as it is. However if in doubt, simply hit "show" to get the keys and fix them manually.
+
+####Tips:
+
+* The tool only checks keyframes that fall within the current timeslider range. If you want to check your entire animation be sure to open the time slider up to the full duration. Conversely if you want to limit the checking to only a portion of the animation you can close up the timeslider to only that range.
+* Additionally if you shift-drag in the timeslider to create a selection (looks like a red bar), the tool will only look in that selection.
+* If you wish to narrow the checking further, to specific channels you can do that too. Either highlight them in the channelbox or in the graph editor (on the left side) to limit the checking to only those channels.
