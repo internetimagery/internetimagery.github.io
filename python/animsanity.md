@@ -28,6 +28,6 @@ You will get a new shelf icon in whichever shelf is currently active.
 
 ####Tips:
 
-* The tool only checks keyframes that fall within the current timeslider range. If you want to check your entire animation be sure to open the time slider up to the full duration. Conversely if you want to limit the checking to only a portion of the animation you can close up the timeslider to only that range.
+* __The tool only checks keyframes that fall within the current timeslider range.__ If you want to check your entire animation be sure to open the time slider up to the full duration. Conversely if you want to limit the checking to only a portion of the animation you can close up the timeslider to only that range.
 * Additionally if you shift-drag in the timeslider to create a selection (looks like a red bar), the tool will only look in that selection.
 * If you wish to narrow the checking further, to specific channels you can do that too. Either highlight them in the channelbox or in the graph editor (on the left side) to limit the checking to only those channels.
