@@ -17,7 +17,7 @@ Fully blown functional and useful tools.
 * Attribute Snap
 * [Twin Skeleton](twinskeleton) - For creating consistent "dummy" rigs beneath more advanced rigs. Suitable for games. Useful in other rigging tasks also.
 * [Game Anim Export](gameanimexport) - Managing game animations in Maya scenes.
-* License Fix
+* [License Fix](licensefix) - Reduce the number of Student popups in the student version of Maya to reasonable levels.
 * Todo
 * [File Lock](filelock) - Lock a maya scene file while it is in use to prevent people stepping on each others toes. Suitable for working in shared environments, such as a local network or dropbox.
 * [Constraint key](constraintkey) - Key one object to another as though it were a constraint.
