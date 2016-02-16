@@ -13,7 +13,7 @@ Below are a number of bits and bobs I've created. May they help you in times of 
 Fully blown functional and useful tools.
 
 * __Out Of Control__ Rig Work In Progress!
-* Clip Store
+* [Clip Store](clipstore)
 * [Twin Skeleton](twinskeleton) - For creating consistent "dummy" rigs beneath more advanced rigs. Suitable for games. Useful in other rigging tasks also.
 * [Game Anim Export](gameanimexport) - Managing game animations in Maya scenes.
 * [License Fix](licensefix) - Reduce the number of Student popups in the student version of Maya to reasonable levels.
