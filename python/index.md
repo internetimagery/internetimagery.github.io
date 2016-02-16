@@ -14,7 +14,6 @@ Fully blown functional and useful tools.
 
 * __Out Of Control__ Rig Work In Progress!
 * Clip Store
-* Attribute Snap
 * [Twin Skeleton](twinskeleton) - For creating consistent "dummy" rigs beneath more advanced rigs. Suitable for games. Useful in other rigging tasks also.
 * [Game Anim Export](gameanimexport) - Managing game animations in Maya scenes.
 * [License Fix](licensefix) - Reduce the number of Student popups in the student version of Maya to reasonable levels.
@@ -24,6 +23,7 @@ Fully blown functional and useful tools.
 * [Click Time](clicktime) - Time out animations organically.
 * [Anim Health Check](animsanity) - Save your sanity! Give your animation curves a health check.
 * [Remote Textures](remotetextures) - Automatically download textures if urls are supplied.
+* Attribute Snap
 
 ### Scripts
 
