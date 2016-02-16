@@ -23,6 +23,8 @@ You will get a new shelf icon in whichever shelf is currently active.
 
 * Click the trash icon to remove the task without marking it as complete.
 
+* The window can float around or can be docked on either side of the viewport for convenience.
+
 Thats it. Todo lists are pretty simple and straight forward. Of course that is great and all. But it's nothing you cannot do easily on a piece of paper. So lets throw in some more functionality.
 
 ### Archives
