@@ -7,6 +7,8 @@ layout: page
 
 # Dying Ember
 
+<img style="width:300px" src="/img/posts/dyingember.jpg">
+
 A promising Isometric RPG inspired by Dark Souls. Dying Ember brings dark difficult and rewarding combat to the top down genre!
 
 Lots of varied and expressive animations are littered through this game.
