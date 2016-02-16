@@ -7,12 +7,15 @@ layout: page
 
 <img class="centered-block" src="/img/posts/mountain.png" width="300px">
 
-###Please, have a squiz at the games below
+### Please, have a squiz at the games below
 
+#### [Dying Ember](/games/dyingember)
+
+> Top down Isometric RPG. Inspired by Dark Souls.
 
 #### [Crashland Heroes](/games/crashland)
 
-> Currently in development. The game is a runner combined with a shooter. Many awesome challenges await!
+> The game is a runner combined with a shooter. Many awesome challenges await!
 
 #### [Rock Paper Snap](/games/rps)
 

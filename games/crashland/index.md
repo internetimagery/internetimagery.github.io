@@ -12,6 +12,8 @@ layout: page
 
 Work in progress continues. Yet the game is looking very nice and running very well. _I'm working on all rigging and animation._ I'm thrilled to be paired with some very talented people who raise the bar!
 
+Some of the fun toony character animation to be found in game!
+
 ----
 
 <iframe class="pull-left" src="http://gfycat.com/ifr/AfraidShadowyDesertpupfish" frameborder="0" scrolling="no" width="320" height="240" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
