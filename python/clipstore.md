@@ -20,13 +20,13 @@ You will get a new shelf icon in whichever shelf is currently active.
 
 ![All Windows](img/clipstore.jpg)
 
-#### Figure 1
+### Figure 1
 
 To start, click the shelf icon. You'll get this browser window. This file contains all poses relating to the objects that are bound (more info below).
 
 Click a file to load it up, or click "Create a new clip file" to build a new one.
 
-#### Figure 2
+### Figure 2
 
 Here we have the main window. All clips reside here. Clicking any of the icons in the main area will pose the character on that current frame to match the pose saved.
 
@@ -38,7 +38,7 @@ Click the "Capture a new clip" button to create a new clip.
 
 Click the little blue rig icon in the top left corner to bring modify the bound objects.
 
-#### Figure 3
+### Figure 3
 
 This window displays all objects / controllers etc that are bound to the pose file. Select all the objects you wish to use in the pose and click "Add Selected Objects".
 
@@ -48,7 +48,7 @@ You can untick or trash objects and attributes you do not wish to be used in her
 
 To retarget these objects to another rig, click the "Retarget Objects" button.
 
-#### Figure 4
+### Figure 4
 
 Create a new clip window!
 
