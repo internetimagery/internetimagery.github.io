@@ -23,7 +23,7 @@ Fully blown functional and useful tools.
 * [Click Time](clicktime) - Time out animations organically.
 * [Anim Health Check](animsanity) - Save your sanity! Give your animation curves a health check.
 * [Remote Textures](remotetextures) - Automatically download textures if urls are supplied.
-* [Attribute Snap](attrsnap) - Constraint like system for custom attributes.
+* [Attribute Snap](attributesnap) - Constraint like system for custom attributes.
 
 ### Scripts
 
