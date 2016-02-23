@@ -59,7 +59,6 @@ def main():
     err = cmds.undoInfo(openChunk=True)
     connect = functools.partial(cmds.connectAttr, f=True)
     try:
-        cmds.select(cl=True)
         # Clear out existing shapes
         control_shapes = cmds.listRelatives(control, c=True, s=True)
         if control_shapes:
