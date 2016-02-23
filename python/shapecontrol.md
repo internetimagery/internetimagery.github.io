@@ -5,9 +5,9 @@ layout: page
 
 ## Shape Control
 
-Sometimes rigs get a bit overloaded with controllers. Nurbs curves here and there hiding what is important. The performance. It would be nice to just click somewhere on the mesh and control that section.
-
 ![Steps](img/shapecontrol.png)
+
+Sometimes rigs get a bit overloaded with controllers. Nurbs curves here and there hiding what is important. The performance. It would be nice to just click somewhere on the mesh and control that section.
 
 ### To Use
 
