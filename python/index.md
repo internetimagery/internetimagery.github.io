@@ -29,6 +29,7 @@ Fully blown functional and useful tools.
 
 Brief single purpose helpers. Useful.
 
+* [Shape Control](shapecontrol) - Replace rig controllers with pickable model sections.
 * [Curve Combiner](curvecombine) - Combine multiple nurbs curves into one curve.
 * [Constraint Switcher](switchconstraint) - Add a new attribute with a drop down list that switches constraints. Simple!
 * [Movable Parent Constraint](parentconstraint) - Parent constraint remaining adjustable.
