@@ -7,7 +7,7 @@ thumb: /img/nav/AM_button.png
 ---
 <p class="text-center"><img src="/img/posts/AM_banner.jpg" /></p>
 
-###Hi there!
+### Hi there!
 
 >Firstly it's worth mentioning this is not officially sanctioned by Animation Mentor, and their logos etc are all copyrighted (copywritten?) to Animation Mentor. Also this is a resource aggregation. So the videos presented here are owned by their respective creators. Be sure to give them thanks for making great informative content!
 

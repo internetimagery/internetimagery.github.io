@@ -7,9 +7,9 @@ Animation Sanity check is a script for maya that does what it implies on the tin
 
 It's designed to check for technical issues with your keyframes, so you don't have to go hunting through each and every key. Things such as flat curves that should be moving holds, and stray stepped tangents etc.<!-- more -->
 
-###KEEP YOUR SANITY
+### KEEP YOUR SANITY
 
-####[You can download the script HERE: <download>animsanity</download>
+#### [You can download the script HERE: <download>animsanity</download>
 
 To install the script, place the contents of the zip into your scripts folder. If you already have a smartselection.py file, it's ok to replace it. Multiple scripts use the same file.
 
@@ -29,7 +29,7 @@ For checks that fail, you'll have two buttons light up. _Show_ and _Fix it_.
 * Be smart. Sometimes it's ok for checks to fail. For instance, you'll have moving hold errors on things like feet if they're locked in place.
 
 
-###What is with that folder?
+### What is with that folder?
 
 You may notice a folder that comes with the script files, full of other script files. This folder contains all the checks that are run when you use the code above. If there are some checks that you simply want to remove from the script, all you have to do is delete them here. Likewise if you want to create your own checks you can place them here.
 

@@ -9,7 +9,7 @@ This is the first assignment in a while that has a full week dedicated to it. Ti
 
 ----
 
-####Here we have a short video from Keith Lango on moving holds.
+#### Here we have a short video from Keith Lango on moving holds.
 
 At some point your character is likely to come to a stop in your shot. Here is a method of retaining weight in the character.
 
@@ -17,7 +17,7 @@ At some point your character is likely to come to a stop in your shot. Here is a
 
 ----
 
-####Visual Difference between Blocking/Spline/Polish
+#### Visual Difference between Blocking/Spline/Polish
 
 This is not essential viewing. But it might be helpful to see how closely the stages of building up an animation look side by side. As you'll need to be able to visualise between the lines, so to speak, when looking at blocked animation.
 

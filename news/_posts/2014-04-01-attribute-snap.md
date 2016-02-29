@@ -15,7 +15,7 @@ Now I know what you're saying. Why not just use a constraint?! Why waste my time
 
 Well you're right. Sorry...
 
-###Understanding the script.
+### Understanding the script.
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/9E86CirMOfc?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -27,7 +27,7 @@ For example, you might want an elbow to lock to a table. But you want it to stay
 
 So now that we understand what this script is for, lets go over the usage.
 
-###Using the Script
+### Using the Script
 
 First things first. You need to copy the script to your script folder and load the GUI. You can do so by typing this code into the script editor or by making a shelf icon with the code:
 
@@ -46,7 +46,7 @@ Review the attributes you've just loaded. Be sure they are the correct ones. You
 
 Press the Run Scan button if you want a single scan, or select a range of time on the timeslider (shift click-drag) before pressing the button to have the script run through the whole section.
 
-###Some quick notes:
+### Some quick notes:
 
 Try to use as few attributes as possible. In order for this script to handle as many custom senarios as possible, it uses a blatant brute force approach at working out the attribue values. This means that the more attributes it has to check, the more combinations it has to run through, the longer it will take.
 

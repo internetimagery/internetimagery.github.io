@@ -7,7 +7,7 @@ title: AM Week 3
 
 ----
 
-####Popeye Animation Test
+#### Popeye Animation Test
 
 Demonstrating just how far things can go...
 
@@ -15,7 +15,7 @@ Demonstrating just how far things can go...
 
 ----
 
-####Video Settings Explained!
+#### Video Settings Explained!
 
 A great video demystifying video settings.
 
@@ -23,7 +23,7 @@ A great video demystifying video settings.
 
 ----
 
-####[Cool interview with Glen Keane](http://www.skwigly.co.uk/glen-keane-interview/)
+#### [Cool interview with Glen Keane](http://www.skwigly.co.uk/glen-keane-interview/)
 
 >Glen Keane – the Man, the Legend, the Animator – was in the UK recently to promote his latest masterpiece Duet (an interactive short film commissioned by Google as part of their Advanced Technology Projects). In anticipation of this exciting project’s upcoming release in the coming months, Skwigly took the opportunity talk nonchalantly about how awesome he is.
 

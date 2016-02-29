@@ -9,7 +9,7 @@ Week two. Now it begins!
 
 If you're not used to sketching... well... better get used to it! Sketching is the fastest and easiest way to get an idea down on paper. Something which you'll need to do as animation is a long process, and it can be easy to lose track of the original idea as time goes on.
 
-####Happy Harry's HooHaaTwo How Twos
+#### Happy Harry's HooHaaTwo How Twos
 
 <div class="js-video [vimeo, widescreen]"><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/Nf7NUw82B-w?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -17,7 +17,7 @@ Harry Partridge has a great video on sketching poses and goes over the line of a
 
 ----
 
-####Proko Figure Drawing
+#### Proko Figure Drawing
 
 <div class="js-video [vimeo, widescreen]"><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/74HR59yFZ7Y?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -34,7 +34,7 @@ Remember it's not about the finer details (let the computer worry about those). 
 
 ----
 
-####Drawing Force In Different Body Types
+#### Drawing Force In Different Body Types
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/TD7U8Fs5X8Q?rel=0" frameborder="0" allowfullscreen></iframe></div>
 

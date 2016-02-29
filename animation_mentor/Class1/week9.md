@@ -8,7 +8,7 @@ title: AM Week 9
 How is your walk going? Hopefully well. Not too many nightmares running and endless corridor from a ball with legs I hope.
 
 
-####Animation Physics dedicated to walks.
+#### Animation Physics dedicated to walks.
 
 There is a lot of information here on the science of walks. It's great information to think of how a walk works mechanically. Animation is an art, and that is important. But we can't forget that things still need to have some anatomy and physicality to them. Some visual link to the world we accept as reality.
 

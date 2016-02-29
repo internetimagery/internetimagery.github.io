@@ -7,7 +7,7 @@ Brand new Users section!
 
 You may have noticed the new button at the top right of the page. There is a new section added to the site in which some extra projects are housed.<!-- more -->
 
-####Click on it to join up! :)
+#### Click on it to join up! :)
 
 Inside you will find a messageboard which you may use to ask for help. Show off your work. Share some cool animations, or just have a chat.
 
@@ -17,11 +17,11 @@ From here you can simply chat to everyone. If you wish to also have a more priva
 
 Keep in mind, the messageboard works on a trust-like system. You can invite anyone to your board, but there is no owner. Once invited, they too can invite people to the same board. So if you want a private conversation to remain that way, be sure to only invite people you trust (I'm sure that isn't a big issue).
 
-####MAYA
+#### MAYA
 
 There is an accompanying script that goes with the messageboard for Maya.
 
-####[You can download it HERE](http://internetimagery.com/downloads/messageboard.zip)
+#### [You can download it HERE](http://internetimagery.com/downloads/messageboard.zip)
 
 To install it, simply add the files to your scripts folder, and invoke the python command:
 

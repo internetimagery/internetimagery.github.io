@@ -9,7 +9,7 @@ Now we're getting into the _swing_ of things, it's time for the pendulum.
 
 This is quite a tricky concept on multiple levels. On one level because you're dealing with the movement of many joints at once. On the other, because you've got a _weight_ at the end of a chain, that you have to control using multiple joints. If it's going over your head it's ok. It's something that comes with experience (which you'll gain this week by doing it).
 
-####Simple Pendulum Blocking.
+#### Simple Pendulum Blocking.
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/RovyCBpPVaA?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -17,7 +17,7 @@ So right off the bat, if you're having trouble. Again here is a simple blocking 
 
 ----
 
-####Isolated Spacing
+#### Isolated Spacing
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/o2dt4Y1YeUE?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -25,7 +25,7 @@ Sometimes you need to check the spacing of a certain body part or piece of geome
 
 ----
 
-####Pendulum Physics
+#### Pendulum Physics
 
 A few videos here.
 

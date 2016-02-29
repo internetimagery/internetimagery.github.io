@@ -9,7 +9,7 @@ working our way through!
 
 ----
 
-####[Making each acting performance unique](http://www.amateurdramatic.co.uk/makingeachperformanceunique.html)
+#### [Making each acting performance unique](http://www.amateurdramatic.co.uk/makingeachperformanceunique.html)
 
 >Want to know a secret? Actors, singers and dancers sometimes become incredibly bored, especially if they have performed the same script or routine again and again and again and… well, you get the picture.
 
@@ -17,13 +17,13 @@ Some nice tips (not all applicable to animation, but cherry pick) on keeping you
 
 ----
 
-####The Joy of Animation
+#### The Joy of Animation
 
 <div class="js-video [vimeo, widescreen]"><iframe width="560" height="315" src="//www.youtube.com/embed/XlL0qiPORA0" frameborder="0" allowfullscreen></iframe></div>
 
 ----
 
-####[The answers are in animation](http://splinedoctors.com/2007/01/the-answers-arent-in-the-animation/)
+#### [The answers are in animation](http://splinedoctors.com/2007/01/the-answers-arent-in-the-animation/)
 
 >Our director was in dailies with us this week and the subject of the difference between contemporary animation and that of the classic golden age came up. It was observed and generally agreed upon that the largest shortcoming of present day animators is the ability to reference past work as a means of problem solving.
 

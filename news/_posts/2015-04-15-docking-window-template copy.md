@@ -10,9 +10,9 @@ There are a few tricks in here. Such as keeping windows from doubling up, and en
 
 Just chuck the below code into your script and play around.
 
-###Quick Start Template
+### Quick Start Template
 
-####[You can find the most up to date code here...](https://gist.github.com/internetimagery/dd0959a19e5fe9e0a8cf)
+#### [You can find the most up to date code here...](https://gist.github.com/internetimagery/dd0959a19e5fe9e0a8cf)
 
 {% highlight python %}
 ##############################################

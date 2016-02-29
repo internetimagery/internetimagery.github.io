@@ -9,7 +9,7 @@ Coming into splines and polish.
 
 ----
 
-####[3 Speeds](http://blog.navone.org/2007/09/3-speeds.html)
+#### [3 Speeds](http://blog.navone.org/2007/09/3-speeds.html)
 
 >Something I heard back when I was first learning animation that still really helps me to this day: always try to get three speeds in your shot. Put in slow moves, medium moves, and fast moves. This will help give your shot texture, interest, and emphasis.
 
@@ -17,7 +17,7 @@ I've put this up before, but it's worth repeating. It's easy when trying to get 
 
 ----
 
-####Isolated Movement
+#### Isolated Movement
 
 Everything is connected!
 
@@ -25,7 +25,7 @@ Everything is connected!
 
 ----
 
-####[Studying the Masters. Grab and Shake.](http://www.animatorisland.com/studying-the-masters-grab-and-shake/#more-2763)
+#### [Studying the Masters. Grab and Shake.](http://www.animatorisland.com/studying-the-masters-grab-and-shake/#more-2763)
 
 >Two “Studying the Masters” posts in a row?! Yes, despite normally spreading them out, today we’re going to take a look at another clip right on the heels of last week’s in order to contrast them and give you some examples of what NOT to do!
 

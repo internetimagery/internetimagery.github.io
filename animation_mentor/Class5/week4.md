@@ -7,7 +7,7 @@ title: AM Week 4
 
 ----
 
-####[Maya Referencing](http://www.3dfiggins.com/writeups/mayaReference/)
+#### [Maya Referencing](http://www.3dfiggins.com/writeups/mayaReference/)
 
 > File Referencing in Maya is invaluable for any animation pipeline, especially projects involving characters. To get the most out of reference, following a few key steps can save a lot of head ache later on down the line.
 
@@ -15,7 +15,7 @@ Ideally you should already be using referencing. But if you're still holding off
 
 ----
 
-####[Big Hero 6 Character Tests](http://blog.3danimator.in/2014/10/big-hero-6-character-study-animation.html)
+#### [Big Hero 6 Character Tests](http://blog.3danimator.in/2014/10/big-hero-6-character-study-animation.html)
 
 > A great way to make all the characters clearly different from each other, Put them all in one situation and watch, how they behave.
 

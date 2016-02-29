@@ -7,7 +7,7 @@ title: AM Week 5
 
 ----
 
-####Lip Sync Tutorial
+#### Lip Sync Tutorial
 
 >A nice little tutorial on lip sync.
 
@@ -15,7 +15,7 @@ title: AM Week 5
 
 ----
 
-####[Acting and breathing in animation](http://brendanbody.blogspot.in/2009/11/acting-breathing-and-al-pacino.html)
+#### [Acting and breathing in animation](http://brendanbody.blogspot.in/2009/11/acting-breathing-and-al-pacino.html)
 
 >Breathing is not something we are often conscious of, therefore animating a character breathing during dialogue is easily overlooked. Spending the time studying and adding this to your shot can really create a great sense of believability to your work. In fact, as we'll discover, breathing is something that can be used to drive a performance.
 
@@ -23,7 +23,7 @@ A great writeup on breathing in animation.
 
 ----
 
-####[Constrast can be enough to tell a story](http://sevencamels.blogspot.co.nz/2012/04/contrast-can-be-enough-to-tell-story.html)
+#### [Constrast can be enough to tell a story](http://sevencamels.blogspot.co.nz/2012/04/contrast-can-be-enough-to-tell-story.html)
 
 > Some artists are masters at painting a beautiful picture and some are masters at telling a story through their pictures. What makes the difference between the two?
 >

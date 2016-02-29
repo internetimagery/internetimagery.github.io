@@ -13,7 +13,7 @@ Sure you COULD do that. You know... if you're not lazy.<!-- more -->
 
 ...and so this script was born!
 
-####You can DOWNLOAD this script here: <download>clicktime</download>
+#### You can DOWNLOAD this script here: <download>clicktime</download>
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/eeTAOZToL1M?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -27,13 +27,13 @@ import clicktime
 clicktime.GUI()
 {% endhighlight %}
 
-####DONE.
+#### DONE.
 
 >One quick note: ClickTime will jump to the next upcoming pose so you can see which pose the next button press will time. If for some reason you do not want it to do this, or if your scene is running really really slowly you might have difficulty getting quick timings in. To turn this feature off, simply type False in the brackets. eg: *clickTime(False)*
 
 ----
 
-####The GUI.
+#### The GUI.
 
 What you'll get is a window with a GIANT button. Not many scripts can boast a button this big!
 I know you want to press the big button, but just one moment.
@@ -45,7 +45,7 @@ Press the button for each pose in time to your beats. Maybe play some music and 
 
 ----
 
-####How to set up Poses.
+#### How to set up Poses.
 
 The script is very specific in what determines a pose.
 **A pose is defined by having a normal (non-breakdown) key on every selected channel, all on the one frame.**

@@ -9,7 +9,7 @@ Another week, another term!
 
 ----
 
-####Cinematography tips
+#### Cinematography tips
 
 Focused on film, but has points that apply to animation in the broad sense.
 
@@ -17,7 +17,7 @@ Focused on film, but has points that apply to animation in the broad sense.
 
 ----
 
-####[What makes an acting shot shine?](http://www.animationtipsandtricks.com/2009/01/what-makes-acting-shot-shine.html)
+#### [What makes an acting shot shine?](http://www.animationtipsandtricks.com/2009/01/what-makes-acting-shot-shine.html)
 
 >the success of a character is the result of a subtle relationship between the performance and its audience. What choices an animator makes helps to inform and develop that relationship, leaving the audience with a good handle on the personality we wish to portray
 
@@ -25,7 +25,7 @@ A nice introduction to simple acting shots.
 
 ----
 
-####180 Degreee rule (and other sequence tips)
+#### 180 Degreee rule (and other sequence tips)
 
 If you're planning to deal with more than one shot, stick to the line!
 
@@ -33,7 +33,7 @@ If you're planning to deal with more than one shot, stick to the line!
 
 ----
 
-####Straights vs Curves
+#### Straights vs Curves
 
 We may not be drawing. However even posing in 3D applies to straights vs curves.
 

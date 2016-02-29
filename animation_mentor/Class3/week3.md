@@ -9,7 +9,7 @@ Week three. Here we are!
 
 ----
 
-####[20 essential resources for Maya](http://www.creativebloq.com/3d-world/20-essential-resources-maya-11410369)
+#### [20 essential resources for Maya](http://www.creativebloq.com/3d-world/20-essential-resources-maya-11410369)
 
 >Need some help with a Maya-based project? Here, we present a selection of top Maya resources, which are guaranteed to create a smoother, more efficient workflow.
 
@@ -17,7 +17,7 @@ Some useful resources. Not all are free, but there are a bunch of really useful 
 
 ----
 
-####[Moving from stepped to splines](http://www.11secondclub.com/forum/viewtopic.php?id=9010)
+#### [Moving from stepped to splines](http://www.11secondclub.com/forum/viewtopic.php?id=9010)
 
 >Right, i've always just winged it a this stage, but it's dawned on me today I really need to put some real thought into how I approach this step. So i'm spending the afternoon reading as many tutorials as possible. But i'd also like your insight.
 
@@ -27,7 +27,7 @@ A nice little discussion over the transition from blocking to spline.
 
 ----
 
-####Animation Demo: Blocking to Spline
+#### Animation Demo: Blocking to Spline
 
 Only the first 30 mins, but useful never the less.
 
@@ -35,7 +35,7 @@ Only the first 30 mins, but useful never the less.
 
 ----
 
-####[Setting up poses in the Trax Editor](http://www.mikecushny.com/video/maya-trax-pose/)
+#### [Setting up poses in the Trax Editor](http://www.mikecushny.com/video/maya-trax-pose/)
 
 An interesting method of blocking out an animtaion in maya using the Trax editor.
 

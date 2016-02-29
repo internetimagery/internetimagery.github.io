@@ -7,7 +7,7 @@ The maya script, Shot Pieces.
 
 Sometimes you want to jump around your shot to work on, or isolate certain sections. This script provides an interface to save and retrieve different timeline selections.<!-- more -->
 
-####You can download the script here: <download>shot_pieces</download>
+#### You can download the script here: <download>shot_pieces</download>
 
 Download the above script. Drag and drop it into the Maya viewport to install.
 
@@ -18,7 +18,7 @@ import shot_pieces
 shot_pieces.GUI()
 {% endhighlight %}
 
-###HOW TO USE IT
+### HOW TO USE IT
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/9TS-JMb7imk?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -42,7 +42,7 @@ You now have a selection in the GUI. Click it to change the timeline range to th
 
 Right click on the buttons to edit or delete them.
 
-###Some additional notes...
+### Some additional notes...
 
 If you look in the outliner, you'll spot a new object titled "Shot_Pieces_Data". This is where the selections are stored for the scene (they will be saved with the scene). If you wish to delete all selections, you can simply delete this item and they'll be gone.
 

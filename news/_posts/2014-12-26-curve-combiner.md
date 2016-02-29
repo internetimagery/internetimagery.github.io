@@ -10,7 +10,7 @@ Introducing __Curve Combiner__ and __Constraint Locator!__
 
 ----
 
-###Curve Combiner
+### Curve Combiner
 
 While messing with rigging I've come across the need to combine nurbs curve shapes into a single object. Thankfully it is not something that is hard to do, but the process is tedious and incredibly counter intuitive!
 
@@ -40,7 +40,7 @@ Then select all the curves you wish to combine and hit the button! Time Saved!
 
 ----
 
-###Constraint Locator
+### Constraint Locator
 
 Another common task I (and perhaps you too?) find myself doing is creating locators to aid in constraining objects to one another.
 

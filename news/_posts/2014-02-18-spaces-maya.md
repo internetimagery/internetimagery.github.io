@@ -10,7 +10,7 @@ __Download: <download>spacesGUI</download>__
 This script is actually three scripts. [spacesGUI.py](#spacesGUI), [spaces.py](#spaces) and smartselection.py. The Spaces script handles all the functions dealing with Spaces, for use in scripts or hotkeys (explained later, use in your own scripts!). Meanwhile the GUI script is a UI that uses some functions in the Spaces script. The smart selection script just deals with making selections. Some other scripts I've made share that file. Make sense? No? READ ON!
 
 
-###What in the world are Spaces?
+### What in the world are Spaces?
 
 In computer animation we use curves to represent values, which in turn represent positions in space. As animators we have varied tools to manipulate them, utilising Tangents and Keys. Keys of course fixing a point on the curve, and tangents filling in the space between.
 What is missing is some sort of macro control. Something that controls the curve at a higher level.
@@ -46,7 +46,7 @@ This will run the UI script pictured above.
 
 ----
 
-###Curve Buttons
+### Curve Buttons
 
 * The first thing you'll notice are the Space curve buttons. These buttons place the pictured curve into your Space. To use it, simply select an object with animation. Move your time slider between two keys you'd like to modify and click on a Space.
 It will insert the shape into your space on all Spaces that fall within the selection (selections explained in [spaces.py](#spaces) ). The curve will fit itself to your keys values and time range.
@@ -57,7 +57,7 @@ It will insert the shape into your space on all Spaces that fall within the sele
 
 * To the side is an experimental "preserve spaces" checkbox. When ticked it will prevent you from selecting breakdown keys in the graph editor, and will attempt to keep spaces consistent when moving keys around in the graph editor. I've put the experimental label on it, as it can be a bit slow with massive selections. If you want to select a large chunk of keys with many different objects and channels be sure to turn it off.
 
-###Make your own Space
+### Make your own Space
 
 * Below the checkbox is a dropdown depicted "Record a new Space". Clicking this will bring up the recording secion of the GUI. Here you can create your own Space shape and add it to the list.
 
@@ -70,7 +70,7 @@ Hit the **HUGE** "Record Space" button to save the Space. You'll get a message a
 * To delete a curve, type its name into the textbox and hit the *tiny* "Delete Space" button. You'll get a confirmation message above the textbox if deleted. Close and reopen the GUI to refresh the list.
 You can delete the default curves if you wish.
 
-###Extra Info
+### Extra Info
 
 * In the scripts folder a new file will appear. **Space_Data.txt** This file stores your Space curve library. You can back this file up if you wish, or you can delete this file to go back to nothing but the default curves. You can also modify this file if you're familiar with *json*, and change values on your stored curves directly.
 
@@ -97,11 +97,11 @@ import spaces as sp
 
 Now you can access its functions.
 
-###Data Types
+### Data Types
 
 Before we delve into the fuctions. I'm going to take a quick aside to go over the data types. Space() using two data types. **Selections** and **Keysets**.
 
-####Selections
+#### Selections
 
 * Selections are made up of two dictionaries and a list. Object -> Attribute -> Keys.
 When passing a selection to the Space class, it will work out the Keys for you, all you need is an empty list. e.g.
@@ -127,7 +127,7 @@ This will force a selection on the X translate of pCircle1.
 4. If nothing in the channelbox, we attempt to select everything.
 5. If no items are selected, OR the timeslider doesn't fall on any curves, we throw a message explaining no selection to be found.
 
-####Keylists
+#### Keylists
 
 * Keylists are the data being moved into and out of Space(). Use keylists to add keys, using the insert() command. Retrieve keylists using the extract() command.
 
@@ -149,7 +149,7 @@ An example keylist would therefore be as follows:
 
 This will make a parabola curve in the space.
 
-###Spaces Functions
+### Spaces Functions
 
 >You can use these functions in a script. Or even in a hotkey. Some functions (inbetween) are particuarly useful in hotkeys.
 
@@ -232,7 +232,7 @@ cmds.undoInfo( swf = True )
 
 ----
 
-###So there you have it
+### So there you have it
 
 If you want to use this script. Go right ahead. If you want to use its functionality in your own scripts, go for it. Just drop me some credit. :D
 

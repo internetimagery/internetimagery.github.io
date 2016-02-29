@@ -16,7 +16,7 @@ That is to say, it only had an option to put content on one section of the webpa
 
 AND NOW THERE IS!
 
-####[Simple Input Tabs](http://get-simple.info/extend/plugin/simple-input-tabs/523/).
+#### [Simple Input Tabs](http://get-simple.info/extend/plugin/simple-input-tabs/523/).
 
 What the plugin does, is let you set up the template with content on different sections. All named and with a single line of code. Making for easy template conversions for templators.
 

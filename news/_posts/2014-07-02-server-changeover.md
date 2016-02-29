@@ -8,7 +8,7 @@ Hello again!
 
 Just in case anyone was attempting to download anything or visit a page, and had issues. FYI I've just changed server hosting for this website.<!-- more -->
 
-###What does this mean for you?
+### What does this mean for you?
 
 Absolutely nothing! :)
 

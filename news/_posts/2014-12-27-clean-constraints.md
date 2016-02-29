@@ -11,7 +11,7 @@ This script attempts to consolidate the constraint weights and blend parents int
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube.com/embed/0qxEGJ4gNOc" frameborder="0" allowfullscreen></iframe></div>
 
-####How do I use it?!
+#### How do I use it?!
 
 To use it, copy the below and paste it into a new shelf button as a PYTHON script. Then set up your constraints, and select the object with constraints on it. Press your new shelf button and watch the magic happen!
 

@@ -16,7 +16,7 @@ The other benefit is one of momentum. When using a version control system you ne
 
 So lets get into it!
 
-####You can download the script here: <download>todo</download>
+#### You can download the script here: <download>todo</download>
 
 
 ![main screen](/img/posts/todo-script-main.jpg)
@@ -39,7 +39,7 @@ Here is a video demonstrating installation and AMP usage:
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/fS2wIXnUBEU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-###Advanced Stuff
+### Advanced Stuff
 
 There are a few little hidden extras that come with the tool. It accepts certain keywords for additional functionality and has a third utility button that will appear on a Todo when needed.
 

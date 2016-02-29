@@ -7,26 +7,26 @@ layout: page
 
 Here are some custom hotkeys for easy reference
 
-####(=)
+#### (=)
 Adding an inbetween (note, this will take over "increase manipulator size", but that is ok).
 
     timeSliderEditKeys addInbetween;
 
 ----
 
-####(-)
+#### (-)
 Remove inbetween. (note this will remove "decrease manipulator size" this will need to be redone).
 
     timeSliderEditKeys removeInbetween;
 
 ----
 
-####(_)
+#### (_)
 remap decrease manipulator size. Found under Manipulators>DecreaseManipulator
 
 ----
 
-####alt + (.)
+#### alt + (.)
 Next frame. Without undo.
 
     undoInfo -stateWithoutFlush off;
@@ -35,7 +35,7 @@ Next frame. Without undo.
 
 ----
 
-####alt + (,)
+#### alt + (,)
 Previous frame, without undo.
 
     undoInfo -stateWithoutFlush off;
@@ -44,7 +44,7 @@ Previous frame, without undo.
 
 ----
 
-####(.)
+#### (.)
 Next key without undo.
 
     undoInfo -stateWithoutFlush off;
@@ -53,7 +53,7 @@ Next key without undo.
 
 ----
 
-####(,)
+#### (,)
 
 Previous key without undo.
 

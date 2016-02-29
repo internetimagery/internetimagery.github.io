@@ -9,7 +9,7 @@ Insanity!
 
 ----
 
-####Rotation Orders for Animators
+#### Rotation Orders for Animators
 
 An awesome video displaying the effect of rotation orders. An addition note to this video. You can see what Maya is doing with your rotation axis by changing the rotation tool to "gimbal".
 
@@ -19,7 +19,7 @@ An awesome video displaying the effect of rotation orders. An addition note to t
 
 ----
 
-####Anatomy in Animation
+#### Anatomy in Animation
 
 A nice reminder that we're not animating controls. We're animating a body, and each part must move in conjunction with each other part. Also it has nice music. So chill out and relax! :)
 
@@ -27,7 +27,7 @@ A nice reminder that we're not animating controls. We're animating a body, and e
 
 ----
 
-####[Film Composition](http://production.4filmmaking.com/cinematography7.html)
+#### [Film Composition](http://production.4filmmaking.com/cinematography7.html)
 
 >Composition refers to how the elements of an image are arranged. There are a number of rules for how to compose an image to create a pleasing effect.
 
@@ -35,7 +35,7 @@ MORE composition stuff. It's complicated in its simplicity, and makes a big diff
 
 ----
 
-####Constraints - Tumbles and Swings
+#### Constraints - Tumbles and Swings
 
 Some techniques for animating tumbles and rolls with constraints.
 
@@ -43,7 +43,7 @@ Some techniques for animating tumbles and rolls with constraints.
 
 ----
 
-####5 Mistakes in running form
+#### 5 Mistakes in running form
 
 Or... 5 things to look out for in your running poses.
 
@@ -51,7 +51,7 @@ Or... 5 things to look out for in your running poses.
 
 ----
 
-####[Rigging a Dynamic camera using Maya Hair](http://www.jabimation.com/blog/2008/08/rigging-dynamic-camera-via-maya-hair.html)
+#### [Rigging a Dynamic camera using Maya Hair](http://www.jabimation.com/blog/2008/08/rigging-dynamic-camera-via-maya-hair.html)
 
 >Hand keying steady cam effects can be a drag, and we used to have to set up complex soft-body rigs to simulate it. Here is a way to set up a dynamic camera utilizing Maya's dynamic curves that's fast, easy, and fun.
 

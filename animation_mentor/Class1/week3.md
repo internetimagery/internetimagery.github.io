@@ -12,7 +12,7 @@ Now hopefully you're having a moment of clarity. In this zen-like state it's tim
 
 ----
 
-####To start things off, here is great explanation of timing spacing.
+#### To start things off, here is great explanation of timing spacing.
 
 The concept of timing and spacing are the CORE of animation. A concept you'll use over and over in everything you do. Here is a great video that describes this concept cleanly and succinctly.
 
@@ -20,7 +20,7 @@ The concept of timing and spacing are the CORE of animation. A concept you'll us
 
 ----
 
-####Here is a bouncing ball.
+#### Here is a bouncing ball.
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/Ibhgsw1W3QM?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -30,7 +30,7 @@ It is important to go out and get reference for animation assignments. Either fi
 
 ----
 
-####[11 Second Club.](http://www.11secondclub.com/)
+#### [11 Second Club.](http://www.11secondclub.com/)
 
 >This one goes to Eleven!
 
@@ -41,7 +41,7 @@ If you're not familiar with the 11 Second Club, check it out. It's a great littl
 
 ----
 
-####Blocking Example.
+#### Blocking Example.
 If you're new to Maya, or 3D in general. Here is a quick start.
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/_MKqS4kscnY?rel=0" frameborder="0" allowfullscreen></iframe></div>
@@ -50,13 +50,13 @@ REMEMBER this is not the only way to do things, nor is it the best. But it is a 
 
 ----
 
-####The fourth-down at Half-time rule
+#### The fourth-down at Half-time rule
 
 This is an amazingly simple rule of thumb for making something fall accurately at the speed of gravity. Keep in mind of course that Animation is an artform and your mentor might want to distort true physics slightly to make it feel better.
 
 <div class="js-video [vimeo, widescreen]"><iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/ikQo5k7YtuU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-####Wheel Rotation:
+#### Wheel Rotation:
 
 [A little more advanced.](http://www.3dfiggins.com/writeups/wheelRotation/)
 

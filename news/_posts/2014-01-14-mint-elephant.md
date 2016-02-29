@@ -18,7 +18,7 @@ Drawn on paper, and photographed using a normal tripod. First traditional animat
 
 ----
 
-####For the Kids
+#### For the Kids
 
 If you wish to draw Mint. Here is a simple how to:
 

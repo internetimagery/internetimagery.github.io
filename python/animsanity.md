@@ -18,7 +18,7 @@ You will get a new shelf icon in whichever shelf is currently active.
 
 ![anim results](img/animsanity_inuse.jpg)
 
-####To use the tool:
+#### To use the tool:
 
 * Click the shelf icon. You will get a new window popup.
 * Select the controllers / objects you wish to check.
@@ -26,7 +26,7 @@ You will get a new shelf icon in whichever shelf is currently active.
 * Click any of the "show" buttons to highlight the affected keyframes in the graph editor (make sure you have it open). This lets you make an informed decision on how to proceed.
 * Click the "fix it" button to allow the tool to fix the issue for you. The tool does its absolute best to preserve your animation as it is. However if in doubt, simply hit "show" to get the keys and fix them manually.
 
-####Tips:
+#### Tips:
 
 * __The tool only checks keyframes that fall within the current timeslider range.__ If you want to check your entire animation be sure to open the time slider up to the full duration. Conversely if you want to limit the checking to only a portion of the animation you can close up the timeslider to only that range.
 * Additionally if you shift-drag in the timeslider to create a selection (looks like a red bar), the tool will only look in that selection.

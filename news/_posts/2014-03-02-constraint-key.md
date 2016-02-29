@@ -5,7 +5,7 @@ thumb: /img/posts/constraint_key.jpg
 ---
 I've seen scripts like this around before, but never been able to aquire one. They seem so useful too, so I've had to reproduce my own rendition of the script.
 
-####What does it do?...
+#### What does it do?...
 
 ----
 
@@ -25,9 +25,9 @@ You can transfer animation by key constraining a locator to your object, then ke
 
 ----
 
-###I LOVE IT! WHERE CAN I GET IT?
+### I LOVE IT! WHERE CAN I GET IT?
 
-####YOU CAN DOWNLOAD THE SCRIPT HERE: <download>constraintkey</download>
+#### YOU CAN DOWNLOAD THE SCRIPT HERE: <download>constraintkey</download>
 
 To use the script first ensure you have a command (below) to run for the constraint you wish to use. Then select EITHER one object (exception: aim constraint doesn't work with one), or select multiple objects to constrain. When selecting multiple objects, the **LAST** object (it glows green instead of white) is what all others in the selection will follow. Just remember this:
 

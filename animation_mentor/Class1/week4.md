@@ -5,7 +5,7 @@ title: AM Week 4
 
 # Week Four
 
-####[Brendon Body's Bouncing Ball](http://www.brendanbody.co.uk/bb_lecture/)
+#### [Brendon Body's Bouncing Ball](http://www.brendanbody.co.uk/bb_lecture/)
 
 >The bouncing ball is crucial in animation because it can be used to give weight and life to a character. It is essentially just a trick or formula, but once learnt it can then be applied to a million different things.
 >
@@ -17,7 +17,7 @@ Bredon Body has a nice webpage (three actually) dedicated to the bouncing ball. 
 
 ----
 
-####Gravity affects everything equally!
+#### Gravity affects everything equally!
 
 Again keep in mind that animation is an artform. You may be asked to alter the reality of physics slightly to make something feel right. After all thats what animation is all about. :)
 
@@ -25,7 +25,7 @@ Again keep in mind that animation is an artform. You may be asked to alter the r
 
 ----
 
-####[Brendon Body on Weight](http://brendanbody.blogspot.co.nz/2010/04/weight-problem.html)
+#### [Brendon Body on Weight](http://brendanbody.blogspot.co.nz/2010/04/weight-problem.html)
 
 >Probably one of the most consistent comments from leads and animation directors during review is that a character 'needs a little more weight', and frustratingly it's not always easy or obvious how to rectify this.
 
@@ -33,7 +33,7 @@ This goes a little beyond the bouncing ball. But it's all related!
 
 ----
 
-####Two quick tips:
+#### Two quick tips:
 
 As this is a carry on from last week, there isn't a lot more to add here. So here are two tips.
 

@@ -11,7 +11,7 @@ Walks can be scary, but don't do a 360 and moonwalk away just yet. Walks are com
 
 ----
 
-####[Francis Jasmine,](http://www.fjasmin.net/walk_cycle_tutorial/index.html#d23)
+#### [Francis Jasmine,](http://www.fjasmin.net/walk_cycle_tutorial/index.html#d23)
 
 has made one of the most straight forward walk cycle references I've seen. So it would be silly to not put it here front and center!
 
@@ -19,7 +19,7 @@ has made one of the most straight forward walk cycle references I've seen. So it
 
 ----
 
-####Engineers discover it's all in the hips.
+#### Engineers discover it's all in the hips.
 
 Of course we've known it all along. But better late than never. :p
 
@@ -29,7 +29,7 @@ In anycase. Pay attention to your hips, both when you walk yourself and when you
 
 ----
 
-####Don't you have to do a strength pose this week?
+#### Don't you have to do a strength pose this week?
 
  You want to know what strength looks like? DO YA?
 

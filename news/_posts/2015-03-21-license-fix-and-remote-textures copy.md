@@ -18,7 +18,7 @@ So this is where this script comes in. You can't prevent the popup entirely (go 
 
 This script alters the license on each save. So when you save and leave the file. Then reference it in, it no longer is treated as a student file.
 
-####Install
+#### Install
 
 * First things first. __DOWNLOAD THE SCRIPT FROM HERE: <download>license_fix</download>]__.
 * Unzip the file (license_fix) and move it into your scripts directory.

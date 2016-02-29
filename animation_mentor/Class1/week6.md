@@ -17,7 +17,7 @@ Take a look on youtube at other peoples assignments for inspiration, or you can 
 
 ----
 
-####Here is a playlist of references on Youtube.
+#### Here is a playlist of references on Youtube.
 
 But keep in mind that while most tailor assignments look like a squirrel. You can have it act like whatever you like. It's just a ball after all.
 
@@ -27,7 +27,7 @@ Finally a quick reminder. This is all reference conveniently on the internet, an
 
 ----
 
-####Do you like cheating?
+#### Do you like cheating?
 
 You know... you should be keyframing everything so you learn how to do it manually. But if you happen to drive an Auto, you can watch this video showing an easy way to get your offset and drag started.
 

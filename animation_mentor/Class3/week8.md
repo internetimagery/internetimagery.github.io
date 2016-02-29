@@ -7,7 +7,7 @@ title: AM Week 8
 
 ----
 
-####[Basics of UV Mapping](http://xn--m3h.net/umbrella/2010/08/the-basics-of-uv-mapping-in-maya-2011/)
+#### [Basics of UV Mapping](http://xn--m3h.net/umbrella/2010/08/the-basics-of-uv-mapping-in-maya-2011/)
 
 >In the process of learning Maya I’ve been frantically searching the Internet for some sort of basic tutorial on creating a UV map for a model in Maya, unfortunately with little success. With some help from colleagues I’ve managed to work out the basics, but I thought it might be nice to record what I’ve learned. Maybe it will help you.
 
@@ -15,7 +15,7 @@ A nice simple tutorial explaining briefly how to unwrap textures onto your model
 
 ----
 
-####Three Point Lighting
+#### Three Point Lighting
 
 >Learn 3-point lighting the foundation for all professional studio lighting for video.
 
@@ -25,7 +25,7 @@ A simple tutorial on three point lighting setups.
 
 ----
 
-####Seven Tips for Maya
+#### Seven Tips for Maya
 
 Various tips and tricks for maya.
 

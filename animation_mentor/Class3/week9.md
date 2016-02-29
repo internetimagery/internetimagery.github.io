@@ -9,7 +9,7 @@ By the nines.
 
 ----
 
-####Showing Weight
+#### Showing Weight
 
 A simple reminder. Weight is change!
 
@@ -19,7 +19,7 @@ A simple reminder. Weight is change!
 
 ----
 
-####Using the World Node (all translate / placer )
+#### Using the World Node (all translate / placer )
 
 If you've been animating the world node. Don't!
 
@@ -27,7 +27,7 @@ If you've been animating the world node. Don't!
 
 ----
 
-####[Is noodling WRECKING your animation?](http://www.animatorisland.com/is-noodling-wrecking-your-animation/#more-2819)
+#### [Is noodling WRECKING your animation?](http://www.animatorisland.com/is-noodling-wrecking-your-animation/#more-2819)
 
 >Today animation veteran Mike Gasaway (Jimmy Neutron, Planet Sheen) shares a guest post on “noodling” and how it might be secretly destroying your workflow and final animation. Plus, precisely how to stop it in your future scenes.
 
