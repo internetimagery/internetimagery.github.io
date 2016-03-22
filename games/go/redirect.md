@@ -1,5 +1,4 @@
 ---
-navigation: true
 layout: null
 ---
 <!DOCTYPE html>
