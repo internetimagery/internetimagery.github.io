@@ -9,6 +9,10 @@ layout: page
 
 ### Please, have a squiz at the games below
 
+#### [Go (Baduk)](/games/go)
+
+> The game of Go. Represented as an in-browser game board.
+
 #### [Dying Ember](/games/dyingember)
 
 > Top down Isometric RPG. Inspired by Dark Souls.
