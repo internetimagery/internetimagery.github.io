@@ -8,6 +8,8 @@ layout: page
 
 # Go Board
 
+#### [Play the game here!](/go)
+
 A simple representation of the game of Go.
 
 Notable features:
