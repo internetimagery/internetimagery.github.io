@@ -8,7 +8,7 @@ layout: page
 
 # Go Board
 
-#### [Play the game here!](/games/go/redirect.html)
+#### [Play the game here!](/games/go/redirect.html) or [Download the game for offline play here!](/go/download.zip)
 
 A simple representation of the game of Go.
 
