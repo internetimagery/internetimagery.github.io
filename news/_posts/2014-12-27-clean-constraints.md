@@ -20,7 +20,7 @@ To use it, copy the below and paste it into a new shelf button as a PYTHON scrip
 # simplify constraint setup
 import maya.cmds as cmds
 import re
-#create condition node
+# create condition node
 class condition(object):
 	#create node
 	def __init__(self):
@@ -39,7 +39,7 @@ class condition(object):
 	def connect_out(self, out):
 		cmds.connectAttr( "%s.ocr" % self.node, out, f=True )
 		return self
-#create clamp node
+# create clamp node
 class clamp(object):
 	#create node
 	def __init__(self):
@@ -53,10 +53,10 @@ class clamp(object):
 	def connect_out(self, out):
 		cmds.connectAttr( "%s.opr" % self.node, out, f=True )
 		return self
-#warning message
+# warning message
 def message(mess):
 	cmds.confirmDialog(t='Yeah, nah bro.', m=mess)
-#get working!
+# get working!
 sel = cmds.ls(sl=True)
 if len(sel) == 1:
 	sel = sel[0]

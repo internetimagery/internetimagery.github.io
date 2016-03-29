@@ -29,7 +29,7 @@ From a technical point of view. The script deals with Spaces as any gap between 
 ----
 
 <a name="spacesGUI"></a>
-##SPACES GUI
+## SPACES GUI
 
 Lets start with the GUI.
 
@@ -81,7 +81,7 @@ That about does it for the GUI, now onto the...
 ----
 
 <a name="spaces"></a>
-##SPACE CLASS
+## SPACE CLASS
 
 The space class houses a bunch of functionality for dealing with Spaces. Import it into your scripts or hotkeys using:
 

@@ -17,7 +17,7 @@ Simply copy and paste the below code into a new shelf icon (PYTHON) and there yo
 {% highlight python %}
 import maya.cmds as cmds
 import maya.mel as mel
-#turn object into final gather light
+# turn object into final gather light
 class lambert(object): #create material
     def __init__(self, name):
         self.mat = cmds.shadingNode( "lambert", asShader=True, n=name )#make a new material
@@ -54,7 +54,7 @@ def add_attr( obj, ln, sn, dv ): #safely add attribute
         cmds.addAttr( ln=ln, sn=sn, at= "float", k=True, dv=dv )
 sel = cmds.ls(sl=True) #grab selection
 if sel:
-#set up render settings
+# set up render settings
     mental_ray = "Mayatomr" in cmds.pluginInfo( query=True, listPlugins=True )
     if cmds.getAttr("defaultRenderGlobals.enableDefaultLight") or not cmds.getAttr(	"defaultRenderGlobals.ren") == "mentalRay" or not mental_ray:
         if not mental_ray:
