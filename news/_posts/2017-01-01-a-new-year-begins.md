@@ -4,8 +4,6 @@ layout: post
 thumb: /img/posts/cute_kids.jpg
 ---
 
-__Hello!__
-
 There hasn't been a lot of activity here. But rest assured things are still happening. So for anyone curious, here are a few things I've been pottering with lately.
 
 Progress on Dying Ember - game continues slowly.
