@@ -4,11 +4,11 @@ layout: post
 thumb: /img/posts/folder_process.jpg
 ---
 
-Having kids puts a lot of importance on photos. I want to ensure they last a long time, backups are cheap and actually doing backups etc is easy (so it gets done!). I've made a couple of tools that assist with it.
+Having kids puts a lot of importance on photos. I want to ensure they last a long time. Knowing how to organize photos and back them up is an important piece of knowledge for anyone. Here is my take...
 
-A quick backstory, ramble. I used to be an avid iPhoto user (it's a great program). But having since switched to windows again (bah!) I've discovered that migrating out of iPhoto and trying to find another photo organizer has proven to be annoying and slim pickings.
+A quick backstory, ramble. I used to be an avid iPhoto user (it's a great program). But having since had to switch back to windows, I've discovered that migrating out of iPhoto and trying to find another photo organizer has proven to be annoying with slim pickings.
 
-What is more, I want to ensure my photos are still organized years from now, when software will have changed. What to do?
+What is more, I want to ensure my photos are still organized years from now, when software will have long since changed. What to do?
 
 So below I'm going to outline the steps I've taken to storing photos, both for my benefit, and yours. Lets begin this journey!
 
