@@ -34,7 +34,7 @@ You probably notice a lot of redundancy in this. This is intentional. What this 
 
 One of the things we use photo organizers for, is to make it easier to search through photo metadata and find the needle in the haystack.
 
-If I have a birthday we want to find, we should be able to search for it and see images all related to it. If we want to limit that search to a certain person at the birthday we should be able to do that also.
+If I have a birthday I want to find, I should be able to search for it and see images all related to it. If I want to limit that search to a certain person at the birthday I should be able to do that also.
 
 **WE CAN**
 
