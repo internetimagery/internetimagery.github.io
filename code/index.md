@@ -8,6 +8,18 @@ thumb: /img/nav/python_button.png
 
 Below are a number of bits and bobs I've created. May they help you in times of need.
 
+## General Tools
+
+* [Simple Input Tabs](http://get-simple.info/extend/plugin/simple-input-tabs/523/) - A simple way to add different content placement in templates ([For GetSimple CMS](http://get-simple.info/)). [Even your mum can do it!](http://internetimagery.com/simple_input_tabs/#)
+
+* [GO](https://internetimagery.github.io/go) - A simple browser Go board. Keeps track of the game, not the score etc. Share links with people to provide the board state.
+
+* [Folder Process](folder-process) - Compress videos and rename photos in one step.
+
+* [Photopack](https://www.npmjs.com/package/photopack) - Use modern compression to pack photos into and out of a video. Either as a space saving archive, or to send to someone.
+
+## Maya Tools
+
 ### Tools
 
 Fully blown functional and useful tools.
