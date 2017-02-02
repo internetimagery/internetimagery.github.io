@@ -6,7 +6,7 @@ thumb: /img/nav/python_button.png
 ---
 # Code Snippets, Scripts and Tools
 
-Below are a number of bits and bobs I've created. May they help you in times of need.
+Below are a number of coded bits and bobs I've created. May they help you in times of need.
 
 ## General Tools
 
@@ -17,6 +17,8 @@ Below are a number of bits and bobs I've created. May they help you in times of 
 * [Folder Process](folder-process) - Compress videos and rename photos in one step.
 
 * [Photopack](https://www.npmjs.com/package/photopack) - Use modern compression to pack photos into and out of a video. Either as a space saving archive, or to send to someone.
+
+* [C4D Isolate](c4d-isolate) - Tool to isolate selected objects in such a way that they are not being computed (using layers).
 
 ## Maya Tools
 
