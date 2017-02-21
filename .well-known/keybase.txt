@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/internetimagery
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://internetimagery.com
+  * I am internetimagery (https://keybase.io/internetimagery) on keybase.
+  * I have a public key ASC1MzeyufzGKb4bZuvNNZJfQ07WtVHUUBqSRYG0bUdgiwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120b53337b2b9fcc629be1b66ebcd35925f434ed6b551d4501a924581b46d47608b0a",
+            "host": "keybase.io",
+            "kid": "0120b53337b2b9fcc629be1b66ebcd35925f434ed6b551d4501a924581b46d47608b0a",
+            "uid": "47e2932c7f926097553f236b71908f19",
+            "username": "internetimagery"
+        },
+        "service": {
+            "hostname": "internetimagery.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1487693760,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1487693740,
+        "hash": "acc61144f35f39744c2ef75068d8c489b6af4ddcc232ef253e38fb6222e9f2d57dd86b6cfdda3380169332c31940b37a32983c027537e7b61aa5f0119285ffc1",
+        "seqno": 910880
+    },
+    "prev": "485c6ad75da94311cabf42900e64d92d1973553eb8164acbb7f341e41587634a",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgtTM3srn8xim+G2brzTWSX0NO1rVR1FAakkWBtG1HYIsKp3BheWxvYWTFAwF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjUzMzM3YjJiOWZjYzYyOWJlMWI2NmViY2QzNTkyNWY0MzRlZDZiNTUxZDQ1MDFhOTI0NTgxYjQ2ZDQ3NjA4YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjUzMzM3YjJiOWZjYzYyOWJlMWI2NmViY2QzNTkyNWY0MzRlZDZiNTUxZDQ1MDFhOTI0NTgxYjQ2ZDQ3NjA4YjBhIiwidWlkIjoiNDdlMjkzMmM3ZjkyNjA5NzU1M2YyMzZiNzE5MDhmMTkiLCJ1c2VybmFtZSI6ImludGVybmV0aW1hZ2VyeSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaW50ZXJuZXRpbWFnZXJ5LmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODc2OTM3NjAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NzY5Mzc0MCwiaGFzaCI6ImFjYzYxMTQ0ZjM1ZjM5NzQ0YzJlZjc1MDY4ZDhjNDg5YjZhZjRkZGNjMjMyZWYyNTNlMzhmYjYyMjJlOWYyZDU3ZGQ4NmI2Y2ZkZGEzMzgwMTY5MzMyYzMxOTQwYjM3YTMyOTgzYzAyNzUzN2U3YjYxYWE1ZjAxMTkyODVmZmMxIiwic2Vxbm8iOjkxMDg4MH0sInByZXYiOiI0ODVjNmFkNzVkYTk0MzExY2FiZjQyOTAwZTY0ZDkyZDE5NzM1NTNlYjgxNjRhY2JiN2YzNDFlNDE1ODc2MzRhIiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAfTh/XrdiX+QIbP+Eff1JzSwiLHn7RxTCulzl57C1w45cYiAgv+Dul8DoF0k95jMt/DVMfN8fTYPSV9kow0STA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDWcluWF+zlPU7xgQ1agGtNw0hfuIx8wNFh0tgwwvF4To3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/internetimagery
+
+==================================================================
