@@ -24,23 +24,27 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /*Show reel on screen!*/
 .tv-screen {
   margin-top: 10px;
   background: rgb(10,10,10);
   padding: 15px;
   position: relative;
-  box-shadow: inset 1px 0.5px 1px 0px rgba(255, 255, 255, 0.2);
+  border: 1px solid black;
+  overflow: hidden;
 }
+/*.tv-screen:after {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)
+    );
+  transform: rotate(-45deg);
+  height: 30%;
+  width: 100%;
+  top: 0px;
+  left: -20%;
+}*/
 .tv-screen:before {
   content: "";
   position: absolute;
