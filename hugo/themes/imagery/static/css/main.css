@@ -1,9 +1,9 @@
 /*Top banner!*/
 #top-banner {
+	position: relative;
 	background: url("/img/site/fancy_banner/leather_quarter.png");
 	height: 66px;
 }
-
 #brass1, #brass2 {
 	height: 66px;
 	width: 27px;
@@ -11,12 +11,10 @@
 	position: absolute;
 	top: 0px;
 }
-
 #brass1 {
 	background-position: -27px 0px;
 	left: 0px;
 }
-
 #brass2 {
 	background-position: 0px 0px;
 	right: 0px;
@@ -31,7 +29,9 @@
   padding: 15px;
   position: relative;
   border: 1px solid black;
-  overflow: hidden;
+	border-top-color: rgba(255, 255, 255, 0.2);
+	border-left-color: rgba(255, 255, 255, 0.2);
+  /*overflow: hidden;*/
 }
 /*.tv-screen:after {
   content: "";
@@ -53,9 +53,22 @@
   bottom: 0px;
   height: 20px;
   left: 2%;
+	top: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
   border-radius: 100px / 5px;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
-.tv-screen-screen {
+.tv-screen:after {
+	content: "";
+	position: absolute;
+	width: 20%;
+	height: 10px;
+	left: 40%;
+	bottom: -10px;
+	background-color: black;
+}
+.tv-screen div {
   box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
 }
