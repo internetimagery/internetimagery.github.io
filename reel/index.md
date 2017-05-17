@@ -9,7 +9,7 @@ title: Animation Showreel
 <div class="centered">
     {% include social.html %} <br/>
     <a href="{{ "/reel/cv" | prepend: site.baseurl }}"><i class="fa fa-book"></i> Curriculum Vitae</a><br/>
-    I'm always on the lookout for more opportunities. Need to bring a little life to your project? Please, get in touch. 
+    I'm always on the lookout for more opportunities. Need to bring a little life to your project? Please, get in touch.
     <i class="fa fa-smile-o"></i>
 </div>
 
@@ -20,27 +20,22 @@ title: Animation Showreel
         <img src="/reel/thumb_playdough.jpg" alt="Playdough">
         <p>Mother attempts to cheer up her sad daughter.<br/>Responsible for all animation.</p>
     </li>
-    
+
     <li>
         <img src="/reel/thumb_soldier.jpg" alt="Playdough">
         <p>Soldier comes home from war. Noises bring back memories...<br/>Responsible for all animation.</p>
     </li>
-    
+
     <li>
-        <img src="/reel/thumb_door_block.jpg" alt="Playdough">
-        <p>Girl getting chased, frantically tries to halt her pursuer.<br/>Responsible for all animation.</p>
+        <img src="/reel/ottoman.jpg" alt="Playdough">
+        <p>Otto faces off against the Rider in a career defining mech match.<br/>Responsible for all animation.</p>
     </li>
-    
+
     <li>
-        <img src="/reel/thumb_cliff.jpg" alt="Playdough">
-        <p>Part of a greater set of challenges, a couple of creatures use teamwork to scale a cliff.<br/>Responsible for all animation.</p>
+        <img src="/reel/thumb_minecraft.jpg" alt="Playdough">
+        <p>Tim recklessly faces a horde of zombies alone!<br/>Responsible for all animation.</p>
     </li>
-    
-    <li>
-        <img src="/reel/thumb_dog.jpg" alt="Playdough">
-        <p>A couple dog cycles. Walk and Trot.<br/>Responsible for all animation.</p>
-    </li>
-    
+
     <li>
         <img src="/reel/thumb_proposal.jpg" alt="Playdough">
         <p>Nerdy guy gets caught mentally preparing to propose to a co-worker.<br/>Responsible for all animation.</p>
