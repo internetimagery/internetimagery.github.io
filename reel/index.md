@@ -27,7 +27,7 @@ title: Animation Showreel
     </li>
 
     <li>
-        <img src="/reel/ottoman.jpg" alt="Playdough">
+        <img src="/reel/thumb_ottoman.jpg" alt="Playdough">
         <p>Otto faces off against the Rider in a career defining mech match.<br/>Responsible for all animation.</p>
     </li>
 
