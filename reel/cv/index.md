@@ -140,7 +140,7 @@ title: Resume
                 Developing our pipeline and custom (python / maya) tools to accomplish our goals.<br/>
             </td>
             <td class="centered">
-                <strong>TODAY</strong><br/>
+                <i>Project in limbo</i><br/>
                 December 2014
             </td>
         </tr>
@@ -153,7 +153,7 @@ title: Resume
                 Monitoring and rectifying any playout outages while on shift for some of the most highly watched sky channels.<br/>
             </td>
             <td class="centered">
-                <strong>TODAY</strong><br/>
+                July 2017<br/>
                 Febuary 2011
             </td>
         </tr>
