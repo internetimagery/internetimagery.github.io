@@ -49,4 +49,10 @@ Not entirely related to this section I guess. But a good thing to think about be
 
 ----
 
+#### [Kids Guide to Making Movies](https://seatup.com/blog/kids-guide-to-making-movies)
 
+>Lights! Camera! Action! Seeing a movie used to mean going to the theater, buying a ticket for a seat, and watching a movie on a huge screen. Making movies used to be something only professionals could do with expensive equipment and years of training. Now, with computers and tablets and smartphones, it’s never been easier for anyone to become a filmmaker and watch movies from anywhere at any time.
+
+There is more on this blog than animation. Some great tutorials are a click away however.
+
+----
