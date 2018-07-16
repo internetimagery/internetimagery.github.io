@@ -121,13 +121,25 @@ title: Resume
     <tbody>
         <tr>
             <td class="centered">
+                <img src="/reel/cv/thumbs/wetafx.png"><br/>Weta Digital
+            </td>
+            <td class="centered">
+                Tech Animator. Assisting Motion leads and supes.
+            </td>
+            <td class="centered">
+                <strong>TODAY</strong><br/>
+                July 2017
+            </td>
+        </tr>
+        <tr>
+            <td class="centered">
                 <img src="/reel/cv/thumbs/theottoman.png"><br/>The Ottoman
             </td>
             <td class="centered">
                 3D Character Animator. Animating to a high quality in Cinema4D.
             </td>
             <td class="centered">
-                <strong>TODAY</strong><br/>
+                July 2017<br/>
                 October 2015
             </td>
         </tr>
