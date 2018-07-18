@@ -43,7 +43,7 @@ title: Resume
                 Photo / Image manipulation
             </td>
             <td>
-                Intermediate / Advanced
+                Intermediate
             </td>
         </tr>
         <tr>
@@ -67,7 +67,7 @@ title: Resume
                 Texturing
             </td>
             <td>
-                Intermediate
+                Beginner / Intermediate
             </td>
         </tr>
         <tr>
@@ -75,20 +75,12 @@ title: Resume
                 Programming (Python / PHP / HTML / CSS / Javascript)
             </td>
             <td>
-                Beginner / Intermediate
+                Intermediate
             </td>
         </tr>
         <tr>
             <td>
-                Operating Systems OSX / LINUX (Debian)
-            </td>
-            <td>
-                Intermediate / Advanced
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Windows
+                OS's Windows / OSX / LINUX (Debian)
             </td>
             <td>
                 Intermediate
