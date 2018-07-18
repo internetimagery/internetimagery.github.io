@@ -72,7 +72,7 @@ title: Resume
         </tr>
         <tr>
             <td>
-                Programming (Python / Go / PHP / HTML / CSS / Javascript)
+                Development (Python / Go / PHP / HTML / CSS / Javascript)
             </td>
             <td>
                 Intermediate
