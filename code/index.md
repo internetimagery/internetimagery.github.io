@@ -44,6 +44,10 @@ Fully blown functional and useful tools.
 
 Brief single purpose helpers. Useful.
 
+* [Buffer MA](buffma) - Pull animation data from old .ma versions.
+* [Pull Dense](pulldense) - Extract detail from anim curves.
+* [Path Bake](pathbake) - Bake motion to a path and back.
+* [Camera Culling (Frustrum)](camera_cull) - Hide things not visible to camera.
 * [Shape Control](shapecontrol) - Replace rig controllers with pickable model sections.
 * [Curve Combiner](curvecombine) - Combine multiple nurbs curves into one curve.
 * [Constraint Switcher](switchconstraint) - Add a new attribute with a drop down list that switches constraints. Simple!
@@ -56,7 +60,6 @@ Brief single purpose helpers. Useful.
 
 Few lines of code. Pieces of the puzzle!
 
-* [Camera Culling (Frustrum)](camera_cull)
 * [Simple Error Reporter](err_report)
 * [Animated Images in Maya](animated_images)
 * [Maya dockable window Template](docking_window)

@@ -105,4 +105,4 @@ def main(camShapes=None, Fmin=None, Fmax=None, Fsub=1.0, layerName="AutoFrustrum
 main()
 {% endhighlight %}
 
-<script src="https://gist.github.com/internetimagery/c4a0d57c6afa8177fd4b53baf07aecff.js"></script>
+<!-- <script data-no-instant src="https://gist.github.com/internetimagery/c4a0d57c6afa8177fd4b53baf07aecff.js"></script> -->
