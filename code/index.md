@@ -20,6 +20,7 @@ Below are a number of coded bits and bobs I've created. May they help you in tim
 ### Fun
 
 * [GO](https://internetimagery.github.io/go) - A simple browser Go board. Keeps track of the game, not the score etc. Share links with people to provide the board state.
+* [Barcode Beep](https://internetimagery.github.io/barcode-beep) - A simple barcode scanner for toddler shop play. Use it on phones / tablets as a scanning surface. Buy all the things!
 
 ## Maya Tools
 
