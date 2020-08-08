@@ -11,4 +11,4 @@ In a worrying world of internet privacy breaches, it has become common to use en
 
 If you are unfamiliar with the concept. Have a look at the link above, and [download the application for your operating system here,](https://gnupg.org/download/index.html) or [install a browser extension from here.](https://www.mailvelope.com/)
 
-[Download the key here](0x71D42AA8-pub.asc)
+[Download the key here](0x47CD94A751CE311D-pub.asc)
